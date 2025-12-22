@@ -43,30 +43,18 @@ Basic abilities can be taken by any character who meets the WIZARDS requirements
 |Flex |z5, s5|Self| Your next clash (d6) roll loses advantage, and adds your Zest or Strength modifier instead of other modifiers.|
 |Leap |a5|Self| The path of your next Move action ignores up to 2" of continuous hazardous terrain, but may not end in hazardous terrain.|
 |Dash |a5|Self| Move up to your maximum move distance, as though you were making a Move action.|
-|Sprint |a5, r5|Self| Your maximum move distance is doubled for the next Move action you make this turn.
-    The path must be a straight line, and it cannot bring you within 1" of any enemies.|
-|Intercept |a5, d5|1"| Requires 1 free hand. If a non-magical projectile's path crosses within 1", you may roll for outcome (d10):
-    On a 10+, move into the path of the projectile and equip it in your free hand.|
-|Push |a5, s5|Base| Clash (d6) with a target that is in base contact and is *similar size* or *smaller*. If you win, roll for outcome (d10):
-    On a 1-8, the target *staggers* up to 1" radially away from you; 
-    On a 9+, the target *staggers* up to 1" and is knocked prone, taking light (d4) fall damage.
-    If the target's path of movement during stagger crosses the base of another unit, 
-    you may have the target make a free Push action against the other unit. This free Push loses advantage.|
+|Sprint |a5, r5|Self| Your maximum move distance is doubled for the next Move action you make this turn. The path must be a straight line, and it cannot bring you within 1" of any enemies.|
+|Intercept |a5, d5|1"| Requires 1 free hand. If a non-magical projectile's path crosses within 1", you may roll for outcome (d10): On a 10+, move into the path of the projectile and equip it in your free hand.|
+|Push |a5, s5|Base| Clash (d6) with a target that is in base contact and is *similar size* or *smaller*. If you win, roll for outcome (d10): On a 1-8, the target *staggers* up to 1" radially away from you; On a 9+, the target *staggers* up to 1" and is knocked prone, taking light (d4) fall damage. If the target's path of movement during stagger crosses the base of another unit, you may have the target make a free Push action against the other unit. This free Push loses advantage.|
 |Brace |r5|Self| The next damage (d4/d8/d12) roll made against you this turn loses advantage.| 
 |Recover |r5|Self| Gain advantage on your next restoration (e.g., health, mana, d4/d8/d12) roll this turn.|
-|Conceal |r5, d5|Self| Until the start of your next turn, if a Perceive, Scrutinize, Inspect, Analyze, or Predict action would target you 
-    (or an object in your possession), you may force the character performing the action to clash (d6) with you.
-    If you win, the action fails entirely, and if you lose, the action succeeds but loses advantage on outcome (d10) rolls.|
+|Conceal |r5, d5|Self| Until the start of your next turn, if a Perceive, Scrutinize, Inspect, Analyze, or Predict action would target you (or an object in your possession), you may force the character performing the action to clash (d6) with you. If you win, the action fails entirely, and if you lose, the action succeeds but loses advantage on outcome (d10) rolls.|
 |Reinvigorate |r5, s5|Self| Reaction. Gain advantage on outcome (d10) rolls to remain conscious.| 
-|Rebalance |d5|Self| Reaction. If you would fall from a ledge, roll for outcome (d10): 
-    On a 3+ you remain standing; On a 2, you grab the ledge; On a 1, you continue to fall.| 
+|Rebalance |d5|Self| Reaction. If you would fall from a ledge, roll for outcome (d10): On a 3+ you remain standing; On a 2, you grab the ledge; On a 1, you continue to fall.| 
 |Throw |d5|6"| Use a one-hand item as a light (d4) projectile.| 
 |Hurl |d5, s5|4"| Use a one-hand item as a normal (d8) projectile.|
 |Heave |s5|2"| Use a two-hand item as a heavy (d12) projectile.|
-|Grapple |s5|Base| Requires 2 free hands. Clash (d6) with a target that is in base contact and is *similar size* or *smaller*: 
-    If you win, the target becomes *arrested*, while you are its *arrestor*.
-    While arrested, the target loses advantage on all clash (d6) rolls and may only use the **Struggle**\* special action, 
-    and you equip the target as an *unwieldy* two-hand item. Once you unequip the target, you are no longer its arrestor.|
+|Grapple |s5|Base| Requires 2 free hands. Clash (d6) with a target that is in base contact and is *similar size* or *smaller*: If you win, the target becomes *arrested*, while you are its *arrestor*. While arrested, the target loses advantage on all clash (d6) rolls and may only use the **Struggle**\* special action, and you equip the target as an *unwieldy* two-hand item. Once you unequip the target, you are no longer its arrestor.|
 |\*Struggle |s3|Self| If you are *arrested*, clash (d6) with target *arrestor*. If you win, you are no longer arrested by that unit.|
 
 ### Passive
