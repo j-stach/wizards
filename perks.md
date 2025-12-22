@@ -49,8 +49,8 @@ Basic abilities can be taken by any character who meets the WIZARDS requirements
 |Brace |r5|Self| The next damage (d4/d8/d12) roll made against you this turn loses advantage.| 
 |Recover |r5|Self| Gain advantage on your next restoration (e.g., health, mana, d4/d8/d12) roll this turn.|
 |Conceal |r5, d5|Self| Until the start of your next turn, if a Perceive, Scrutinize, Inspect, Analyze, or Predict action would target you (or an object in your possession), you may force the character performing the action to clash (d6) with you. If you win, the action fails entirely, and if you lose, the action succeeds but loses advantage on outcome (d10) rolls.|
-|Reinvigorate |r5, s5|Self| Reaction. Gain advantage on outcome (d10) rolls to remain conscious.| 
-|Rebalance |d5|Self| Reaction. If you would fall from a ledge, roll for outcome (d10): On a 3+ you remain standing; On a 2, you grab the ledge; On a 1, you continue to fall.| 
+|Invigorate |r5, s5|Self| Reaction. Gain advantage on outcome (d10) rolls to remain conscious.| 
+|Steady |d5|Self| Reaction. If you would fall from a ledge, roll for outcome (d10): On a 3+ you remain standing; On a 2, you grab the ledge; On a 1, you continue to fall.| 
 |Throw |d5|6"| Use a one-hand item as a light (d4) projectile.| 
 |Hurl |d5, s5|4"| Use a one-hand item as a normal (d8) projectile.|
 |Heave |s5|2"| Use a two-hand item as a heavy (d12) projectile.|
