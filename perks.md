@@ -54,8 +54,8 @@ Basic abilities can be taken by any character who meets the WIZARDS requirements
 |Throw |d5|6"| Use a one-hand item as a light (d4) projectile.| 
 |Hurl |d5, s5|4"| Use a one-hand item as a normal (d8) projectile.|
 |Heave |s5|2"| Use a two-hand item as a heavy (d12) projectile.|
-|Grapple |s5|Base| Requires 2 free hands. Clash (d6) with a target that is in base contact and is *similar size* or *smaller*: If you win, the target becomes *arrested*, while you are its *arrestor*. While arrested, the target loses advantage on all clash (d6) rolls and may only use the **Struggle**\* special action, and you equip the target as an *unwieldy* two-hand item. Once you unequip the target, you are no longer its arrestor.|
-|\*Struggle |s3|Self| If you are *arrested*, clash (d6) with target *arrestor*. If you win, you are no longer arrested by that unit.|
+|Grapple |s5|Base| Requires 2 free hands. Clash (d6) with a target that is in base contact and is similar size or smaller: If you win, the target becomes *arrested*, while you are its *arrestor*. While arrested, the target loses advantage on all clash (d6) rolls and may only use the Struggle special action, and you equip the target as an *unwieldy* two-hand item. Once you unequip the target, you are no longer its arrestor.|
+|Struggle |s3|Self| If you are *arrested*, clash (d6) with target *arrestor*. If you win, you are no longer arrested by that unit.|
 
 ### Passive
 |Name|WIZARDS|Range|Effect|
