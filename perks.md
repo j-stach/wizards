@@ -1,17 +1,4 @@
 
-Action - Combat action
-Task - Adventure action (e.g. investigate, ritual)
-
-enemies - weak/strong, slow/fast, "hero" gets action & HP bonus 
-
-religion & afterlife - eg valhalla, the void
-
-resilience save when damage reduces health below 5? 
-
-Active, passive, triggered abilities
-Climb |a5, s5|Base| Move up a vertical surface as though it were hazardous terrain. You may not end your movement on the vertical surface.|
-
-
 # PERKS
 
 ## Basic abilities
@@ -56,43 +43,4 @@ Basic abilities can be taken by any character who meets the WIZARDS requirements
 |Heave |s5|2"| Use a two-hand item as a heavy (d12) projectile.|
 |Grapple |s5|Base| Requires 2 free hands. Clash (d6) with a target that is in base contact and is similar size or smaller: If you win, the target becomes *arrested*, while you are its *arrestor*. While arrested, the target loses advantage on all clash (d6) rolls and may only use the Struggle special action, and you equip the target as an *unwieldy* two-hand item. Once you unequip the target, you are no longer its arrestor.|
 |Struggle |s3|Self| If you are *arrested*, clash (d6) with target *arrestor*. If you win, you are no longer arrested by that unit.|
-
-### Passive
-|Name|WIZARDS|Range|Effect|
-|----|-------|-----|------|
-|TBD... |w5|Self| TBD...|
-|TBD... |w5|Self| TBD...|
-|TBD... |w5, i5|Self| TBD...|
-|TBD... |w5, z5|Self| TBD...|
-|TBD... |w5, a5|Self| TBD...|
-|TBD... |w5, r5|Self| TBD...|
-|TBD... |w5, d5|Self| TBD...|
-|TBD... |w5, s5|Self| TBD...|
-|TBD... |i5|Self| TBD...|
-|TBD... |i5|Self| TBD...|
-|TBD... |i5, z5|Self| TBD...|
-|TBD... |i5, a5|Self| TBD...|
-|TBD... |i5, r5|Self| TBD...|
-|TBD... |i5, d5|Self| TBD...|
-|TBD... |i5, s5|Self| TBD...|
-|TBD... |z5|Self| TBD...|
-|TBD... |z5|Self| TBD...|
-|TBD... |z5, a5|Self| TBD...|
-|TBD... |z5, r5|Self| TBD...|
-|TBD... |z5, d5|Self| TBD...|
-|TBD... |z5, s5|Self| TBD...|
-|TBD... |a5|Self| TBD...|
-|TBD... |a5|Self| TBD...|
-|TBD... |a5, r5|Self| TBD...|
-|TBD... |a5, d5|Self| TBD...|
-|TBD... |a5, s5|Self| TBD...|
-|TBD... |r5|Self| TBD...|
-|TBD... |r5|Self| TBD...|
-|TBD... |r5, d5|Self| TBD...|
-|TBD... |r5, s5|Self| TBD...|
-|TBD... |d5|Self| TBD...|
-|TBD... |d5|Self| TBD...|
-|TBD... |d5, s5|Self| TBD...|
-|TBD... |s5|Self| TBD...|
-|TBD... |s5|Self| TBD...|
 
