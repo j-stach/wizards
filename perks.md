@@ -26,8 +26,8 @@ Basic abilities can be taken by any character who meets the WIZARDS requirements
 |Persuade |z5|2"/6"| Clash (d6) with a target within 2": If you win, you may change the allegiance of the target relative to another single target within 6". (E.g., Hostile -> Neutral, Ally -> Hostile, etc.) This effect lasts for (d10) turns. If you lose, all future rolls you make to Persuade the target lose advantage.|
 |Weave |z5, a5|Self| Your next Move action may pass through enemy bases, as long as you do not end the movement on an enemy base.|
 |Recalcitrate |z5, r5|Self| You gain advantage on all clash saves (d6) against Zest abilities until the start of your next turn.|
-|Flourish |z5, d5|Self| Your next clash (d6) roll loses advantage, and adds your Zest or Dexterity modifier instead of other modifiers.|
-|Flex |z5, s5|Self| Your next clash (d6) roll loses advantage, and adds your Zest or Strength modifier instead of other modifiers.|
+|Flourish |z5, d5|Self| Your next clash (d6) roll loses advantage, and adds your Dexterity modifier instead of other modifiers.|
+|Flex |z5, s5|Self| Your next clash (d6) roll loses advantage, and adds your Strength modifier instead of other modifiers.|
 |Leap |a5|Self| The path of your next Move action ignores up to 2" of continuous hazardous terrain, but may not end in hazardous terrain.|
 |Dash |a5|Self| Move up to your maximum move distance, as though you were making a Move action.|
 |Sprint |a5, r5|Self| Your maximum move distance is doubled for the next Move action you make this turn. The path must be a straight line, and it cannot bring you within 1" of any enemies.|
