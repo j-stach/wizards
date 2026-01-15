@@ -1,7 +1,22 @@
 
-# PERKS
+-----
 
-## Basic abilities
+# Core Abilities
+Core abilities are available to all characters by default.
+
+### Action
+- Equip/Unequip
+- Interact
+- Move
+- Use
+- Prepare
+
+### Passive
+- Reaction for base contact
+
+-----
+
+# Basic Abilities
 Basic abilities can be taken by any character who meets the WIZARDS requirements.
 
 ### Action
