@@ -1,6 +1,7 @@
 # Armor
-Each piece of armor equipment has an armor slot and an armor class.
+Each piece of armor equipment has an Armor Slot type and an Armor Class.
 
+-----
 
 ## Armor Slots
 Each armor slot has one or more WIZARDS attributes that are penalized for equipping armor:
@@ -21,6 +22,7 @@ The attribute modifier is applied for each armor slot:
 |Light|-1|
 |Heavy|-2|
 
+-----
 
 ## Overall Armor Classes
 Your character's overall armor class is determined by the set of all armor you are wearing.
@@ -34,11 +36,11 @@ Otherwise, your overall armor class is Light Armor.
 |Light|+0|3"|
 |Heavy|+1|2"|
 
+-----
 
 ## Examples
 
 ### Example 1
-If a character wears:
 
 |Slot|Class|
 |----|----|
@@ -48,9 +50,11 @@ If a character wears:
 |Legs|Light|
 |Feet|Light|
 
-Their overall armor class would be `Light`, their Clash Save (d6) modifier would be `+0` and their base movement would be `3"`.
+- Overall armor class would be `Light`
+- Clash Save (d6) modifier would be `+0`
+- Base movement would be `3"`
 
-Their WIZARDS penalty for Armor would be:
+WIZARDS penalty for Armor would be:
 
 |Attribute|Penalty|
 |---------|-------|
@@ -62,7 +66,6 @@ Their WIZARDS penalty for Armor would be:
 
 
 ### Example 2
-If a character wears:
 
 |Slot|Class|
 |----|----|
@@ -72,9 +75,11 @@ If a character wears:
 |Legs|Heavy|
 |Feet|Light|
 
-Their overall armor class would be `Heavy`, their Clash Save (d6) modifier would be `+1` and their base movement would be `2"`.
+- Overall armor class would be `Heavy`
+- Clash Save (d6) modifier would be `+1`
+- Base movement would be `2"`
 
-Their WIZARDS penalty for Armor would be:
+WIZARDS penalty for Armor would be:
 
 |Attribute|Penalty|
 |---------|-------|
