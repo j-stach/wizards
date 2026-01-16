@@ -13,7 +13,7 @@ which can be remembered using the acronym "W.I.Z.A.R.D.S."
 |**Dexterity**| Manual control; Precision |
 |**Strength**| Physical might; Capacity for raw muscular force |
 
-### Equpment/Ability restrictions
+### Ability/equipment restrictions
 Attribute values are used to limit the abilities and equipment available to the character,
 representing the character's practical capacity to use the ability or object.
 
