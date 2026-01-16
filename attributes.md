@@ -13,14 +13,14 @@ which can be remembered using the acronym "W.I.Z.A.R.D.S."
 |**Dexterity**| Manual control; Precision |
 |**Strength**| Physical might; Capacity for raw muscular force |
 
+### Equpment/Ability restrictions
+Attribute values are used to limit the abilities and equipment available to the character,
+representing the character's practical capacity to use the ability or object.
+
 ### Value range
 WIZARDS attribute values can range from 0-10 by default. 
 Modifiers to an attribute value (e.g., from abilities or equipment)
 cannot increase it above the maximum or decrease it below the minimum of this range.
-
-### Equpment/Ability restrictions
-Attribute values are used to limit the abilities and equipment available to the character,
-representing the character's practical capacity to use the ability or object.
 
 ### Modifiers
 WIZARDS attributes also determine the default modifiers a character uses for Narrative (d20) rolls.
