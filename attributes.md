@@ -5,13 +5,13 @@ which can be remembered using the acronym "W.I.Z.A.R.D.S."
 
 |Attribute|Description|
 |---------|-----------|
-|Wisdom| Intuition and insight; Depth of knowledge |
-|Intelligence| Analytical capability; Capacity for abstract understanding |
-|Zest| Charisma and social appeal; Force of personality; Flair |
-|Agility| Mobility; Reactivity; Balance |
-|Resilience| Stamina and endurance; Resistance to external effects; Sturdiness |
-|Dexterity| Manual control; Precision |
-|Strength| Physical might; Capacity for raw muscular force |
+|**Wisdom**| Intuition and insight; Depth of knowledge |
+|**Intelligence**| Analytical capability; Capacity for abstract understanding |
+|**Zest**| Charisma and social appeal; Force of personality; Flair |
+|**Agility**| Mobility; Reactivity; Balance |
+|**Resilience**| Stamina and endurance; Resistance to external effects; Sturdiness |
+|**Dexterity**| Manual control; Precision |
+|**Strength**| Physical might; Capacity for raw muscular force |
 
 ### Value range
 WIZARDS attribute values can range from 0-10 by default. 
