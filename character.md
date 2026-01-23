@@ -1,54 +1,58 @@
-# Player Character
 
------
+# Creating a Character
 
-## Resource Pools
-## Health
-## Mana
+## Race
+Choose a [race](race.md) for your character. 
 
------
+## Attributes
+Roll **d10** for each [WIZARDS Attribute](attributes.md), 
+adding the character's racial attribute modifiers to the results.
 
-# WIZARDS Attributes
-Each character has a set of attributes to represent their overall capability and talent,
-which can be remembered using the acronym "W.I.Z.A.R.D.S."
-
-|Attribute|Description|
-|---------|-----------|
-|Wisdom| Intuition and insight; Depth of knowledge |
-|Intelligence| Analytical capability; Capacity for abstract understanding |
-|Zest| Charisma and social appeal; Force of personality; Flair |
-|Agility| Mobility; Reactivity; Balance |
-|Resilience| Stamina and endurance; Resistance to external effects; Sturdiness |
-|Dexterity| Manual control; Precision |
-|Strength| Physical might; Capacity for raw muscular force |
-
-WIZARDS attribute values can range from 0-10 by default. 
-Modifiers to an attribute value (e.g., from abilities or equipment)
-cannot increase it above the maximum or decrease it below the minimum of this range.
-
-Attribute values are used to limit the abilities and equipment available to the character,
-representing the character's practical capacity to use the ability or object.
-
-WIZARDS attributes also determine the default modifiers a character uses for Narrative (d20) rolls.
-This is referred to as the character's "\[Attribute\] modifier" (e.g., "Zest modifier").
-|Value|Modifier|
-|-----|--------|
-|0|-5|
-|1|-4|
-|2|-3|
-|3|-2|
-|4|-1|
-|5|+0|
-|6|+1|
-|7|+2|
-|8|+3|
-|9|+4|
-|10|+5|
+## Reservoirs
+**Life** is `30` plus *Resilience* and *Strength* modifiers. <br>
+**Mana** is `10` plus *Wisdom* and *Zest* modifiers.
 
 
-# Abilities
+## Level Up
+Determine a starting level for the campaign, then [level-up](level-up.md) the character that many times.
 
-# Levels
+### Recommended starting level:
+|Lv. |Player|
+|----|------|
+|0 | New to TTRPG |
+|3 | Migrating from another TTRPG |
+|5+| Used WIZARDS in a previous campaign |
 
-# Modifiers
+### Replacing a character:
+If a player needs to replace a character that was killed or otherwise removed from the campaign,
+they may instead start at the level of their previous character.
+
+**Optional:** *Ignore this sub-rule for a more "hardcore" gameplay experience.*
+
+
+## Equipment
+### > Armor
+Each character is created with basic [armor](armor.md) that has no additional ability or effect. 
+
+Choose Armor Class for each Armor Slot.
+
+### > Weapons
+Each character is created with both hands equipped.
+
+Choose a [weapon](weapons.md):
+- Up to 2 One-Handed weapons
+- 1 Two-Handed weapon
+
+### > Storage
+A character may start equipped with [storage](storage.md) (e.g., a backpack, belt).
+
+### > Items
+If a character is equipped with storage, they may fill all storage slots with basic [items](items.md)
+that are representative of their background.
+
+### > Currency
+At the DM's discretion, a character may start with [currency](currency.md) 
+appropriate to the campaign economy and the character's background. 
+
+The character must have storage capacity for currency they receive.
 
