@@ -1,19 +1,19 @@
 
 # Creating a Character
 
-## Race
+## 1. Race
 Choose a [race](race.md) for your character. 
 
-## Attributes
+## 2. Attributes
 Roll **d10** for each [WIZARDS Attribute](attributes.md), 
 adding the character's racial attribute modifiers to the results.
 
-## Reservoirs
+## 3. Reservoirs
 **Life** is `30` plus *Resilience* and *Strength* modifiers. <br>
 **Mana** is `10` plus *Wisdom* and *Zest* modifiers.
 
 
-## Level Up
+## 4. Level Up
 Determine a starting level for the campaign, then [level-up](level-up.md) the character that many times.
 
 ### Recommended starting level:
@@ -30,7 +30,8 @@ they may instead start at the level of their previous character.
 **Optional:** *Ignore this sub-rule for a more "hardcore" gameplay experience.*
 
 
-## Equipment
+## 5. Equipment
+
 ### > Armor
 Each character is created with basic [armor](armor.md) that has no additional ability or effect. 
 
