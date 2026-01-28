@@ -8,8 +8,6 @@ A character's *Race* is the species that serves as the statistical foundation fo
 When creating a player character, add these modifiers to the WIZARDS attributes as they are rolled.
 
 
-# Humanoid Races
-
 ## HUMAN (Default)
 
 ### Racial traits:
@@ -28,7 +26,7 @@ When creating a player character, add these modifiers to the WIZARDS attributes 
 |S|+0|
 
 
-# HYBRID Races
+## HYBRID Races
 At the DM's discretion, *Hybrid* characters may be created from a combination of two or more races.
 These races become the character's *Ancestral Races*. <br>
 *(Note: These are referred to as "Ancestral Races" regardless of how the campaign explains the existence of the hybrid.)
