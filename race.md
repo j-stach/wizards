@@ -1,6 +1,6 @@
 
 # Race
-A character's *Race* is the species that serves as the statistical foundation for creating that character.
+A character's *Race* is the species that serves as the statistical foundation for that character.
 
 *Racial traits* are passive abilities and modifiers available to the character upon creation.
 
@@ -11,8 +11,8 @@ When creating a player character, add these modifiers to the WIZARDS attributes 
 ## HUMAN (Default)
 
 ### Racial traits:
-- `+1"` to any attribute (chosen after rolling WIZARDS)
-- `+1"` to any attribute (chosen after rolling WIZARDS)
+- `+1` to any attribute (chosen after rolling WIZARDS)
+- `+1` to any attribute (chosen after rolling WIZARDS)
 
 ### Racial modifiers:
 | Attribute | Mod |
@@ -38,6 +38,4 @@ To create a character with a hybrid race:
 Whenever a character with a hybrid race is able to [level-up](level-up.md), 
 they may instead "unlock" a racial trait from one of their ancestral races.
 The traits from each race must be unlocked in the order they are listed. <br>
-*For example, a half-GIANT (half-HUMAN) character must unlock "Lose Advantage on Clash Saves" 
-before it is able to take "`+10` to Life".*
 
