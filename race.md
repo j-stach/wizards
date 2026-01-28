@@ -10,7 +10,7 @@ When creating a player character, add these modifiers to the WIZARDS attributes 
 
 # Humanoid Races
 
-## Human (Default)
+## HUMAN (Default)
 
 ### Racial traits:
 - `+1"` to any attribute (chosen after rolling WIZARDS)
@@ -28,94 +28,18 @@ When creating a player character, add these modifiers to the WIZARDS attributes 
 |S|+0|
 
 
-## Elf
+# HYBRID Races
+At the DM's discretion, *Hybrid* characters may be created from a combination of two or more races.
+These races become the character's *Ancestral Races*. <br>
+*(Note: These are referred to as "Ancestral Races" regardless of how the campaign explains the existence of the hybrid.)
 
-### Racial traits:
-- `+10` to Mana
-
-### Racial modifiers:
-| Attribute | Mod |
-|-----------|-----|
-|W|+2|
-|I|+0|
-|Z|-2|
-|A|+1|
-|R|-1|
-|D|+1|
-|S|-1|
-
-
-## Dwarf
-
-### Racial traits:
-- `+10` to Life
-
-### Racial modifiers:
-| Attribute | Mod |
-|-----------|-----|
-|W|-1|
-|I|+0|
-|Z|-2|
-|A|-1|
-|R|+1|
-|D|+1|
-|S|+2|
-
-
-## Halfling
-
-### Racial traits:
-- `-1"` to Move distance
-- `-10` to Life
-- Gain Advantage on Clash Saves
-
-### Racial modifiers:
-| Attribute | Mod |
-|-----------|-----|
-|W|+0|
-|I|+0|
-|Z|+0|
-|A|+3|
-|R|-3|
-|D|+3|
-|S|-3|
-
-
-## Giant
-
-### Racial traits:
-- Lose Advantage on Clash Saves
-- `+10` to Life
-- `+1"` to Move distance
-
-### Racial modifiers:
-| Attribute | Mod |
-|-----------|-----|
-|W|+0|
-|I|+0|
-|Z|+0|
-|A|-3|
-|R|+3|
-|D|-3|
-|S|+3|
-
-
-# Xeno Races
-TBD
-
-
-# Hybrids
-Hybrid characters are created from a combination of one or more races.
-
-To create a hybrid race:
-- Use the average of the two races' racial attribute modifiers, rounding down.
+To create a character with a hybrid race:
+- Use the average of the Ancestral Races' racial attribute modifiers, rounding down.
 - Start without access to racial traits.
 
-When a character with a hybrid origin is able to [level-up](level-up.md), 
-they may instead "unlock" a racial trait from one of their constituent races.
-The traits from each hybridized race must be unlocked in the order they are listed,
-as if each trait had as a prerequisite all previously-listed traits.
-
-*For example, a half-giant character must unlock "Lose Advantage on Clash Saves" 
+Whenever a character with a hybrid race is able to [level-up](level-up.md), 
+they may instead "unlock" a racial trait from one of their ancestral races.
+The traits from each race must be unlocked in the order they are listed. <br>
+*For example, a half-GIANT (half-HUMAN) character must unlock "Lose Advantage on Clash Saves" 
 before it is able to take "`+10` to Life".*
 
