@@ -8,8 +8,9 @@ but should give players time to familiarize themselves while also providing cons
 A good approach might be to have characters level-up during "downtime" between coherent missions.
 (Every 1-3 sessions, or 6-12 hours of consistent play.)*
 
-To level-up, a character may:
-- Add a new [ability](abilities.md) (if they meet the WIZARDS requirements)
+To level-up, a character may choose one:
+- Add a new [ability](abilities.md)
+- Add a new [spell](spells.md)
 - Add 5 to their maximum Life or Mana
 - Add 1 to any [attribute](attributes.md)
 

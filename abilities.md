@@ -1,22 +1,30 @@
 
+# Character Abilities
+
 -----
 
-# Core Abilities
+## Core Abilities
 Core abilities are available to all characters by default.
 
 ### Action
-- Equip/Unequip
-- Interact
-- Move
-- Use
-- Prepare
+|Name|Range|Effect|
+|----|-----|------|
+|Equip |Base| If you have free hands available, equip an item within base contact or in storage.|
+|Unequip |Base| If you have item equipped, return it to storage or place it within base contact.|
+|Interact |Base| Trigger the effects of an non-equippable object.|
+|Move |Self| Move your character up to the maximum move distance. If the path of movement would cross *hazardous terrain*, roll for Outcome on that terrain.|
+|Use |Self| Use an ability of an equipped item.|
+|Prepare |Self| Choose an action ability you have not used this turn. Until your next turn, or if you use that ability as an action, you may use that ability as a reaction instead.|
+|Struggle |Self| If you are *arrested*, clash (d6) with target *arrestor*. If you win, you are no longer arrested by that unit.|
 
 ### Passive
-- Reaction for base contact
+|Name|Effect|
+|----|------|
+|Reflexes| When a hostile character ends a Move action in base contact with you, you may use your reaction to make a normal action as though you had used Prepare for that ability.|
 
 -----
 
-# Basic Abilities
+## Basic Abilities
 Basic abilities can be taken by any character who meets the WIZARDS requirements.
 
 ### Action
@@ -41,21 +49,20 @@ Basic abilities can be taken by any character who meets the WIZARDS requirements
 |Persuade |z5|2"/6"| Clash (d6) with a target within 2": If you win, you may change the allegiance of the target relative to another single target within 6". (E.g., Hostile -> Neutral, Ally -> Hostile, etc.) This effect lasts for (d10) turns. If you lose, all future rolls you make to Persuade the target lose advantage.|
 |Weave |z5, a5|Self| Your next Move action may pass through enemy bases, as long as you do not end the movement on an enemy base.|
 |Recalcitrate |z5, r5|Self| You gain advantage on all clash saves (d6) against Zest abilities until the start of your next turn.|
-|Flourish |z5, d5|Self| Your next clash (d6) roll loses advantage, and adds your Dexterity modifier instead of other modifiers.|
-|Flex |z5, s5|Self| Your next clash (d6) roll loses advantage, and adds your Strength modifier instead of other modifiers.|
+|Flourish |z5, d5|Self| You gain a re-roll on the next Clash (d6) roll you make this turn.|
+|Flex |z5, s5|Self| You gain a re-roll on the next Damage (d4/d8/d12) roll you make this turn.|
 |Leap |a5|Self| The path of your next Move action ignores up to 2" of continuous hazardous terrain, but may not end in hazardous terrain.|
 |Dash |a5|Self| Move up to your maximum move distance, as though you were making a Move action.|
 |Sprint |a5, r5|Self| Your maximum move distance is doubled for the next Move action you make this turn. The path must be a straight line, and it cannot bring you within 1" of any enemies.|
 |Intercept |a5, d5|1"| Requires 1 free hand. If a non-magical projectile's path crosses within 1", you may roll for outcome (d10): On a 10+, move into the path of the projectile and equip it in your free hand.|
-|Push |a5, s5|Base| Clash (d6) with a target that is in base contact and is *similar size* or *smaller*. If you win, roll for outcome (d10): On a 1-8, the target *staggers* up to 1" radially away from you; On a 9+, the target *staggers* up to 1" and is knocked prone, taking light (d4) fall damage. If the target's path of movement during stagger crosses the base of another unit, you may have the target make a free Push action against the other unit. This free Push loses advantage.|
+|Push |a5, s5|Base| Clash (d6) with a character that is in base contact and is *similar size* or *smaller*. If you win, roll for outcome (d10): On a 1-8, the target *staggers* up to 1" radially away from you; On a 9+, the target *staggers* up to 1" and is knocked prone, taking light (d4) fall damage. If the target's path of movement during stagger crosses the base of another unit, you may have the target make a free Push action against the other unit. This free Push loses advantage.|
 |Brace |r5|Self| The next damage (d4/d8/d12) roll made against you this turn loses advantage.| 
-|Recover |r5|Self| Gain advantage on your next restoration (e.g., health, mana, d4/d8/d12) roll this turn.|
+|Recover |r5|Self| Gain advantage on the next restoration (e.g., health, mana, d4/d8/d12) roll that would healyou this turn.|
 |Conceal |r5, d5|Self| Until the start of your next turn, if a Perceive, Scrutinize, Inspect, Analyze, or Predict action would target you (or an object in your possession), you may force the character performing the action to clash (d6) with you. If you win, the action fails entirely, and if you lose, the action succeeds but loses advantage on outcome (d10) rolls.|
 |Invigorate |r5, s5|Self| Reaction. Gain advantage on outcome (d10) rolls to remain conscious.| 
 |Steady |d5|Self| Reaction. If you would fall from a ledge, roll for outcome (d10): On a 3+ you remain standing; On a 2, you grab the ledge; On a 1, you continue to fall.| 
-|Throw |d5|6"| Use a one-hand item as a light (d4) projectile.| 
-|Hurl |d5, s5|4"| Use a one-hand item as a normal (d8) projectile.|
-|Heave |s5|2"| Use a two-hand item as a heavy (d12) projectile.|
+|Throw |d5|6"| Use a one-hand item as a light (d4) projectile. If you throw a weapon, you may make an attack with that weapon instead.| 
+|Hurl |d5, s5|4"| Use a one- or two-hand item as a normal (d8) projectile. If you throw a weapon, you may make an attack with that weapon instead.|
+|Heave |s5|2"| Use a two-hand item as a heavy (d12) projectile. If you throw a weapon, you may make an attack with that weapon instead.|
 |Grapple |s5|Base| Requires 2 free hands. Clash (d6) with a target that is in base contact and is similar size or smaller: If you win, the target becomes *arrested*, while you are its *arrestor*. While arrested, the target loses advantage on all clash (d6) rolls and may only use the Struggle special action, and you equip the target as an *unwieldy* two-hand item. Once you unequip the target, you are no longer its arrestor.|
-|Struggle |s3|Self| If you are *arrested*, clash (d6) with target *arrestor*. If you win, you are no longer arrested by that unit.|
 
