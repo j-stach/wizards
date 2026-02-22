@@ -40,7 +40,8 @@ resilience save when damage reduces health below 5?
 Active, passive, triggered abilities
 Climb |a5, s5|Base| Move up a vertical surface as though it were hazardous terrain. You may not end your movement on the vertical surface.|
 
-restoration passive
+restoration passive perk,
+restoration keywords: restore (up to max) vs. gain (can go above max)
 
 NOTES
 - DM/GM as a player
