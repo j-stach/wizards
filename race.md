@@ -29,7 +29,7 @@ When creating a player character, add these modifiers to the WIZARDS attributes 
 ## HYBRID Races
 At the DM's discretion, *Hybrid* characters may be created from a combination of two or more races.
 These races become the character's *Ancestral Races*. <br>
-*(Note: These are referred to as "Ancestral Races" regardless of how the campaign explains the existence of the hybrid.)
+*(Note: These are referred to as "Ancestral Races" regardless of how the campaign explains the existence of the hybrid.)*
 
 To create a character with a hybrid race:
 - Use the average of the Ancestral Races' racial attribute modifiers, rounding down.
