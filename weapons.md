@@ -6,6 +6,7 @@ they lose advantage on all actions made using that weapon.
 
 If a weapon size is "N/A", then it can only be stored using an attachment point.
 
+Weapons can be [improved](improvement.md).
 
 ## Melee
 ### Blade

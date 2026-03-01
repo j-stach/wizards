@@ -1,6 +1,6 @@
 
 # Spells
-Characters must equip a *spellcasting focus* (e.g., wand, staff) to cast spells.
+Characters must equip a *spell focus* (e.g., wand, staff) to cast spells.
 
 ## Basic Spells
 These spells can be taken by any character.

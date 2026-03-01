@@ -55,4 +55,7 @@ WYSIWYG
 **Optional:** *For a more "hardcore" gameplay experience, consider retiring the models of characters 
 that have been removed from the campaign.*
 
+balanced mechanics easy to customize for campaign
+
+"Downtime" = "when you level up in a town with X" with only 1 per level-up
 

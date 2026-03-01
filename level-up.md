@@ -14,3 +14,9 @@ To level-up, a character may choose one:
 - Add 5 to their maximum Life or Mana
 - Add 1 to any [attribute](attributes.md)
 
+
+## Downtime Activities
+Some perks allow you to perform an activity if you level-up 
+in a [town](town.md) that contains a certain type of amenity.
+You may choose *one* of those activities to perform as a downtime activity.
+

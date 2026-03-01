@@ -5,6 +5,7 @@ Unless another perk is mentioned as a prerequisite,
 a character only needs to meet the WIZARDS requirements in order to add a Perk when you [level-up](level-up.md).
 
 
+# Proficiency
 ## Weapon Proficiency
 Weapon proficiency perks modify rolls based on [weapon](weapons.md) type.
 
@@ -36,4 +37,58 @@ Spell proficiency perks modify rolls based on [spell](spells.md) behavior.
 |Destruction|i5/z5|Gain `+1` to all rolls for spells that deal damage.|
 |Thaumaturgy|w5/z5|Gain `+1` to all rolls for spells that do not affect Life or Mana.|
 
+
+## Armor Proficiency
+Armor proficiency perks modify [armor](armor.md) rules to mitigate downsides.
+
+|Perk|WIZARDS|Effect|
+|----|-------|------|
+|Armor Adjusted|r5, s5|Attribute penalties from `Heavy` armor are reduced by `1`|
+|Tactical Armor|w5, i5|Gain `+1"` to maximum move distance while your Overall Armor Class is `Light`|
+|Armor Avoidant|z5, a5|Gain advantage on **Clash Saves** while your Overall Armor Class is `Unarmored`|  
+
+
+# Crafting
+## Weapon Crafting
+Weapons Crafting perks allow [crafting](crafting.md) and improvements to [weapons](weapons.md).
+
+|Perk|WIZARDS|Prerequisites|Effect|
+|----|-------|-------------|------|
+|Weaponsmithing|d5, s5|N/A|You may craft a weapon|
+|Weapon Improvement|i5, d5|Weaponsmithing|You may add an improvement to a weapon|
+|Efficient Crafting|w5, i5|Weapon Improvement|When you improve a weapon, the ingot expenditure requirement is reduced by 1, if possible|
+|Rapid Crafting|r5, d7|Weaponsmithing|You may craft or improve an additional weapon|
+|Masterwork|z5, d10|Weapon Improvement|You may add one duplicate improvement to weapons you improve|
+
+
+## Armor Crafting
+Armor Crafting perks allow [crafting](crafting.md) and improvements to [armor](armor.md).
+
+|Perk|WIZARDS|Prerequisites|Effect|
+|----|-------|-------------|------|
+|Armoring|d5, s5|N/A|You may craft armor|
+|Armor Improvement|i5, d5|Armoring|You may add improvements to armor|
+|Efficient Crafting|w5, i5|Armoring|When you improve armor, each material expenditure requirement is reduced by 1, if possible|
+|Rapid Crafting|r5, d7|Armoring|You may craft or improve an additional piece of armor|
+|Masterwork|z5, d10|Armor Improvement|You may add one duplicate improvement to armor you improve|
+
+
+# Academic Pursuits
+## Arcane Study
+Arcane Study perks modify how a character learns [spells](spells.md).
+
+|Perk|WIZARDS|Prerequisites|Effect|
+|----|-------|-------------|------|
+|Learning Momentum|i5, r5|N/A|Downtime: When you [level-up](level-up.md) in a [town](towns.md) with a *Library* or an *Arcaneum*, you may learn a spell from a spellbook in your possession, even you have already learned a spell as part of leveling-up|
+|Spell Crafting|i7, d5|Spell Study|You may [craft spells](spellcrafting.md)|
+|Arcane Theory|w5, i10|Spell Crafting|Treat all spells in all tomes within base contact as *known spells* for the purposes of [spellcrafting](spellcrafting.md)|
+
+## Lore Study
+Lore Study perks modify how a character learns and transmits general knowledge.
+
+|Perk|WIZARDS|Prerequisites|Effect|
+|----|-------|-------------|------|
+|Study Time|w5, r5|N/A|You may [study lore](studying.md)|
+|Calligraphy|r5, d5|N/A|You may [inscribe](writing.md) folios & scrolls.|
+|Cartography|i5, d7|Calligraphy|You may [illustrate](writing.md) maps for remembered and reported locations|
 
