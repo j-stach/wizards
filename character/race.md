@@ -10,6 +10,12 @@ When creating a player character, add these modifiers to the WIZARDS attributes 
 
 ## HUMAN (Default)
 
+### Base Reservoirs:
+| | |
+|----|----|
+|Life|`20`|
+|Mana|`10`|
+
 ### Racial traits:
 - `+1` to any attribute (chosen after rolling WIZARDS)
 - `+1` to any attribute (chosen after rolling WIZARDS)
@@ -32,6 +38,7 @@ These races become the character's *Ancestral Races*. <br>
 *(Note: These are referred to as "Ancestral Races" regardless of how the campaign explains the existence of the hybrid.)*
 
 To create a character with a hybrid race:
+- Average Life and Mana, rounding down.
 - Use the average of the Ancestral Races' racial attribute modifiers, rounding down.
 - Start without access to racial traits.
 

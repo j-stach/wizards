@@ -42,7 +42,7 @@ Basic abilities can be taken by any character who meets the WIZARDS requirements
 |Predict |i5|Self| Gain an additional reaction until the start of your next turn.| 
 |Distract |i5, z5|1"| Target enemy within 1" cannot use reactions against your allies until the start of your next turn.|
 |Disengage |i5, a5|Base| Enemies within base contact cannot use reactions against you until the start of your next turn.|
-|Persist |i5, r5|Self| If your previous action was not a combat or movement action, repeat it.|
+|Persist |i5, r5|Self| If your previous action was not an attack or movement action, repeat it.|
 |Repair |i5, d5|Base| Roll for outcome (d10): On a 10+, a *broken* object becomes usable. This action is repeatable.|
 |Leverage |i5, s5|Self| Your next action this turn gains advantage on clash (d6) rolls.|
 |Charm |z5|2"| Clash (d6) with a target within 2": If you win, the target improves it's allegiance to you (i.e., Hostile -> Neutral -> Ally), and you gain advantage on clash (d6) rolls against that target. This effect lasts for (d10) turns. If you lose, the target becomes immune to your Charm.|

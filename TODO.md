@@ -59,3 +59,5 @@ balanced mechanics easy to customize for campaign
 
 "Downtime" = "when you level up in a town with X" with only 1 per level-up
 
+Targeting Limbs, rolling against modifiers determined by armor slot rather than overall, crippling limbs
+
