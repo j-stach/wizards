@@ -8,6 +8,17 @@ If a weapon size is "N/A", then it can only be stored using an attachment point.
 
 Weapons can be [improved](improvement.md).
 
+
+## Shields
+Carrying a Shield in one hand grants the corresponding Raise Shield ability.
+
+|Weapon|WIZARDS|Size|Raise Shield|
+|------|-------|----|------|
+|Buckler|a5/d5|Large|Reaction only. Gain +1 on your next Clash (d6) Save.|
+|Small Shield|a5, r5/s5|N/A|Gain +1 on Clash (d6) Saves until your next turn.|
+|Tower Shield|r5, s5|N/A|Gain [full cover](combat.md) from the front until your next turn.|
+
+
 ## Melee
 ### Blade
 |Weapon|WIZARDS|Size|# Hands|Range|Damage|
@@ -44,20 +55,20 @@ Weapons can be [improved](improvement.md).
 Archery weapons require *Arrow* ammunition.
 The base arrow deals `d8` damage.
 
-|Weapon|WIZARDS|Size|# Hands|Range|Damage|
-|------|-------|----|-------|-----|------|
-|Shortbow|d5|Large|2|12"|N/A|
-|Longbow|d5, s5|N/A|2|24"|N/A|
+|Weapon|WIZARDS|Size|# Hands|Range|
+|------|-------|----|-------|-----|
+|Shortbow|d5|Large|2|12"|
+|Longbow|d5, s5|N/A|2|24"|
 
-### Spellcasting
-**Range** limits the maximum range for spells cast using the focus.
-If the range is "N/A", the spell is only limited by its own range.
+### Firearm
+Firearm weapons require a *Round* ammunition that is specific to the Firearm type.
+Each firearm can hold up to its capacity in rounds, 
+and can expend a round to make a projectile attack.
+When a firearm holds no rounds, you may use an action to reload the firearm.
 
-**Damage** is the default spell damage die used for spells cast using the focus.
-|Weapon|WIZARDS|Size|# Hands|Range|Damage|
-|------|-------|----|-------|-----|------|
-|Talisman|w5/i5/z5|Small|1|6"|d4|
-|Wand|z5, w5/i5|Medium|1|12"|d8|
-|Tome|i5, w5/z5|Medium|1|12"|d8|
-|Staff|w5, i5/z5|N/A|1/2|N/A|d8/d12|
+|Weapon|WIZARDS|Size|# Hands|Capacity|Range|Damage|
+|------|-------|----|-------|-----|--------|------|
+|Pistol|a5/d5|Medium|1|6|6"|`d4`|
+|Shotgun|d5, s5|Large|2|6|12"|`2d4`|
+|Rifle|d5, r5|Large|2|12|24"|`d8`|
 

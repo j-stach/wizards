@@ -2,20 +2,22 @@
 # Perks
 Perks are passive effects that apply to your character at all times.
 Unless another perk is mentioned as a prerequisite, 
-a character only needs to meet the WIZARDS requirements in order to add a Perk when you [level-up](level-up.md).
+a character only needs to meet the WIZARDS requirements 
+in order to add a Perk when they [level-up](/character/progression/level-up.md).
 
 
-# Proficiency
+# Combat Proficiency
 ## Weapon Proficiency
-Weapon proficiency perks modify rolls based on [weapon](weapons.md) type.
+Weapon proficiency perks modify rolls based on [weapon](/equipment/items/weapons.md) type.
 
 |Perk|WIZARDS|Effect|
 |----|-------|------|
+|Polearms|w5|Gain `+1` to all rolls for abilities using *Polearm* weapons|
 |Blades|a5|Gain `+1` to all rolls for abilities using *Bladed* weapons|
 |Axes|r5|Gain `+1` to all rolls for abilities using *Axe* weapons|
-|Polearms|d5|Gain `+1` to all rolls for abilities using *Polearm* weapons|
 |Hammers|s5|Gain `+1` to all rolls for abilities using *Hammer* weapons|
 |Archery|d5|Gain `+1` to all rolls for abilities using *Archery* weapons|
+|Firearm|d5|Gain `+1` to all rolls for abilities using *Firearm* weapons|
 
 
 ## Martial Proficiency
@@ -39,18 +41,20 @@ Spell proficiency perks modify rolls based on [spell](spells.md) behavior.
 
 
 ## Armor Proficiency
-Armor proficiency perks modify [armor](armor.md) rules to mitigate downsides.
+Armor proficiency perks modify [armor](/equipment/apparel/armor.md) rules to mitigate downsides.
 
 |Perk|WIZARDS|Effect|
 |----|-------|------|
 |Armor Adjusted|r5, s5|Attribute penalties from `Heavy` armor are reduced by `1`|
 |Tactical Armor|w5, i5|Gain `+1"` to maximum move distance while your Overall Armor Class is `Light`|
-|Armor Avoidant|z5, a5|Gain advantage on **Clash Saves** while your Overall Armor Class is `Unarmored`|  
+|Armor Avoidant|z5, a5|Gain `+1` to **Clash Saves** while your Overall Armor Class is `Unarmored`|  
 
 
-# Crafting
-## Weapon Crafting
-Weapons Crafting perks allow [crafting](crafting.md) and improvements to [weapons](weapons.md).
+# Skills & Professions
+## Crafting
+### Weapon Crafting
+Weapons Crafting perks allow [crafting](/character/progression/skills/crafting.md) 
+and improvements to [weapons](/equipment/items/weapons.md).
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
@@ -60,9 +64,9 @@ Weapons Crafting perks allow [crafting](crafting.md) and improvements to [weapon
 |Rapid Crafting|r5, d7|Weaponsmithing|You may craft or improve an additional weapon|
 |Masterwork|z5, d10|Weapon Improvement|You may add one duplicate improvement to weapons you improve|
 
-
-## Armor Crafting
-Armor Crafting perks allow [crafting](crafting.md) and improvements to [armor](armor.md).
+### Armor Crafting
+Armor Crafting perks allow [crafting](/character/progression/skills/crafting.md) 
+and improvements to [armor](/equipment/apparel/armor.md).
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
@@ -73,17 +77,17 @@ Armor Crafting perks allow [crafting](crafting.md) and improvements to [armor](a
 |Masterwork|z5, d10|Armor Improvement|You may add one duplicate improvement to armor you improve|
 
 
-# Academic Pursuits
-## Arcane Study
-Arcane Study perks modify how a character learns [spells](spells.md).
+## Scholarship
+### Arcane Research
+Arcane Research perks modify how a character learns [spells](spells.md).
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|Learning Momentum|i5, r5|N/A|Downtime: When you [level-up](level-up.md) in a [town](towns.md) with a *Library* or an *Arcaneum*, you may learn a spell from a spellbook in your possession, even you have already learned a spell as part of leveling-up|
-|Spell Crafting|i7, d5|Spell Study|You may [craft spells](spellcrafting.md)|
+|Persistent Research|i5, r5|N/A|Downtime: When you [level-up](level-up.md) in a [town](towns.md) with a *Library* or an *Arcaneum*, you may learn a spell from a spellbook in your possession, even you have already learned a spell as part of leveling-up|
+|Spell Crafting|i7, d5|Spell Study|Whenever you could learn a spell, instead you may [spellcraft](spellcrafting.md).|
 |Arcane Theory|w5, i10|Spell Crafting|Treat all spells in all tomes within base contact as *known spells* for the purposes of [spellcrafting](spellcrafting.md)|
 
-## Lore Study
+### Lore Study
 Lore Study perks modify how a character learns and transmits general knowledge.
 
 |Perk|WIZARDS|Prerequisites|Effect|

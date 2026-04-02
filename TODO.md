@@ -61,3 +61,5 @@ balanced mechanics easy to customize for campaign
 
 Targeting Limbs, rolling against modifiers determined by armor slot rather than overall, crippling limbs
 
+Foraging, survival, herbalism, apothecary
+

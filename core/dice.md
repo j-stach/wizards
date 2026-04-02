@@ -6,8 +6,7 @@ A dice *Roll* is typically one die, but may involve multiple dice of various typ
 
 
 ## Modifiers
-Modifiers may be added to increase the *Natural result* of each die in a roll.
-They are added to each die to which they could apply.
+Modifiers may be added to increase the final result of a roll.
 
 General modifiers (e.g., "+1 to all rolls") are rare; 
 most modifiers impose a restriction on the type of die, skill, or situation for the roll.
@@ -26,18 +25,10 @@ whereas one that *loses Advantage* decrements it.
 There may be multiple overlapping effects that cause a roll to gain or lose advantage;
 the roll's overall Advantage is the sum of these effects.
 
-*For example, if a character gains advantage from an ability they use, 
-but loses advantage from an enemy's effect, their overall Advantage is Neutral.*
+When the roll's Advantage is greater than `0`, add that many dice of any type to the pool to be rolled,
+then remove that many of the same type after rolling.
 
-If a roll's Advantage is positive, then for each die in that roll,
-roll an additional die for each point of Advantage on that roll, and choose a one to represent that die.
-
-If a roll's Advantage is negative, then for each die in that roll,
-roll an additional die for each negative point of Advantage on that roll, and use the lowest for that die.
-
-*For example, if a roll has `+2` Advantage, 
-the player rolls 3 dice in place of each die in the original roll, 
-and takes the highest of each pool for the value of that die.*
+When it is less than `0`, roll that many more dice, then remove that many in the highest order.
 
 
 ## Re-rolls
@@ -85,8 +76,8 @@ combined with multiple instances of Light damage from the spikes -- these are re
 A *Damage roll* is always made by the player who controls the source of the damage.
 
 
-## Outcome (d10, d100)
-An *Outcome roll* is used to choose from a table of predetermined possibilities.
+## Table (d10, d100)
+A *Table roll* is used to choose from a table of predetermined possibilities.
 
 This may represent the result of an effect, such as from a character ability or terrain hazard,
 or it may represent the outcome of a character action, such as studying a particular artifact.
@@ -94,24 +85,24 @@ or it may represent the outcome of a character action, such as studying a partic
 The **d10** is used for simple tables with limited outcomes, whereas **d100** may be used for longer lists,
 distributions of outcome probability, and other percentile calculations of outcome.
 
-If an Outcome roll is cumulative, then the character receives the effects of all values less than their roll.
-The Outcome tables for cumulative rolls should be designated as such, 
-otherwise Outcomes are assumed to be singular and specific to the value rolled.
+If an Table roll is cumulative, then the character receives the effects of all values less than their roll.
+The tables for cumulative rolls should be designated as such, 
+otherwise rolls are assumed to be singular and specific to the value rolled.
 
 
-## Narrative (d20)
-The *Narrative roll* is functionally a request for the DM to allow the character to act 
-outside of their explicit skills and abilities.
+## Story (d20)
+The *Story roll* is functionally a request for the DM to allow the character to act 
+outside of their explicit skills and abilities, in service of the plot.
 
 When a player describes the character's intended actions and outcome,
 the DM considers the difficulty of the attempted action in the context of the situation,
 then considers the suitability of the character's action to success in the intended outcome.
 
-Based on these considerations, the DM may arbitrarily assign a threshold(s) for the Narrative roll to meet.
+Based on these considerations, the DM may arbitrarily assign a threshold(s) for the Story roll to meet.
 Thresholds may be disclosed at the DM's discretion, 
 and may cover any variety of outcomes along a spectrum of failure and success.
 
-The DM may also arbitrarily assign an Action cost to perform the Narrative action.
+The DM may also arbitrarily assign an Action cost to perform the Story action.
 
 If the terms are acceptable to the DM and to the player, 
 the player may roll a **d20** to determine the outcome of the character's unique action.
