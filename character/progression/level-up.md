@@ -12,7 +12,7 @@ To level-up, a character may choose one:
 - Add a new action [ability](/character/progression/abilities.md)
 - Add a new passive [perk](/character/progression/perks.md)
 - Add a new [spell](spells.md)
-- Add 5 to their maximum Life or Mana
+- Add 1 to their maximum Life or Mana
 - Add 1 to any [attribute](/character/attributes.md)
 
 

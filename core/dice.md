@@ -2,7 +2,7 @@
 # Rolling Dice
 Players resolve the effects of character actions by rolling dice.
 
-A dice *Roll* is typically one die, but may involve multiple dice of various types.
+A dice *Roll* is typically one die, but may involve multiple dice of various types in a *Pool*.
 
 
 ## Modifiers
@@ -28,7 +28,8 @@ the roll's overall Advantage is the sum of these effects.
 When the roll's Advantage is greater than `0`, add that many dice of any type to the pool to be rolled,
 then remove that many of the same type after rolling.
 
-When it is less than `0`, roll that many more dice, then remove that many in the highest order.
+When Advantage is less than `0`, roll that many more dice, then remove that many of the same type,
+in the order of the highest.
 
 
 ## Re-rolls
@@ -38,7 +39,7 @@ including dice added by Advantage, applying effects and modifiers as if it were 
 If an effect would trigger as a result of the original roll, it is negated, 
 and the triggering ability is evaluated for the new roll instead.
 
-Re-roll can be stacked any number of times, making it a powerful mechanic that should be granted sparingly.
+Re-roll can be stacked, making it a powerful mechanic that should be granted sparingly.
 
 
 -----
@@ -85,13 +86,13 @@ or it may represent the outcome of a character action, such as studying a partic
 The **d10** is used for simple tables with limited outcomes, whereas **d100** may be used for longer lists,
 distributions of outcome probability, and other percentile calculations of outcome.
 
-If an Table roll is cumulative, then the character receives the effects of all values less than their roll.
+If a Table roll is cumulative, then the character receives the effects of all values less than their roll.
 The tables for cumulative rolls should be designated as such, 
 otherwise rolls are assumed to be singular and specific to the value rolled.
 
 
 ## Story (d20)
-The *Story roll* is functionally a request for the DM to allow the character to act 
+The *Story roll* is functionally a request for the Dicemaster to allow the character to act 
 outside of their explicit skills and abilities, in service of the plot.
 
 When a player describes the character's intended actions and outcome,

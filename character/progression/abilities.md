@@ -1,10 +1,16 @@
 
 # Character Abilities
+Abilities provide an Action that the Character may use on their turn during [combat](/core/combat.md).
+
+Additional abilities may added that are specific to a campaign/setting, 
+but the **Core** and **Basic** abilities below 
+(and those in the archetypal [classes](/character/progression/classes/))
+can be taken in any campaign.
 
 -----
 
 ## Core Abilities
-Core abilities are available to all characters by default.
+**Core abilities are available to all characters by default.**
 
 ### Action
 |Name|Range|Effect|
@@ -16,11 +22,6 @@ Core abilities are available to all characters by default.
 |Use |Self| Use an ability of an equipped item.|
 |Prepare |Self| Choose an action ability you have not used this turn. Until your next turn, or if you use that ability as an action, you may use that ability as a reaction instead.|
 |Struggle |Self| If you are *arrested*, clash (d6) with target *arrestor*. If you win, you are no longer arrested by that unit.|
-
-### Passive
-|Name|Effect|
-|----|------|
-|Reflexes| When a hostile character ends a Move action in base contact with you, you may use your reaction to make a normal action as though you had used Prepare for that ability.|
 
 -----
 
@@ -40,7 +41,7 @@ Basic abilities can be taken by any character who meets the WIZARDS requirements
 |Intervene |w5, s5|1"| Reaction only. If an ability targets an ally within 1", you may have that ability target you instead.|
 |Analyze |i5|6"| Choose a target character or object and roll for outcome (d10): On a 10+, gain +1 to all rolls against the target for (d10) turns.|
 |Predict |i5|Self| Gain an additional reaction until the start of your next turn.| 
-|Distract |i5, z5|1"| Target enemy within 1" cannot use reactions against your allies until the start of your next turn.|
+|Distract |i5, z5|1"| Target enemy within 1" cannot use reactions against your allies until the start of your next turn. Trigger [Flanking](/core/combat.md) as if dealing damage.|
 |Disengage |i5, a5|Base| Enemies within base contact cannot use reactions against you until the start of your next turn.|
 |Persist |i5, r5|Self| If your previous action was not an attack or movement action, repeat it.|
 |Repair |i5, d5|Base| Roll for outcome (d10): On a 10+, a *broken* object becomes usable. This action is repeatable.|
