@@ -1,6 +1,8 @@
 
 # Creating a Character
-
+Follow these steps to create a new player character.
+It is recommended that you record your character's stats, abilities and equipment (including effects)
+in an easy-to-read way.
 
 ## 1. Race
 Choose a [race](/world/race.md) for your character.
