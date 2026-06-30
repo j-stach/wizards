@@ -95,7 +95,7 @@ as though they had used the [core action](/charcter/progression/abilities.md) **
 Battlefield positioning can have beneficial effects.
 
 ### Formation
-[Similarly-sized](/core/sizes.md) Characters contiguously within 1" are considered to be in a *Group*.
+[Similarly-sized](/core/measurement.md) Characters contiguously within 1" are considered to be in a *Group*.
 
 If all Characters in a Group would make identical projectile attack rolls 
 against another Group within common range, you may instead:
@@ -105,7 +105,9 @@ against another Group within common range, you may instead:
 4. Resolve the corresponding pairs as normal Clash rolls, 
 with each side adding the lowest Clash modifier of all characters in the group
 5. Defender assigns unsaved attacks as they choose among the members of the group
-6. Attacker rolls Damage for each unsaved attack
+6. Attacker rolls Damage for each unsaved attack. 
+If a character is killed before all damage rolls for unsaved attacks have been resolved, 
+Defender reassigns the remaining unsaved attacks, and Attacker continues rolling Damage.
 
 ### Flanking
 When an attack deals damage to a target, all characters that are within range to attack the target,
@@ -124,8 +126,8 @@ Two characters at different elevations of sheer (vertical) terrain are considere
 If they are Hostile, the character in contact with the ledge gains the *High Ground*,
 while the character in contact with the foot gains the *Low Ground*.
 
-Attacks made with the *High Ground* against targets with the *Low Ground* gain Advantage on all rolls.
-Attacks made from the *Low Ground* against targets with the *High Ground* lose Advantage on all rolls.
+Attacks made with the *High Ground* against the target with the *Low Ground* gain Advantage on all rolls.
+Attacks made from the *Low Ground* against the target with the *High Ground* lose Advantage on all rolls.
 
 ### Cover
 Projectile attacks with partially-obscured Line-of-Sight grant *Cover* to the target during the attack.

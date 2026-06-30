@@ -1,8 +1,10 @@
 
 # WIZARDS
-The WIZARDS System is a perennial TTRPG framework that can be adapted 
-to a variety of settings and formats, 
+The WIZARDS System is a perennial TTRPG framework that can be adapted to a variety of settings and formats, 
 eliminating the need to monitor various ever-changing rules in order to enjoy tabletop wargaming.
+
+The goal of this system is to provide a gameplay experience that is easy to learn and remember,
+while providing mechanical depth that supports a wide variety of niche charater types.
 
 WIZARDS is named after its Character Attribute system, 
 which uses the memorable acronym [W.I.Z.A.R.D.S.](/character/attributes.md). 
@@ -18,19 +20,19 @@ This also makes abilities more balanced and combat more consistent.
 
 
 ## Tabletop Combat
-WIZARDS was created to simplify Tabletop [combat](/core/combat.md) with miniatures, 
-and some rules may invoke concepts like "Line-of-Sight" and "Base Contact" 
+WIZARDS was created to simplify Tabletop [combat](/core/combat.md) using miniatures, 
+and some rules may rely on concepts like "Line-of-Sight" and "Base Contact" 
 that may not translate well to theater-of-mind approaches to roleplaying.
 
 This system is rules-driven and designed to remove as much interpretation from combat as possible
-so that the Dicemaster (DM) is never overburdened.
+so that the *Dicemaster* (DM) is never overburdened.
 
 In an adventuring campaign setting, 
 the DM may control the actions of antagonistic forces and "Non-Player Characters",
 but from the perspective of the rules, the DM is mostly treated as "just another player."
 
 This scalable approach supports a variety of game formats including 
-squadron-based missions and full-scale wargaming,
+squadron-based missions and even full-scale wargaming,
 with or without a DM.
 
 
@@ -39,7 +41,7 @@ Character [creation](/character/new_character.md)
 and [progression](/character/progression/level-up.md) are open and flexible.
 
 Characters may use passive [perks](/character/progression/perks.md),
-action [abilities](/character/preogression/abilities.md),
+action [abilities](/character/progression/abilities.md),
 and equipment such as [weapons](/equipment/items/weapons.md)
 if they meet the WIZARDS [attributes](/character/attributes.md) requirements.
 
