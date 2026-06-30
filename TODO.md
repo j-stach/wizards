@@ -1,30 +1,4 @@
 
-# TODO:
-- [x] character
-- [x] dice
-- [x] level up
-- [x] attributes
-- [x] armor
-- [x] species
-- [x] storage
-- [ ] abilities
-- [ ] weapons
-- [ ] items
-- [ ] currency
-
-### Abilities:
-- [ ] Differentiate Action abilities from Passive traits
-- [ ] Passive traits for proficiency
-
-### Items
-- [ ] Common adventuring items
-- [ ] Mention Storage Class
-
-### Weapons
-
-### Currency
-
-
 # Notes:
 "Cruel" mode instead of "hardcore"
 
@@ -35,10 +9,11 @@ enemies - weak/strong, slow/fast, "hero" gets action & HP bonus
 
 religion & afterlife - eg paradise, valhalla, the void
 
+currency
+
 resilience save when damage reduces health below 5? 
 
 Active, passive, triggered abilities
-Climb |a5, s5|Base| Move up a vertical surface as though it were hazardous terrain. You may not end your movement on the vertical surface.|
 
 restoration passive perk,
 restoration keywords: restore (up to max) vs. gain (can go above max)
@@ -48,6 +23,7 @@ NOTES
 - Player-controlled squads
 - Unit actions/tactics
 
+loyalty & allegiance gets rescaled for Zest abilities and factions
 
  Model
 WYSIWYG
@@ -57,9 +33,13 @@ that have been removed from the campaign.*
 
 balanced mechanics easy to customize for campaign
 
-"Downtime" = "when you level up in a town with X" with only 1 per level-up
-
-Targeting Limbs, rolling against modifiers determined by armor slot rather than overall, crippling limbs
-
 Foraging, survival, herbalism, apothecary
+
+enchantment
+
+
+# TODO 
+
+- Use Bevy to create a dynamic digital player sheet and rulebook app
+
 

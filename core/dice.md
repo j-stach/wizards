@@ -77,7 +77,7 @@ combined with multiple instances of Light damage from the spikes -- these are re
 A *Damage roll* is always made by the player who controls the source of the damage.
 
 
-## Table (d10, d100)
+## Table/Outcome (d10, d100)
 A *Table roll* is used to choose from a table of predetermined possibilities.
 
 This may represent the result of an effect, such as from a character ability or terrain hazard,

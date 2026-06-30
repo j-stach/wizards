@@ -6,7 +6,7 @@ they lose advantage on all actions made using that weapon.
 
 If a weapon size is "N/A", then it can only be stored using an attachment point.
 
-Weapons can be [improved](improvement.md).
+Weapons can be [improved](/character/progression/skills/crafting.md).
 
 
 ## Shields
@@ -16,7 +16,7 @@ Carrying a Shield in one hand grants the corresponding Raise Shield ability.
 |------|-------|----|------|
 |Buckler|a5/d5|Large|Reaction only. Gain +1 on your next Clash (d6) Save.|
 |Small Shield|a5, r5/s5|N/A|Gain +1 on Clash (d6) Saves until your next turn.|
-|Tower Shield|r5, s5|N/A|Gain [full cover](combat.md) from the front until your next turn.|
+|Tower Shield|r5, s5|N/A|Gain [Cover](/core/combat.md) from the front until your next turn.|
 
 
 ## Melee

@@ -8,5 +8,5 @@ Elemental systems can be expanded to suit the physics of your campaign.
 
 |Element|Effect|
 |-------|------|
-|Lightning| Damage from this ability may be damage the target's Mana instead of Life.|
+|Lightning| Damage from this ability may damage the target's Mana instead of Life.|
 

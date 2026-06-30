@@ -20,7 +20,7 @@ unusable items that come from less-organized or less-strict inventory systems.*
 An item's *Storage Class* is an approximation that takes into account the item's:
 - Size & Dimensions
 - Mass/Weight
-- Accessibility (*meaning, how easy is the item to find while rummaging through pockets?*)
+- Accessibility (*meaning, "how easy is the item to find while rummaging through pockets?"*)
 
 |Class| Description |
 |-----|-------------|

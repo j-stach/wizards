@@ -1,11 +1,11 @@
 
 # Combat Rules
-*Combat* refers to an ordered, turn-based conflict; typically martial, 
+*Combat* refers to an ordered, turn-based conflict; this is typically martial, 
 but may also be social--for example, haggling with a shopkeeper.
 
 
 ## Round structure
-Combat Rounds consist of **Teams** of Characters taking **Turns** to perform Actions.
+Combat Rounds consist of **Teams** of Characters taking **Turns** to perform **Actions**.
 
 ### Teams
 Allied characters (e.g., the players, or the NPCs) that are attacking or defending as a team
@@ -18,12 +18,15 @@ Other teams are given an option to join or flee after the defender has taken the
 
 ### Turns
 When it becomes a character's team's turn to act, it is considered the "beginning" of their turn.
+If multiple effects would trigger at the beginning of a turn,
+the team whose turn it is resolves their triggered effects first, in any order they choose,
+followed by the remaining teams in turn order.
 
 Each round, when it is a character's turn, 
 they may make 3 [Actions](/character/progression/abilities.md).
 
-At any point in a round, a character may use a *Reaction* ability if the conditions are met,
-but they may only use one Reaction each round.
+At any point in a round, a character may use a *Reaction* [ability](/character/progression/abilities.md)
+if the conditions for that ability are met, but they may only use one Reaction each round.
 
 Once a character uses an ability, it cannot be used again until the beginning of their next turn.
 
@@ -54,7 +57,7 @@ and the defender adding either Agility or Strength modifier.
 2. If the aggressor wins:
 - Aggressor equips the defender as an unwieldy 2-handed item
 - Aggressor's move distance becomes 1"
-- While equipped, the defender can only use the Grapple action. 
+- While equipped, the defender can only use the Grapple action 
 If a character wins a grapple while equipped, they become unequipped.
 
 If the defending character is Larger:
@@ -62,8 +65,8 @@ If the defending character is Larger:
 with the aggressor adding their Agility or Strength modifier but losing Advantage, 
 and the defender adding either Agility or Strength modifier.
 2. If the aggressor wins:
-- Aggressor mounts the defender as an unruly steed
-- While mounted, the defender can only use the Grapple action. 
+- Aggressor mounts the defender as an unruly (uncontrollable) steed
+- While mounted, the defender can only use the Grapple action 
 If a character wins a grapple while mounted, they become unmounted.
 
 ### Move
@@ -82,8 +85,8 @@ roll on the Table (d10) for the terrain effect.
 Characters can move vertically (climb) at half-speed, 
 but ending movement on a vertical surface will place the Character at the foot of the terrain.
 
-### Reflexes
-When a hostile character ends a Move action in base contact, 
+### Reflex
+When a Hostile character ends a Move action in base contact, 
 the confronted character may use their Reaction to make a normal action 
 as though they had used the [core action](/charcter/progression/abilities.md) **Prepare** for that ability.
 

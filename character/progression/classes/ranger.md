@@ -16,7 +16,7 @@ The *Ranger* uses projectile attacks and mobility to fight at a distance.
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
 |Strider|a7|N/A|Gain `+1"` to Move distance if you have not made an attack yet this turn|
-|Tread Carefully|N/A|Strider, Leap|When you make your first Move action in a turn, you may use `Leap` as a free action and apply it to that Move|
+|Parkour|N/A|Strider, Leap|When you make your first Move action in a turn, you may use `Leap` as a free action and apply it to that Move|
 |Kite|N/A|Strider, Disengage|When you use your `Reflex` reaction to Move, you may use `Disengage` as a free action and apply it to that Move|
 
 
@@ -32,6 +32,8 @@ The *Ranger* uses projectile attacks and mobility to fight at a distance.
 ### Strider
 |Name|WIZARDS|Prerequisites|Range|Effect|
 |----|-------|-------------|-----|------|
-
+|TODO | | | | |
+|TODO | | | | |
+|TODO | | | | |
 
 
