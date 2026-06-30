@@ -50,15 +50,17 @@ that conform to an adventuring archetype and combat role,
 but characters are not limited to only one, nor are they required to progress in a class at all.
 
 
-# TODO:
 ## Worldbuilding
-- Core rules designed to be adapted/expanded to suit any scenario at scale
-- Adventuring campaigns, traveling
-- Skirmishes & crusades
-- Towns, Amenities, Downtime activities
-- Factions & loyalty
-- Playable races
-- Elemental systems
+This repository provides a set of core rules and guidelines that are designed 
+to be flexibly adapted or expanded to suit the world you are building for your game scenarios.
 
+This includes [playable races](/world/race.md),
+exchangeable [currency](/world/currency.md) and economies,
+[factions](/world/factions.md) with loyalty mechanics,
+[inhabitable towns](/world/towns.md) and other locations,
+routes for [traveling](/world/traveling.md),
+and [elemental systems](/world/elements.md) that infuse spells and hazards.
+
+These core mechanics follow principles that guide worldbuilding in a balanced way.
 
 
