@@ -7,6 +7,7 @@ in order to add a Perk when they [level-up](/character/progression/level-up.md).
 
 
 # Combat Proficiency
+
 ## Weapon Proficiency
 Weapon proficiency perks modify rolls based on [weapon](/equipment/items/weapons.md) type.
 
@@ -51,6 +52,7 @@ Armor proficiency perks modify [armor](/equipment/apparel/armor.md) rules to mit
 
 
 # Skills & Professions
+
 ## Crafting
 ### Weapon Crafting
 Weapons Crafting perks allow [crafting](/character/progression/skills/crafting.md) 
@@ -58,11 +60,12 @@ and improvements to [weapons](/equipment/items/weapons.md).
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|Weaponsmithing|d5, s5|N/A|You may craft a weapon|
-|Weapon Improvement|i5, d5|Weaponsmithing|You may add an improvement to a weapon|
-|Efficient Crafting|w5, i5|Weapon Improvement|When you improve a weapon, the ingot expenditure requirement is reduced by 1, if possible|
-|Rapid Crafting|r5, d7|Weaponsmithing|You may craft or improve an additional weapon|
-|Masterwork|z5, d10|Weapon Improvement|You may add one duplicate improvement to weapons you improve|
+|Weaponsmithing|d5, s5|N/A|**Downtime:** You may craft a weapon|
+|Weapon Improvement|i5, d5|Weaponsmithing|**Downtime:** You may add an improvement to a weapon|
+|Efficient Weapon Crafting|w5, i5|Weapon Improvement|When you improve a weapon, the ingot expenditure requirement is reduced by 1, if possible|
+|Rapid Weapon Crafting|r5, d7|Weaponsmithing|When you craft or improve a weapon, you may craft or improve an additional weapon|
+|Weapon Refinement|z5, d10|Weapon Improvement|You may add one duplicate of any improvement to weapons you improve|
+|Weapon Masterwork|N/A|Weapon Refinement|The maximum number of improvements on weapons you craft or improve is increased by `+1`|
 
 ### Armor Crafting
 Armor Crafting perks allow [crafting](/character/progression/skills/crafting.md) 
@@ -70,11 +73,12 @@ and improvements to [armor](/equipment/apparel/armor.md).
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|Armoring|d5, s5|N/A|You may craft armor|
-|Armor Improvement|i5, d5|Armoring|You may add improvements to armor|
-|Efficient Crafting|w5, i5|Armoring|When you improve armor, each material expenditure requirement is reduced by 1, if possible|
-|Rapid Crafting|r5, d7|Armoring|You may craft or improve an additional piece of armor|
-|Masterwork|z5, d10|Armor Improvement|You may add one duplicate improvement to armor you improve|
+|Armoring|d5, s5|N/A|**Downtime:** You may craft armor|
+|Armor Improvement|i5, d5|Armoring|**Downtime:** You may add improvements to armor|
+|Efficient Armor Crafting|w5, i5|Armoring|When you improve armor, each material expenditure requirement is reduced by 1, if possible|
+|Rapid Armor Crafting|r5, d7|Armoring|When you craft or improve armor, you may craft or improve an additional piece of armor|
+|Armor Refinement|z5, d10|Armor Improvement|You may add one duplicate of any improvement to armor you improve|
+|Armor Masterwork|N/A|Armor Refinement|The maximum number of improvements on armor you craft or improve is increased by `+1`|
 
 
 ## Scholarship
@@ -83,16 +87,16 @@ Arcane Research perks modify how a character learns [spells](spells.md).
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|Persistent Research|i5, r5|N/A|Downtime: When you [level-up](level-up.md) in a [town](towns.md) with a *Library* or an *Arcaneum*, you may learn a spell from a spellbook in your possession, even you have already learned a spell as part of leveling-up|
-|Spell Crafting|i7, d5|Spell Study|Whenever you could learn a spell, instead you may [spellcraft](spellcrafting.md).|
-|Arcane Theory|w5, i10|Spell Crafting|Treat all spells in all tomes within base contact as *known spells* for the purposes of [spellcrafting](spellcrafting.md)|
+|Spell Study|i5, r5|N/A|When you [level-up](level-up.md) in a [town](towns.md) with a *Library* or an *Arcaneum*, you may learn a spell from a tome or scroll in your possession instead of choosing a basic spell.|
+|Spell Crafting|i7, d5|Spell Study|**Downtime:** You may [spellcraft](spellcrafting.md).|
+|Arcane Theory|w5, i10|Spell Crafting|Treat all spells in all tomes and scrolls within base contact as *known spells* for the purposes of [spellcrafting](spellcrafting.md)|
 
 ### Lore Study
 Lore Study perks modify how a character learns and transmits general knowledge.
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|Study Time|w5, r5|N/A|You may [study lore](studying.md)|
-|Calligraphy|r5, d5|N/A|You may [inscribe](writing.md) folios & scrolls.|
-|Cartography|i5, d7|Calligraphy|You may [illustrate](writing.md) maps for remembered and reported locations|
+|Study Time|w5, r5|N/A|**Downtime:** You may [study lore](studying.md)|
+|Calligraphy|r5, d5|N/A|**Downtime:** You may [inscribe](writing.md) folios & scrolls|
+|Cartography|i5, d7|Calligraphy|**Downtime:** You may [map](writing.md) locations you have visited|
 

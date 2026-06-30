@@ -1,6 +1,12 @@
 
 # Spellcrafting
-Choose two spells that you already know and wish to combine. 
+Spellcrafting allows characters to create new spells by synthesizing two spells into a single effect.
+
+If a character can [spellcraft](/character/progression/perks.md), 
+they may craft one spell whenever they 
+[level-up](/character/progression/level-up.md) in a [town](/world/towns.md) with an *Arcaneum*.
+
+Choose two [spells](/magic/spells.md) that you already know and wish to combine. 
 Roll a `d10` to determine the outcome:
 
 |Roll|Outcome|
