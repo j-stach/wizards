@@ -1,0 +1,216 @@
+\documentclass[11pt,letterpaper]{article}
+
+%------------------------------------------------
+% Packages
+%------------------------------------------------
+\usepackage[margin=0.5in]{geometry}
+\usepackage{tikz}
+\usepackage{tcolorbox}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+%\usepackage{fontspec}      % XeLaTeX or LuaLaTeX
+%\setmainfont{TeX Gyre Pagella}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+%------------------------------------------------
+% Styles
+%------------------------------------------------
+
+\tcbset{
+    sheetbox/.style={
+        colback=white,
+        colframe=black,
+        boxrule=0.8pt,
+        arc=2mm,
+        left=3mm,
+        right=3mm,
+        top=2mm,
+        bottom=2mm
+    }
+}
+
+\newcommand{\field}[2]{
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\textbf{#1} & \hrulefill \\
+\end{tabularx}
+\vspace{0.5em}
+}
+
+%------------------------------------------------
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[sheetbox]
+
+\begin{tabularx}{\linewidth}{XXX}
+
+\textbf{Name}
+
+\vspace{1em}
+
+\rule{\linewidth}{0.4pt}
+
+&
+\textbf{Class}
+
+\vspace{1em}
+
+\rule{\linewidth}{0.4pt}
+
+&
+\textbf{Level}
+
+\vspace{1em}
+
+\rule{\linewidth}{0.4pt}
+
+\end{tabularx}
+
+\vspace{0.75em}
+
+\begin{tabularx}{\linewidth}{XXXX}
+
+Species &
+Background &
+Alignment &
+Experience
+
+\\
+
+\rule{\linewidth}{0.4pt} &
+\rule{\linewidth}{0.4pt} &
+\rule{\linewidth}{0.4pt} &
+\rule{\linewidth}{0.4pt}
+
+\end{tabularx}
+
+\end{tcolorbox}
+
+\vspace{0.3cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TWO COLUMN LAYOUT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{multicols}{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ATTRIBUTES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[sheetbox,title=Attributes]
+
+\begin{tabular}{|c|c|}
+\hline
+Strength & \\[1cm]\hline
+Dexterity & \\[1cm]\hline
+Constitution & \\[1cm]\hline
+Intelligence & \\[1cm]\hline
+Wisdom & \\[1cm]\hline
+Charisma & \\[1cm]\hline
+\end{tabular}
+
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COMBAT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[sheetbox,title=Combat]
+
+Armor Class
+
+\vspace{1cm}
+
+Initiative
+
+\vspace{1cm}
+
+Speed
+
+\vspace{1cm}
+
+Hit Points
+
+\vspace{1.5cm}
+
+Temporary HP
+
+\vspace{1cm}
+
+Hit Dice
+
+\vspace{1cm}
+
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[sheetbox,title=Skills]
+
+\begin{tabular}{ll}
+
+%\checkbox & Acrobatics\\
+%\checkbox & Arcana\\
+%\checkbox & Athletics\\
+%\checkbox & Deception\\
+%\checkbox & History\\
+%\checkbox & Insight\\
+%\checkbox & Investigation\\
+%\checkbox & Medicine\\
+%\checkbox & Nature\\
+%\checkbox & Perception\\
+%\checkbox & Performance\\
+%\checkbox & Persuasion\\
+%\checkbox & Religion\\
+%\checkbox & Sleight of Hand\\
+%\checkbox & Stealth\\
+%\checkbox & Survival\\
+
+\end{tabular}
+
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EQUIPMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[sheetbox,title=Equipment]
+
+\vspace{6cm}
+
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SPELLS / ABILITIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[sheetbox,title=Abilities]
+
+\vspace{8cm}
+
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NOTES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[sheetbox,title=Notes]
+
+\vspace{10cm}
+
+\end{tcolorbox}
+
+\end{multicols}
+
+\end{document}

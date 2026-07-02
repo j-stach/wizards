@@ -7,7 +7,7 @@ The goal of this system is to provide a gameplay experience that is easy to lear
 while providing mechanical depth that supports a wide variety of niche charater types.
 
 WIZARDS is named after its Character Attribute system, 
-which uses the memorable acronym [W.I.Z.A.R.D.S.](/rules/character/attributes.md). 
+which uses the memorable acronym [W.I.Z.A.R.D.S.](/rules/character/attributes.md) 
 
 
 ## Rolling Dice
