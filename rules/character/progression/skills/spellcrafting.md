@@ -2,11 +2,11 @@
 # Spellcrafting
 Spellcrafting allows characters to create new spells by synthesizing two spells into a single effect.
 
-If a character can [spellcraft](/character/progression/perks.md), 
+If a character can [spellcraft](/rules/character/progression/perks.md), 
 they may craft one spell whenever they 
-[level-up](/character/progression/level-up.md) in a [town](/world/towns.md) with an *Arcaneum*.
+[level-up](/rules/character/progression/level-up.md) in a [town](/rules/world/towns.md) with an *Arcaneum*.
 
-Choose two [spells](/magic/spells.md) that you already know and wish to combine. 
+Choose two [spells](/rules/magic/spells.md) that you already know and wish to combine. 
 Roll a `d10` to determine the outcome:
 
 |Roll|Outcome|

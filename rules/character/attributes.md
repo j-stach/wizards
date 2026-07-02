@@ -1,6 +1,6 @@
 
 # WIZARDS Attributes
-Each [character](/character/new_character.md) has a set of attributes 
+Each [character](/rules/character/new_character.md) has a set of attributes 
 to represent their overall capability and talent,
 which can be remembered using the acronym ***W.I.Z.A.R.D.S.***
 
@@ -15,9 +15,9 @@ which can be remembered using the acronym ***W.I.Z.A.R.D.S.***
 |***Strength***| `Sturdiness` `Raw muscular force` |
 
 #### Restrictions
-WIZARDS attributes are used to limit the action [abilities](/character/progression/abilities.md),
-passive [perks](/character/progression/perks.md),
-and [equipment](/equipment/equipment.md) available to the character,
+WIZARDS attributes are used to limit the action [abilities](/rules/character/progression/abilities.md),
+passive [perks](/rules/character/progression/perks.md),
+and [equipment](/rules/equipment/equipment.md) available to the character,
 representing the character's practical capacity to use the ability or object.
 
 #### Value range
@@ -27,7 +27,7 @@ cannot increase it above the maximum or decrease it below the minimum of this ra
 
 #### Modifiers
 Attributes also determine the default modifiers a character uses for 
-[Narrative rolls](/core/dice.md).
+[Narrative rolls](/rules/core/dice.md).
 These may be referred to as a character's "WIZARDS modifiers", 
 or individually as the character's "*Attribute* modifier" (e.g., "Zest modifier").
 

@@ -3,13 +3,13 @@
 Perks are passive effects that apply to your character at all times.
 Unless another perk is mentioned as a prerequisite, 
 a character only needs to meet the WIZARDS requirements 
-in order to add a Perk when they [level-up](/character/progression/level-up.md).
+in order to add a Perk when they [level-up](/rules/character/progression/level-up.md).
 
 
 # Combat Proficiency
 
 ## Weapon Proficiency
-Weapon proficiency perks modify rolls based on [weapon](/equipment/items/weapons.md) type.
+Weapon proficiency perks modify rolls based on [weapon](/rules/equipment/items/weapons.md) type.
 
 |Perk|WIZARDS|Effect|
 |----|-------|------|
@@ -32,7 +32,7 @@ Martial proficiency perks modify rolls based on weapon attack type.
 
 
 ## Spell Proficiency
-Spell proficiency perks modify rolls based on [spell](spells.md) behavior.
+Spell proficiency perks modify rolls based on [spell](/rules/magic/spells.md) behavior.
 
 |Perk|WIZARDS|Effect|
 |----|-------|------|
@@ -42,7 +42,7 @@ Spell proficiency perks modify rolls based on [spell](spells.md) behavior.
 
 
 ## Armor Proficiency
-Armor proficiency perks modify [armor](/equipment/apparel/armor.md) rules to mitigate downsides.
+Armor proficiency perks modify [armor](/rules/equipment/apparel/armor.md) rules to mitigate downsides.
 
 |Perk|WIZARDS|Effect|
 |----|-------|------|
@@ -55,8 +55,8 @@ Armor proficiency perks modify [armor](/equipment/apparel/armor.md) rules to mit
 
 ## Crafting
 ### Weapon Crafting
-Weapons Crafting perks allow [crafting](/character/progression/skills/crafting.md) 
-and improvements to [weapons](/equipment/items/weapons.md).
+Weapons Crafting perks allow [crafting](/rules/character/progression/skills/crafting.md) 
+and improvements to [weapons](/rules/equipment/items/weapons.md).
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
@@ -68,8 +68,8 @@ and improvements to [weapons](/equipment/items/weapons.md).
 |Weapon Masterwork|N/A|Weapon Refinement|The maximum number of improvements on weapons you craft or improve is increased by `+1`|
 
 ### Armor Crafting
-Armor Crafting perks allow [crafting](/character/progression/skills/crafting.md) 
-and improvements to [armor](/equipment/apparel/armor.md).
+Armor Crafting perks allow [crafting](/rules/character/progression/skills/crafting.md) 
+and improvements to [armor](/rules/equipment/apparel/armor.md).
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
@@ -83,20 +83,20 @@ and improvements to [armor](/equipment/apparel/armor.md).
 
 ## Scholarship
 ### Arcane Research
-Arcane Research perks modify how a character learns [spells](spells.md).
+Arcane Research perks modify how a character learns [spells](/rules/magic/spells.md).
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|Spell Study|i5, r5|N/A|When you [level-up](level-up.md) in a [town](towns.md) with a *Library* or an *Arcaneum*, you may learn a spell from a tome or scroll in your possession instead of choosing a basic spell.|
-|Spell Crafting|i7, d5|Spell Study|**Downtime:** You may [spellcraft](spellcrafting.md).|
-|Arcane Theory|w5, i10|Spell Crafting|Treat all spells in all tomes and scrolls within base contact as *known spells* for the purposes of [spellcrafting](spellcrafting.md)|
+|Spell Study|i5, r5|N/A|When you [level-up](/rules/character/progression/level-up.md) in a [town](/rules/world/towns.md) with a *Library* or an *Arcaneum*, you may learn a spell from a tome or scroll in your possession instead of choosing a basic spell.|
+|Spell Crafting|i7, d5|Spell Study|**Downtime:** You may [spellcraft](/rules/character/progession/skills/spellcrafting.md).|
+|Arcane Theory|w5, i10|Spell Crafting|Treat all spells in all tomes and scrolls within base contact as *known spells* for the purposes of [spellcrafting](/rules/character/progression/skills/spellcrafting.md)|
 
 ### Lore Study
 Lore Study perks modify how a character learns and transmits general knowledge.
 
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|Study Time|w5, r5|N/A|**Downtime:** You may [study lore](studying.md)|
-|Calligraphy|r5, d5|N/A|**Downtime:** You may [inscribe](writing.md) folios & scrolls|
-|Cartography|i5, d7|Calligraphy|**Downtime:** You may [map](writing.md) locations you have visited|
+|Study Time|w5, r5|N/A|**Downtime:** You may [study lore](/rules/character/progression/skills/studying.md)|
+|Calligraphy|r5, d5|N/A|**Downtime:** You may [inscribe](/rules/character/progression/skills/writing.md) folios & scrolls|
+|Cartography|i5, d7|Calligraphy|**Downtime:** You may [map](/rules/character/progression/skills/writing.md) locations you have visited|
 

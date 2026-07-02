@@ -1,10 +1,10 @@
 
 # Character Abilities
-Abilities provide an Action that the Character may use on their turn during [combat](/core/combat.md).
+Abilities provide an Action that the Character may use on their turn during [combat](/rules/core/combat.md).
 
 Additional abilities may added that are specific to a campaign/setting, 
 but the **Core** and **Basic** abilities below 
-(and those in the archetypal [classes](/character/progression/classes/))
+(and those in the archetypal [classes](/rules/character/progression/classes/))
 can be taken in any campaign.
 
 -----
@@ -41,7 +41,7 @@ Basic abilities can be taken by any character who meets the WIZARDS requirements
 |Intervene |w5, s5|1"| Reaction only. If an ability targets an ally within `1"`, you may have that ability target you instead.|
 |Analyze |i5|6"| Choose a target character or object and roll `d10`: On a `10+`, gain `+1` to all rolls against the target for `d10` turns.|
 |Predict |i5|Self| Gain an additional reaction until the start of your next turn.| 
-|Distract |i5, z5|1"| Target enemy within `1"` cannot use reactions against your allies until the start of your next turn. Trigger [Flanking](/core/combat.md) as if dealing damage.|
+|Distract |i5, z5|1"| Target enemy within `1"` cannot use reactions against your allies until the start of your next turn. Trigger [Flanking](/rules/core/combat.md) as if dealing damage.|
 |Disengage |i5, a5|Base| Enemies within base contact cannot use reactions against you until the start of your next turn.|
 |Persist |i5, r5|Self| If your previous action was not an attack or movement action, repeat it.|
 |Repair |i5, d5|Base| Roll `d10`: On a `10+`, a *broken* object becomes usable. This action is repeatable.|

@@ -23,9 +23,9 @@ the team whose turn it is resolves their triggered effects first, in any order t
 followed by the remaining teams in turn order.
 
 Each round, when it is a character's turn, 
-they may make 3 [Actions](/character/progression/abilities.md).
+they may make 3 [Actions](/rules/character/progression/abilities.md).
 
-At any point in a round, a character may use a *Reaction* [ability](/character/progression/abilities.md)
+At any point in a round, a character may use a *Reaction* [ability](/rules/character/progression/abilities.md)
 if the conditions for that ability are met, but they may only use one Reaction each round.
 
 Once a character uses an ability, it cannot be used again until the beginning of their next turn.
@@ -35,14 +35,14 @@ Once a character uses an ability, it cannot be used again until the beginning of
 Common combat actions that will be used by most characters---
 
 ### Attack
-[Weapons](/equipment/items/weapons.md)
-and some [abilities](/character/progression/abilities.md) 
+[Weapons](/rules/equipment/items/weapons.md)
+and some [abilities](/rules/character/progression/abilities.md) 
 can **Attack** an enemy target as part of their effect.
 
 To make an Attack:
 1. Select an eligible target in range of the attack ability
-2. [Clash](/core/dice.md) against the enemy's defenses
-3. If victorious in the clash, roll to deal [Damage](/core/dice.md)
+2. [Clash](/rules/core/dice.md) against the enemy's defenses
+3. If victorious in the clash, roll to deal [Damage](/rules/core/dice.md)
 
 ### Grapple
 Grapple is a primitive action that is available to all characters and creatures. 
@@ -51,7 +51,7 @@ To Grapple, a character must:
 - be in base contact with the defending character
 - have both hands free, or be equipped or mounted by the defending character
 
-If the defending character is [Similar-size](/core/measurement.md) or Smaller:
+If the defending character is [Similar-size](/rules/core/measurement.md) or Smaller:
 1. The characters Clash (d6), with the aggressor adding their Strength modifier, 
 and the defender adding either Agility or Strength modifier.
 2. If the aggressor wins:
@@ -70,7 +70,7 @@ and the defender adding either Agility or Strength modifier.
 If a character wins a grapple while mounted, they become unmounted.
 
 ### Move
-When a character takes the [core action](/charcter/progression/abilities.md) **Move**, 
+When a character takes the [core action](/rules/charcter/progression/abilities.md) **Move**, 
 they must designate a movement *Path* up to the length of their movement distance.
 
 If the Path would intersect with the base of a Hostile character, 
@@ -88,14 +88,14 @@ but ending movement on a vertical surface will place the Character at the foot o
 ### Reflex
 When a Hostile character ends a Move action in base contact, 
 the confronted character may use their Reaction to make a normal action 
-as though they had used the [core action](/charcter/progression/abilities.md) **Prepare** for that ability.
+as though they had used the [core action](/rules/charcter/progression/abilities.md) **Prepare** for that ability.
 
 
 ## Combat Tactics
 Battlefield positioning can have beneficial effects.
 
 ### Formation
-[Similarly-sized](/core/measurement.md) Characters contiguously within 1" are considered to be in a *Group*.
+[Similarly-sized](/rules/core/measurement.md) Characters contiguously within 1" are considered to be in a *Group*.
 
 If all Characters in a Group would make identical projectile attack rolls 
 against another Group within common range, you may instead:

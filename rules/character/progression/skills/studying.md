@@ -2,9 +2,9 @@
 # Studying
 Studying lore allows players to safely gain knowledge about the world.
 
-If a character can [study lore](/character/progression/perks.md), 
-they may choose one of the effects below whenever they [level-up](/character/progression/level-up.md) 
-in a [town](/world/towns.md) with a *Library*.
+If a character can [study lore](/rules/character/progression/perks.md), 
+they may choose one of the effects below whenever they [level-up](/rules/character/progression/level-up.md) 
+in a [town](/rules/world/towns.md) with a *Library*.
 
 |Name|Effect|
 |----|------|

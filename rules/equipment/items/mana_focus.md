@@ -1,6 +1,6 @@
 
 # Mana Focus
-A character equipped with a mana focus may spend mana to cast [spells](/magic/spells.md).
+A character equipped with a mana focus may spend mana to cast [spells](/rules/magic/spells.md).
 
 **Range** limits the maximum range for spells cast using the focus.
 If the range is "N/A", the spell is only limited by its own range.

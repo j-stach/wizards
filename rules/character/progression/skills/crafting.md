@@ -1,11 +1,11 @@
 
 # Crafting
-Crafting skill allows characters to *create* or *improve* [weapons](/equipment/items/weapons.md) 
-and [armor](/equipment/apparel/armor.md).
+Crafting skill allows characters to *create* or *improve* [weapons](/rules/equipment/items/weapons.md) 
+and [armor](/rules/equipment/apparel/armor.md).
 
 If a character can craft weapons and armor, 
 they may craft or improve *one* weapon or armor piece whenever they 
-[level-up](/character/progression/level-up.md) in a [town](/world/towns.md) with a *Workshop*.
+[level-up](/rules/character/progression/level-up.md) in a [town](/rules/world/towns.md) with a *Workshop*.
 
 ### Crafting Cost
 When you create or improve a weapon, you must expend a number of metal ingots:

@@ -1,6 +1,6 @@
 
 # Standard Potions 
-"Charges" refers to the number of charges that can fit in a [Flask](/equipment/items/standard.md).
+"Charges" refers to the number of charges that can fit in a [Flask](/rules/equipment/items/standard.md).
 
 ## Potions
 |Name|Charges|Effect|

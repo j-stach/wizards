@@ -4,7 +4,7 @@
 ## Liquid Measurement
 |Name|Storage Class|# Hands|Description|
 |----|-------------|-------|-----------|
-|Flask|Small|1|Vessel for [potions](/equipment/items/potions.md). 
+|Flask|Small|1|Vessel for [potions](/rules/equipment/items/potions.md). 
 Can only contain one kind of potion at a time. 
 As an action, you may consume 1 charge from an equipped flask to activate the potion's effect.|
 |Bottle|Medium|1|Vessel for potions. Can only contain one kind of potion at a time. 
@@ -17,7 +17,7 @@ As an action, you may consume 1 charge from an equipped jug to activate the poti
 ## Nestable Storage
 |Name|Storage Class|# Hands|Description|
 |----|-------------|-------|-----------|
-|Pouch|Small|1|Nestable [storage](/equipment/apparel/storage.md) for 33 Tiny items.|
+|Pouch|Small|1|Nestable [storage](/rules/equipment/apparel/storage.md) for 33 Tiny items.|
 |Bag|Medium|1|Nestable storage for 3 Small items.|
 |Sack|Large|2|Nestable storage for 3 Medium items.|
 

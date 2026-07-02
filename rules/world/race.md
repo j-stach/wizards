@@ -42,7 +42,7 @@ To create a character with a hybrid race:
 - Use the average of the Ancestral Races' racial attribute modifiers, rounding down.
 - Start without access to racial traits.
 
-Whenever a character with a hybrid race is able to [level-up](/character/progression/level-up.md), 
+Whenever a character with a hybrid race is able to [level-up](/rules/character/progression/level-up.md), 
 they may instead "unlock" a racial trait from one of their Ancestral Races.
 The traits from each race must be unlocked in the order they are listed. <br>
 

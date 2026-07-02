@@ -1,6 +1,6 @@
 
 # Elemental System
-Some [spells](/magic/spells.md) and [abilities](/character/pregression/abilities.md)
+Some [spells](/rules/magic/spells.md) and [abilities](/rules/character/pregression/abilities.md)
 may require the user to choose an *Element* as part of its effect.
 
 Each Element modifies the selected ability in a way that reflects the physical phenomenon it represents.

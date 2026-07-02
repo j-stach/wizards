@@ -1,6 +1,6 @@
 
 # Spells
-Characters must equip a [mana focus](/equipment/items/mana_focus.md) (e.g., wand, staff) to cast spells.
+Characters must equip a [mana focus](/rules/equipment/items/mana_focus.md) (e.g., wand, staff) to cast spells.
 
 ## Basic Spells
 These spells can be taken by any character.
