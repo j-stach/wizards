@@ -8,7 +8,7 @@ The *Warrior* relies on weapon mastery and combat awareness to excel in close-qu
 ### Brawler
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|Brawler|d7|N/A|Gain advantage on **Clash** rolls for *Grapple* and *Struggle* actions you make if you have not yet moved this turn|
+|Brawler|d7|N/A|Gain advantage on **Clash** rolls for *Grapple* actions you make if you have not yet moved this turn|
 |TODO | | | |
 |TODO | | | |
 

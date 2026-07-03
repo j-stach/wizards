@@ -21,7 +21,6 @@ can be taken in any campaign.
 |Move |Self| Move your character up to the maximum move distance. If the path of movement would cross *hazardous terrain*, roll for Outcome on that terrain.|
 |Use |Self| Use an ability of an equipped item.|
 |Prepare |Self| Choose an action ability you have not used this turn. Until your next turn, or if you use that ability as an action, you may use that ability as a reaction instead.|
-|Struggle |Self| If you are *arrested*, clash (d6) with target *arrestor*. If you win, you are no longer arrested by that unit.|
 
 -----
 

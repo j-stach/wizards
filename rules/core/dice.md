@@ -61,6 +61,8 @@ Otherwise, the defender saves their character. (Tie goes to the defender.)
 
 
 ## Damage (d4, d8, d12)
+A *Damage roll* is always made by the player who controls the source of the damage.
+
 Damage classes are standardized as *Light* `d4`, *Normal* `d8`, and *Heavy* `d12` damage.
 
 A damaging ability or effect will specify the damage class and any type keywords associated with the damage,
@@ -72,8 +74,6 @@ An example of this would be a poisoned dagger that produces weapon damage from a
 and further damage from poison -- these are rolled separately, as the poison is its own effect.
 Contrast this with an ogre's spiked club, which may deal Heavy damage from the club, 
 combined with multiple instances of Light damage from the spikes -- these are resolved in the same roll.*)
-
-A *Damage roll* is always made by the player who controls the source of the damage.
 
 
 ## Table/Outcome (d10, d100)
@@ -91,14 +91,14 @@ otherwise rolls are assumed to be singular and specific to the value rolled.
 
 
 ## Story (d20)
-The *Story roll* is functionally a request for the Dicemaster to allow the character to act 
+A *Story roll* is functionally a request for the Dicemaster to allow the character to act 
 outside of their explicit skills and abilities, in service of the plot.
 
 When a player describes the character's intended actions and outcome,
 the DM considers the difficulty of the attempted action in the context of the situation,
 then considers the suitability of the character's action to success in the intended outcome.
 
-Based on these considerations, the DM may arbitrarily assign a threshold(s) for the Story roll to meet.
+Based on these considerations, the DM may arbitrarily assign a threshold for the Story roll to meet.
 Thresholds may be disclosed at the DM's discretion, 
 and may cover any variety of outcomes along a spectrum of failure and success.
 

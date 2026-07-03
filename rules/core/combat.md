@@ -31,8 +31,8 @@ if the conditions for that ability are met, but they may only use one Reaction e
 Once a character uses an ability, it cannot be used again until the beginning of their next turn.
 
 
-## Combat Actions
-Common combat actions that will be used by most characters---
+## Combat Mechanics
+Common combat mechanics that will be used by most characters:
 
 ### Attack
 [Weapons](/rules/equipment/items/weapons.md)
@@ -47,34 +47,31 @@ To make an Attack:
 ### Grapple
 Grapple is a primitive action that is available to all characters and creatures. 
 
-To Grapple, a character must:
-- be in base contact with the defending character
-- have both hands free, or be equipped or mounted by the defending character
+To Grapple, the aggressor character must be in base contact with the defending character.
 
 If the defending character is [Similar-size](/rules/core/measurement.md) or Smaller:
 1. The characters Clash (d6), with the aggressor adding their Strength modifier, 
-and the defender adding either Agility or Strength modifier.
+and the defender adding either their Agility or Strength modifier.
 2. If the aggressor wins:
-- Aggressor equips the defender as an unwieldy 2-handed item
+- Aggressor may equip the defender as an unwieldy 2-handed item
 - Aggressor's move distance becomes 1"
-- While equipped, the defender can only use the Grapple action 
-If a character wins a grapple while equipped, they become unequipped.
 
 If the defending character is Larger:
 1. The characters Clash (d6), 
-with the aggressor adding their Agility or Strength modifier but losing Advantage, 
-and the defender adding either Agility or Strength modifier.
+with the aggressor adding either their Agility or Strength modifier but losing Advantage, 
+and the defender adding either their Agility or Strength modifier.
 2. If the aggressor wins:
-- Aggressor mounts the defender as an unruly (uncontrollable) steed
-- While mounted, the defender can only use the Grapple action 
-If a character wins a grapple while mounted, they become unmounted.
+- Aggressor may mount the defender as an unruly (uncontrollable) steed
+
+If a character wins a grapple while equipped or mounted by the defending character, 
+they become unequipped or unmounted by the defender.
 
 ### Move
-When a character takes the [core action](/rules/charcter/progression/abilities.md) **Move**, 
+When a character uses the [core action](/rules/charcter/progression/abilities.md) **Move**, 
 they must designate a movement *Path* up to the length of their movement distance.
 
 If the Path would intersect with the base of a Hostile character, 
-that character may use their Reflex reaction to intercept.
+that character may use their **Reflex** reaction to intercept.
 If the intercepting character deals Damage to the moving character, 
 the movement is halted in base contact,
 otherwise the movement continues.
