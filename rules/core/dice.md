@@ -8,11 +8,10 @@ A dice *Roll* is typically one die, but may involve multiple dice of various typ
 ## Modifiers
 Modifiers may be added to increase the final result of a roll.
 
-General modifiers (e.g., "+1 to all rolls") are rare; 
+(**Designer's Note:** *General modifiers (e.g., "+1 to all rolls") are rare; 
 most modifiers impose a restriction on the type of die, skill, or situation for the roll.
-
-*For example, "+1 to Clash rolls with Bladed weapons" is a modifier that would only be applied
-when the character is rolling a **d6** to resolve an action that uses their equipped Bladed weapon.*
+For example, "+1 to Clash rolls with Bladed weapons" is a modifier that would only be applied
+when the character is rolling a **d6** to resolve an action that uses their equipped Bladed weapon.*)
 
 
 ## Advantage
@@ -51,28 +50,28 @@ In WIZARDS, each type of die has a designated role (pun intended).
 ## Clash (d6)
 The *Clash roll* is used when a character ability requires players to perform a contested roll.
 
-1. The player controlling the ability rolls **d6** first. 
-If they roll a 6, they automatically succeed, and the defender does not get a saving roll.
+1. The player controlling the ability rolls `d6` first. 
+If they roll a `6`, they automatically succeed, and the defender does not get a saving roll.
 Otherwise, add the character's Clash modifiers to the roll.
-2. Next, the player whose character is targeted by the ability rolls **d6**.
-If they roll a 6, they automatically save, regardless of modifiers.
+2. Next, the player whose character is targeted by the ability rolls `d6`.
+If they roll a `6`, they automatically save, regardless of modifiers.
 Otherwise, add the character's Clash Save modifiers to the roll.
 3. If the attacker's roll is greater than the defender's roll, they succeed.
 Otherwise, the defender saves their character. (Tie goes to the defender.)
 
 
 ## Damage (d4, d8, d12)
-Damage classes are standardized as *Light* **(d4)**, *Normal* **(d8)**, and *Heavy* **(d12)** damage.
+Damage classes are standardized as *Light* `d4`, *Normal* `d8`, and *Heavy* `d12` damage.
 
 A damaging ability or effect will specify the damage class and any type keywords associated with the damage,
 and may deal more than one type or class of damage.
 All damage die produced by a given effect are rolled simultaneously, as a single roll. 
 
-(**Note:** Some abilities may have more than one effect, in which case damage is calculated separately.
+(**Designer's Note:** *Some abilities may have more than one effect, in which case damage is calculated separately.
 An example of this would be a poisoned dagger that produces weapon damage from an attack, 
 and further damage from poison -- these are rolled separately, as the poison is its own effect.
 Contrast this with an ogre's spiked club, which may deal Heavy damage from the club, 
-combined with multiple instances of Light damage from the spikes -- these are resolved in the same roll.)
+combined with multiple instances of Light damage from the spikes -- these are resolved in the same roll.*)
 
 A *Damage roll* is always made by the player who controls the source of the damage.
 
@@ -83,7 +82,7 @@ A *Table roll* is used to choose from a table of predetermined possibilities.
 This may represent the result of an effect, such as from a character ability or terrain hazard,
 or it may represent the outcome of a character action, such as studying a particular artifact.
 
-The **d10** is used for simple tables with limited outcomes, whereas **d100** may be used for longer lists,
+The `d10` is used for simple tables with limited outcomes, whereas `d100` may be used for longer lists,
 distributions of outcome probability, and other percentile calculations of outcome.
 
 If a Table roll is cumulative, then the character receives the effects of all values less than their roll.
@@ -106,5 +105,5 @@ and may cover any variety of outcomes along a spectrum of failure and success.
 The DM may also arbitrarily assign an Action cost to perform the Story action.
 
 If the terms are acceptable to the DM and to the player, 
-the player may roll a **d20** to determine the outcome of the character's unique action.
+the player may roll a `d20` to determine the outcome of the character's unique action.
 
