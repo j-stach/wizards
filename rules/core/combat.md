@@ -68,9 +68,9 @@ they become unequipped or unmounted by the defender.
 
 ### Move
 When a character uses the [core action](/rules/charcter/progression/abilities.md) **Move**, 
-they must designate a movement *Path* up to the length of their movement distance.
+they must designate a *Movement Path* that is up to the length of their movement distance.
 
-If the Path would intersect with the base of a Hostile character, 
+If the Path would intersect within base contact to a Hostile character, 
 that character may use their **Reflex** reaction to intercept.
 If the intercepting character deals Damage to the moving character, 
 the movement is halted in base contact,

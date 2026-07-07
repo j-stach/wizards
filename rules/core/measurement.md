@@ -24,9 +24,10 @@ Character/creature size classes:
 |Tiny| Bug, Rodent, Pixie |
 |Small| Cat, Dog, Gnome |
 |Normal| Dwarf, Human, Wolf |
-|Large| Horse, Ogre, Giant, Automobile |
-|Enormous| Elephant, Wyvern, House, Kraken|
-|Titanic| Leviathan, Elder Dragon, Kaiju|
+|Large| Horse, Ogre, Automobile, Elephant |
+|Enormous| Wyvern, House, Giant|
+|Colossal| Kraken, Dragon, Commercial Jet |
+|Titanic| Leviathan, Elder Dragon, Kaiju |
 
 
 
