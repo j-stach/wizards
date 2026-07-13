@@ -2,11 +2,15 @@
 # Rolling Dice
 Players resolve the effects of character actions by rolling dice.
 
-A dice *Roll* is typically one die, but may involve multiple dice of various types in a *Pool*.
+A *Roll* is typically one die, but may involve multiple dice of the same or various types in a *Dice Pool*.
+
+
+## Natural Result
+The *Natural Result* of a die roll is the value shown by the die after it settles.
 
 
 ## Modifiers
-Modifiers may be added to increase the final result of a roll.
+Modifiers may be added to the Natural Result to increase or decrease the final result of a roll.
 
 (**Designer's Note:** *General modifiers (e.g., "+1 to all rolls") are rare; 
 most modifiers impose a restriction on the type of die, skill, or situation for the roll.
@@ -39,6 +43,13 @@ If an effect would trigger as a result of the original roll, it is negated,
 and the triggering ability is evaluated for the new roll instead.
 
 Re-roll can be stacked, making it a powerful mechanic that should be granted sparingly.
+
+
+## Critical Roll
+A *Critical Roll* occurs when at least one die in a pool has a Natural Result that is the highest possible 
+value for that type of die (e.g., a `6` on a `d6`, or a `12` on a `d12`).
+Abilities or effects that trigger on a critical roll trigger once for each die in the pool that results
+in the highest value.
 
 
 -----
@@ -74,6 +85,10 @@ An example of this would be a poisoned dagger that produces weapon damage from a
 and further damage from poison -- these are rolled separately, as the poison is its own effect.
 Contrast this with an ogre's spiked club, which may deal Heavy damage from the club, 
 combined with multiple instances of Light damage from the spikes -- these are resolved in the same roll.*)
+
+When dealing damage, identify the [reservoir](TODO.md) (e.g., Life or Mana) that is targeted by the damaging ability, 
+then subtract the final result of the roll from that reservoir.
+Unless otherwise specified, damage is assumed to target a character's Life reservoir.
 
 
 ## Table/Outcome (d10, d100)

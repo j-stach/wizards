@@ -1,41 +1,60 @@
 
 # Towns
-TODO
-- "Town" refers to settlements of all sizes
-- Towns have locations
-- Towns have factions
-- Locations may also have factions
-- Factions may overlap in territory within town
+For the purposes of these rules, *Town* refers to inhabited settlements of all sizes, 
+from small hamlets and isolated strongholds to sprawling metropolises.
+
+Towns may contain sub-locations that are roughly categorized as *Civics*, *Lodging*, *Amenities*, and *Shops*.
+
+Towns and their individual locations are generally controlled by at least one [faction](/rules/world/factions.md),
+and access may be restricted individually or as a whole according to the loyalty a character has with that faction.
 
 
 ## Civics
-TODO
-- e.g. mayor's manor, town hall, citadel, barracks, armory, guard posts & checkpoints, walls
+*Civics* locations provide the necessary functions of civilization in a town, 
+and are generally controlled by the town's dominant faction. 
+These include places such as the mayor's manor or governor's palace, the town hall, a courthouse, a jail, 
+and a citadel or barracks with an armory.
+
+These locations may also be used to divide the town into *districts*, 
+allowing further faction-driven compartmentalization and control of the town,
+with locations such as walls and gates, and guard posts or checkpoints.
+
+Civics locations, therefore, primarily serve a plot and roleplaying function, 
+rather than providing any unique gameplay mechanic such as found at the other kinds of location.
 
 
 ## Lodging
-TODO
-- Lodging is required to level-up in a town
-- Inns, purchaseable properties
-- Stables, Harbors
+*Lodging* refers to any shelter where a character can find a [long rest](TODO.md).
+For example, lodging may be rented at an inn, charitably hosted by hospitable NPCs or factions, 
+or purchased from the town to become character-owned properties.
+
+Characters must secure lodging in order to [level-up](/rules/character/progression/level-up.md) in a town. 
+
+(**Designer's Note:** *This requirement enables the level-up mechanic to represent the process of comfortably recuperating, 
+reflecting on the lessons learned from previous missions, then internalizing those lessons as new growth and development.*)
 
 
 ## Amenities
-Certain passive abilities (skills) may be triggered when you [level-up](/rules/character/progression/level-up.md) in a town that provides a compatible amenity:
+Certain passive abilities (i.e., [skills](/rules/character/progression/skills)) may be triggered when you 
+[level-up](/rules/character/progression/level-up.md) in a town that provides a compatible *amenity*:
 
 |Amenity|Associated Skill(s)|
 |-------|-------|
-|Workshop|[Crafting](/rules/character/progression/skills/crafting.md) weapons & armor|
+|Workshop|[Crafting](/rules/character/progression/skills/crafting.md) weapons and armor|
 |Library|[Studying](/rules/character/progression/skills/studying.md) and [writing](/rules/character/progression/skills/writing.md)|
-|Apothecary|Analyzing materials & crafting [potions](/rules/equipment/items/potions.md)|
+|Laboratory|Analyzing materials & crafting [potions](/rules/equipment/items/potions.md)|
 |Arcaneum|[Spellcrafting](/rules/character/progression/skills/spellcrafting.md) and [enchantment](TODO.md)|
-|Hospital|Healing [wounds](TODO.md) & [afflictions](TODO.md)|
+|Hospital|[Healing](TODO.md) [wounds](TODO.md) & [afflictions](TODO.md)|
 |Temple|Prayer and [blessings](TODO.md)|
 
 
 ## Shops
-TODO
-- Thematic shops sell adventuring items 
+*Shops* are locations which provide [equipment](/rules/equipment/equipment.md) for sale or trade, 
+allowing characters to acquire new gear in exchange for [currency](/rules/world/currency.md), 
+rather than creating it from scratch.
+
+Shops may be either general or thematic, the latter of which often exist parallel to amenities, 
+integrated together into a single location.
 
 
 
