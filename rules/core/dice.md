@@ -48,7 +48,7 @@ Re-roll can be stacked, making it a powerful mechanic that should be granted spa
 ## Critical Roll
 A *Critical Roll* occurs when at least one die in a pool has a Natural Result that is the highest possible 
 value for that type of die (e.g., a `6` on a `d6`, or a `12` on a `d12`).
-Abilities or effects that trigger on a critical roll trigger once for each die in the pool that results
+Abilities or effects that trigger on a Critical Roll trigger once for each die in the pool that results
 in the highest value.
 
 
