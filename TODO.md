@@ -1,56 +1,66 @@
 
 # Notes:
-"Cruel" mode instead of "hardcore"
-
-Action - Combat action
-Task - Adventure action (e.g. investigate, ritual)
-
-"Classes" (specialized perk/skill/ability trees) and "multiclassing"
-
-Active, passive, triggered abilities
-
-enemies - weak/strong, slow/fast, "hero" gets action & HP bonus 
-
-religion & afterlife - eg paradise, valhalla, the void
-
-religious blessings and buffs
-
-currency
-
-resilience save when damage reduces health below 5? 
-
-restoration passive perk,
-restoration keywords: restore (up to max) vs. gain (can go above max)
-
-loyalty & allegiance gets rescaled for Zest abilities and factions
-
- Model
-WYSIWYG
-
-**Optional:** *For a more "hardcore" gameplay experience, consider retiring the models of characters 
-that have been removed from the campaign.*
 
 balanced mechanics easy to customize for campaign
 
-Foraging, survival, herbalism, apothecary
+Discrete actions:
+- Action - Combat action
+- Task - Adventure action (e.g. investigate, ritual)
 
-Adventuring basics: 
-- Short (1 Night) vs. Long (Extended/Downtime) rest
+Make note on "Classes" (specialized perk/skill/ability trees) and "multiclassing"
 
-Alchemy/apothecary -- downtime for potions/poisons
+Active, passive, triggered abilities
+
+restoration passive perk,
+restoration keywords: restore (up to max) vs. gain (can go above max),
+
+Prepared characters: to replace dead characters
+
+
+## TODO
+
+Keywords allow effects to trigger from other effects and abilities
+
+religion:
+- afterlife - eg paradise, valhalla, the void
+- blessings and buffs
+- unique mechanics available to clerics
+
+World:
+- currency
+- languages 
+- loyalty & allegiance gets rescaled for Zest abilities and factions
+
+unconsciousness: resilience save when damage reduces health below 5? 
 
 Skill (downtime) for advanced healing (wounds & afflictions)
 
-languages in world
+Hardcore/cruel:
+- "Cruel" mode instead of "hardcore"
+- Model WYSIWYG
+- For a more "hardcore" gameplay experience, consider retiring the models of characters 
+that have been removed from the campaign.
 
-enchantment
+Adventuring basics: 
+- Short (1 Night) vs. Long (Extended/Downtime) rest
+- Foraging, survival, herbalism, apothecary
 
-|Persistent Research|i5, r5|N/A|Downtime: When you [level-up](level-up.md) in a [town](towns.md) with a *Library* or an *Arcaneum*, you may learn a spell from a tome or scroll in your possession, even you have already learned a spell as part of leveling-up|
-|Spell Crafting|i7, d5|Spell Study|Whenever you could learn a spell, instead you may [spellcraft](spellcrafting.md).|
+Crafting:
+- Alchemy/apothecary -- downtime for potions/poisons
+- enchantment
 
-wounds & afflictions - persistent debuffs
+Persistent effects:
+- status, eg prone, restrained
+- wounds & afflictions - persistent debuffs
 
-status, eg prone, restrained
+Roles:
+- Player
+- Dicemaster
+- Rules master
+
+Cursed items:
+- Cursed items cannot be removed once equipped, or have a penalty when unequipped
+- Choose one type of die. You gain advantage on this die type and lose advantage on all others
 
 
 # TODO 
