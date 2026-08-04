@@ -1,0 +1,49 @@
+
+\NeedsTeXFormat{LaTeX2e}
+
+\ProvidesExplPackage
+  {background}
+  {2026/08/04}
+  {0.1.0}
+  {Page background styling for WIZARDS}
+
+\ExplSyntaxOn
+
+\RequirePackage{tikz}
+\RequirePackage{graphicx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page background
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NewDocumentCommand{\PageBackground}{}
+{
+  \begin{tikzpicture}
+    [
+      remember picture,
+      overlay
+    ]
+    \node[
+      inner sep=0pt
+    ]
+    at (current page.center)
+    {
+      \includegraphics[
+        width=\paperwidth,
+        height=\paperheight
+      ]{assets/paper}
+    };
+  \end{tikzpicture}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Apply background to every page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AddToHook{shipout/background}
+{
+  \PageBackground
+}
+
+\ExplSyntaxOff
