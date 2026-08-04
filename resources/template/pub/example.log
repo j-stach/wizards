@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.11)  4 AUG 2026 19:04
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.11)  4 AUG 2026 19:07
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -542,6 +542,12 @@ LaTeX Warning: You have requested package `styles/theme/background',
                but the package provides `background'.
 
 Package: background 2026/08/04 v0.1.0 Page background styling for WIZARDS
+) (./styles/theme/colors.sty
+
+LaTeX Warning: You have requested package `styles/theme/colors',
+               but the package provides `colors'.
+
+Package: colors 2026/08/04 v0.1.0 Color palette for WIZARDS
 ) (./styles/theme/fonts.sty
 
 LaTeX Warning: You have requested package `styles/theme/fonts',
@@ -1682,14 +1688,14 @@ L3 programming layer <2026-01-19>
 )
 
 Here is how much of LuaTeX's memory you used:
- 28378 strings out of 476076
+ 28408 strings out of 476076
  125240,1373583 words of node,token memory allocated
  596 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 73 glue_spec,
  7 attribute_list, 2 write nodes
    avail lists: 2:176,3:61,4:12,5:49,6:16,7:168,9:128,11:2
- 50136 multiletter control sequences out of 65536+600000
- 61 fonts using 13263203 bytes
+ 50160 multiletter control sequences out of 65536+600000
+ 61 fonts using 13263091 bytes
  159i,11n,157p,1003b,2768s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/kpfonts-otf/KpRoman-Regular.otf>
 Output written on example.pdf (2 pages, 1618993 bytes).
