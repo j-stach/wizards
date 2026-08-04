@@ -9,7 +9,7 @@ The *Ranger* uses projectile attacks and mobility to fight at a distance.
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
 |Sharpshooter|d7|N/A|Gain advantage on **Clash** rolls for projectile attacks if you have not yet moved this turn|
-|Sniper|N/A|Sharpshooter, Conceal|When you make your first projectile Attack action in a turn, if you used `Conceal` this turn, gain a re-roll for **all** rolls made as part of that attack|
+|Sniper|N/A|Sharpshooter, Analyze|When you make your first projectile Attack action in a turn, if you used `Analyze` this turn, gain a re-roll for **all** rolls made as part of that attack|
 |Full Send|N/A|Sharpshooter, Leverage|Projectile attacks that are affected by `Leverage` are not affected by "Half-range" restrictions and may be used at the full weapon range|
 
 ### Strider
@@ -32,8 +32,8 @@ The *Ranger* uses projectile attacks and mobility to fight at a distance.
 ### Strider
 |Name|WIZARDS|Prerequisites|Range|Effect|
 |----|-------|-------------|-----|------|
-|TODO | | | | |
-|TODO | | | | |
-|TODO | | | | |
+|TODO | |Strider| | |
+|TODO | |Strider| | |
+|TODO | |Strider| | |
 
 

@@ -62,6 +62,8 @@ Cursed items:
 - Cursed items cannot be removed once equipped, or have a penalty when unequipped
 - Choose one type of die. You gain advantage on this die type and lose advantage on all others
 
+Adventuring items:
+- Lockpick set (roll outcome to replace key when using `Interact` with a lock)
 
 # TODO 
 

@@ -8,16 +8,16 @@ The *Warrior* relies on weapon mastery and combat awareness to excel in close-qu
 ### Brawler
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|Brawler|d7|N/A|Gain advantage on **Clash** rolls for *Grapple* actions you make if you have not yet moved this turn|
-|TODO | | | |
-|TODO | | | |
+|Brawler|s7|N/A|Gain advantage on **Clash** rolls for *Grapple* actions you make if you have not yet moved this turn|
+|TODO |N/A|Brawler, Slam| |
+|TODO |N/A|Brawler, Brace| |
 
-### TODO
+### Duelist
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|TODO | | | |
-|TODO | | | |
-|TODO | | | |
+|Duelist|d7|N/A| |
+|TODO |N/A|Duelist, Predict| |
+|TODO |N/A|Duelist, Flourish| |
 
 
 ## Abilities
@@ -25,14 +25,14 @@ The *Warrior* relies on weapon mastery and combat awareness to excel in close-qu
 ### Brawler
 |Name|WIZARDS|Prerequisites|Range|Effect|
 |----|-------|-------------|-----|------|
-|TODO | | | | |
-|TODO | | | | |
-|TODO | | | | |
+|TODO |a7|Brawler| | |
+|TODO |r7|Brawler| | |
+|TODO |r7|Brawler| | |
 
-### TODO
+### Duelist
 |Name|WIZARDS|Prerequisites|Range|Effect|
 |----|-------|-------------|-----|------|
-|TODO | | | | |
-|TODO | | | | |
-|TODO | | | | |
+|TODO |i7|Duelist| | |
+|TODO |z7|Duelist| | |
+|TODO |z7|Duelist| | |
 
