@@ -1,21 +1,16 @@
 
 \NeedsTeXFormat{LaTeX2e}
 
-\ProvidesExplPackage
+\ProvidesPackage
   {background}
-  {2026/08/04}
-  {0.1.0}
-  {Page background styling for WIZARDS}
-
-\ExplSyntaxOn
+  [2026/08/04 v0.1.0 Page background styling for WIZARDS]
 
 \RequirePackage{tikz}
 \RequirePackage{graphicx}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Page background
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO Toggle Background for printer-friendly version
 
+% Page background
 \NewDocumentCommand{\PageBackground}{}
 {
   \begin{tikzpicture}
@@ -36,14 +31,9 @@
   \end{tikzpicture}
 }
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Apply background to every page
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \AddToHook{shipout/background}
 {
   \PageBackground
 }
 
-\ExplSyntaxOff
