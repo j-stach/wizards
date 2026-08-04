@@ -1,3 +1,7 @@
+
+# TODO Rewrite this later to make it more fitting (LuaLaTeX, etc.)
+# Ignore for now
+
 .PHONY: all clean lint
 
 LATEX ?= pdflatex

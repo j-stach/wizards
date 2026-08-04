@@ -1,0 +1,95 @@
+
+\NeedsTeXFormat{LaTeX2e}
+
+\ProvidesExplPackage
+  {wizards-styles}
+  {2026/08/04}
+  {0.1.0}
+  {Core WIZARDS document framework}
+
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% External packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Colors
+\PassOptionsToPackage{table}{xcolor}
+
+\RequirePackage{xcolor}
+\RequirePackage{colortbl}
+
+% Tables
+\RequirePackage{array}
+\RequirePackage{tabularx}
+
+% Layout
+\RequirePackage{geometry}
+\RequirePackage{ragged2e}
+\RequirePackage{microtype}
+
+% Graphics
+\RequirePackage{tikz}
+
+% Boxes
+\RequirePackage[breakable,skins,xparse]{tcolorbox}
+
+% Lists
+\RequirePackage{enumitem}
+
+% Utility
+\RequirePackage{xparse}
+\RequirePackage{etoolbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Global layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\geometry{
+    hmargin   = .75in,
+    top       = .46in,
+    bottom    = .80in,
+    footskip  = .32in,
+    columnsep = .33in,
+}
+
+\setlength{\parindent}{1em}
+
+\RaggedRight
+
+\setlist{
+    leftmargin=1em
+}
+
+\setitemize{
+    noitemsep,
+    topsep=0.5ex,
+    label=\footnotesize\textbullet
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WIZARDS modules
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{styles/core/colors}
+\RequirePackage{styles/core/fonts}
+\RequirePackage{styles/core/rolls}
+\RequirePackage{styles/core/strings}
+\RequirePackage{styles/core/utility}
+
+\RequirePackage{styles/layout/box}
+\RequirePackage{styles/layout/header}
+\RequirePackage{styles/layout/sections}
+\RequirePackage{styles/layout/table}
+\RequirePackage{styles/layout/toc}
+
+%\RequirePackage{styles/rules/ability}
+%\RequirePackage{styles/rules/creature}
+%\RequirePackage{styles/rules/character}
+%\RequirePackage{styles/rules/equipment}
+%\RequirePackage{styles/rules/perk}
+%\RequirePackage{styles/rules/spell}
+
+
+\ExplSyntaxOff
+

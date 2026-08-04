@@ -1,0 +1,148 @@
+
+\ProvidesExplPackage
+  {wizards-boxes}
+  {2026/08/04}
+  {0.1.0}
+  {Box environments for the WIZARDS rulebook}
+
+\RequirePackage{xparse}
+\RequirePackage[skins,breakable]{tcolorbox}
+
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Base box style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tcbset{
+    wizards box/.style={
+        enhanced,
+        breakable,
+        frame hidden,
+
+        colback = white,
+        colframe = black,
+
+        boxrule = 0pt,
+        boxsep  = 8pt,
+
+        left   = 6pt,
+        right  = 6pt,
+        top    = 6pt,
+        bottom = 6pt,
+
+        before skip = 12pt,
+        after skip  = 12pt,
+
+        borderline west = {2pt}{0pt}{black},
+
+        fonttitle = \WizardsBoxTitleFont,
+        fontupper = \WizardsBoxBodyFont,
+
+        title filled = false,
+    },
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Generic box
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NewDocumentEnvironment{WizardsBox}{ O{} O{} }
+{
+    \begin{tcolorbox}[
+        wizards box,
+        title = {#1},
+        #2
+    ]
+}
+{
+    \end{tcolorbox}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Semantic box types
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NewDocumentEnvironment{Example}{ O{} }
+{
+    \begin{WizardsBox}
+        [Example\IfValueT{#1}{: #1}]
+        [borderline west={2pt}{0pt}{wizard-blue}]
+}
+{
+    \end{WizardsBox}
+}
+
+\NewDocumentEnvironment{Rule}{ O{} }
+{
+    \begin{WizardsBox}
+        [Rule\IfValueT{#1}{: #1}]
+        [borderline west={2pt}{0pt}{wizard-red}]
+}
+{
+    \end{WizardsBox}
+}
+
+\NewDocumentEnvironment{Lore}{ O{} }
+{
+    \begin{WizardsBox}
+        [Lore\IfValueT{#1}{: #1}]
+        [borderline west={2pt}{0pt}{wizard-gold}]
+}
+{
+    \end{WizardsBox}
+}
+
+\NewDocumentEnvironment{DesignerNote}{ O{} }
+{
+    \begin{WizardsBox}
+        [Designer Note\IfValueT{#1}{: #1}]
+        [borderline west={2pt}{0pt}{gray}]
+}
+{
+    \end{WizardsBox}
+}
+
+\NewDocumentEnvironment{OptionalRule}{ O{} }
+{
+    \begin{WizardsBox}
+        [Optional Rule\IfValueT{#1}{: #1}]
+        [borderline west={2pt}{0pt}{wizard-green}]
+}
+{
+    \end{WizardsBox}
+}
+
+\NewDocumentEnvironment{Warning}{ O{} }
+{
+    \begin{WizardsBox}
+        [Warning\IfValueT{#1}{: #1}]
+        [borderline west={2pt}{0pt}{red}]
+}
+{
+    \end{WizardsBox}
+}
+
+\NewDocumentEnvironment{Sidebar}{m}
+{
+    \begin{WizardsBox}
+    [
+        title=#1,
+
+        colback=wizards-sidebar,
+
+        borderline north={1pt}{0pt}{wizard-border},
+        borderline south={1pt}{0pt}{wizard-border},
+
+        left=6pt,
+        right=6pt,
+
+        fonttitle=\WizardsSidebarTitleFont,
+        fontupper=\WizardsSidebarBodyFont,
+    ]
+}
+{
+    \end{WizardsBox}
+}
+
+\ExplSyntaxOff

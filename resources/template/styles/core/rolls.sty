@@ -1,0 +1,59 @@
+
+\NeedsTeXFormat{LaTeX2e}
+
+\ProvidesExplPackage
+  {wizards-rolls}
+  {2026/08/04}
+  {0.1.0}
+  {Dice and roll utilities for WIZARDS}
+
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Roll parser
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\regex_const:Nn
+  \c__wizards_valid_roll_regex
+  {
+    \A\s*(\d+)(?:[dD](\d+)\s*(?:([+\-])\s*(\d+))?)?\s*\Z
+  }
+
+\seq_new:N \l__wizards_roll_args_seq
+\tl_new:N \l__wizards_roll_number_tl
+\tl_new:N \l__wizards_roll_sides_tl
+\tl_new:N \l__wizards_roll_mod_sign_tl
+\tl_new:N \l__wizards_roll_mod_tl
+
+\msg_new:nnn
+  { wizards }
+  { roll / invalid_argument }
+  {
+    Invalid~argument~``#1''~passed~to~
+    \noexpand\Roll.
+  }
+
+
+\NewDocumentCommand{\Roll}{m}
+{
+    \group_begin:
+
+    \regex_extract_once:NnNTF
+      \c__wizards_valid_roll_regex
+      {#1}
+      \l__wizards_roll_args_seq
+    {
+        % Existing extraction/calculation code goes here
+    }
+    {
+        \msg_error:nnn
+          { wizards }
+          { roll / invalid_argument }
+          { #1 }
+    }
+
+    \group_end:
+}
+
+\ExplSyntaxOff
+
