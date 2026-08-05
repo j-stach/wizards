@@ -31,6 +31,13 @@
 % Document elements
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newcommand{\WizardsPartFont}
+{
+    \WizardsHeadingFont
+    \Huge
+    \scshape
+}
+
 \newcommand{\WizardsChapterFont}
 {
     \WizardsHeadingFont
@@ -42,6 +49,12 @@
 {
     \WizardsHeadingFont
     \Large
+    \scshape
+}
+
+\newcommand{\WizardsSubsectionFont}
+{
+    \WizardsHeadingFont
     \scshape
 }
 
@@ -88,3 +101,8 @@
     {#3}
 }
 
+% Contoured font for section headings
+\newcommand{\WizardsContour}[2][gray]
+{
+  \contour{#1}{#2}%
+}

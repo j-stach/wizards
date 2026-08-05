@@ -13,36 +13,35 @@
 
 %\renewcommand{\thepart}{\arabic{part}}
 
+\titleformat{\part}
+  [display]
+  {\WizardsPartFont}
+  {\WizardsContour{\partname\ \thepart}}
+  {2ex}
+  {\WizardsContour}
 
-%\titleformat{\part}
-%  [display]
-%  {\WizardsPartFont}
-%  {\WizardsContour{\partname\ \thepart}}
-%  {2ex}
-%  {\WizardsContour}
-%
-%
-%\titleformat{\chapter}
-%  {\WizardsChapterFont}
-%  {\WizardsContour{\chaptertitlename\ \thechapter:}}
-%  {1em}
-%  {\WizardsContour}
-%
-%
-%\titleformat{\section}
-%  {\WizardsSectionFont}
-%  {}
-%  {0pt}
-%  {}
-%
-%
-%\titleformat{\subsection}
-%  {\WizardsSubsectionFont}
-%  {}
-%  {0pt}
-%  [
-%    \titlerule
-%  ]
+
+\titleformat{\chapter}
+  {\WizardsChapterFont}
+  {\WizardsContour{\chaptertitlename\ \thechapter:}}
+  {1em}
+  {\WizardsContour}
+
+
+\titleformat{\section}
+  {\WizardsSectionFont}
+  {}
+  {0pt}
+  {}
+
+
+\titleformat{\subsection}
+  {\WizardsSubsectionFont}
+  {}
+  {0pt}
+  {}
+
+
 
 % TODO Move region, spell, etc. into separate files
 
