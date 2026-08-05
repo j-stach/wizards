@@ -1,9 +1,10 @@
 
-\ProvidesExplPackage
-  {wizards-sections}
-  {2026/08/04}
-  {0.1.0}
-  {Section formatting for WIZARDS}
+\ProvidesPackage
+  {sections}
+  %{2026/08/04}
+  %{0.1.0}
+  %{Section formatting for WIZARDS}
+  [2026/08/04 v0.1.0 Section formatting for WIZARDS]
 
 \RequirePackage{titlesec}
 
@@ -11,35 +12,35 @@
 %\renewcommand{\thepart}{\arabic{part}}
 
 
-\titleformat{\part}
-  [display]
-  {\WizardsPartFont}
-  {\WizardsContour{\partname\ \thepart}}
-  {2ex}
-  {\WizardsContour}
-
-
-\titleformat{\chapter}
-  {\WizardsChapterFont}
-  {\WizardsContour{\chaptertitlename\ \thechapter:}}
-  {1em}
-  {\WizardsContour}
-
-
-\titleformat{\section}
-  {\WizardsSectionFont}
-  {}
-  {0pt}
-  {}
-
-
-\titleformat{\subsection}
-  {\WizardsSubsectionFont}
-  {}
-  {0pt}
-  [
-    \titlerule
-  ]
+%\titleformat{\part}
+%  [display]
+%  {\WizardsPartFont}
+%  {\WizardsContour{\partname\ \thepart}}
+%  {2ex}
+%  {\WizardsContour}
+%
+%
+%\titleformat{\chapter}
+%  {\WizardsChapterFont}
+%  {\WizardsContour{\chaptertitlename\ \thechapter:}}
+%  {1em}
+%  {\WizardsContour}
+%
+%
+%\titleformat{\section}
+%  {\WizardsSectionFont}
+%  {}
+%  {0pt}
+%  {}
+%
+%
+%\titleformat{\subsection}
+%  {\WizardsSubsectionFont}
+%  {}
+%  {0pt}
+%  [
+%    \titlerule
+%  ]
 
 % TODO Move region, spell, etc. into separate files
 
