@@ -12,7 +12,11 @@
 \ProcessOptions\relax
 
 % Build on the standard LaTeX book class.
-\LoadClass[twocolumn]{book}
+\LoadClass[
+  twocolumn,
+  %openany, % NOTE: Uncomment for PDF?
+  twoside,
+]{book}
 
 % Load the WIZARDS publishing framework.
 \RequirePackage{wizards-styles}
