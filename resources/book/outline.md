@@ -1,35 +1,44 @@
 
 ## WIZARDS
 
-### I. Introduction
-#### A. What is WIZARDS?
-#### B. Game roles
-#### C. Using this book
 
-### II. Core rules
-#### A. Dice
-#### B. Measuring
+### I. Introduction
+
+#### A. What is WIZARDS?
+##### 1. Purpose of WIZARDS
+##### 2. Game types & roles
+##### 3. Using this book
+
+#### B. Core rules
+##### 1. Dice
+##### 2. Measuring
+
 #### C. Combat
 
-### III. Characters
+
+### II. Characters
+
 #### A. Creating a Character
-#### B. Character Attributes
-#### C. Character Progression
+##### 1. Character Attributes
+##### 2. Character Progression (Level-up)
 
-### IV. Perks and Abilities
-#### A. Perks
-#### B. Abilities
-#### C. Skills
-#### D. Classes
+#### B. Perks and Abilities
+##### 1. Perks
+##### 2. Abilities
+##### 3. Skills
+##### 4. Classes
 
-### V. Equipment
+
+### III. Equipment
 #### A. Apparel
 #### B. Items
 
-### VI. Magic
+
+### IV. Magic
 #### A. Spells
 
-### VII. Adventuring
+
+### V. Adventuring
 #### A. Regions
 #### B. Towns & Downtime
 #### C. Traveling
