@@ -1,13 +1,10 @@
 
 \NeedsTeXFormat{LaTeX2e}
 
-\ProvidesExplPackage
+\ProvidesPackage
   {wizards-styles}
-  {2026/08/04}
-  {0.1.0}
-  {Core WIZARDS document framework}
+  [2026/08/04 v0.1.0 Core WIZARDS styling framework]
 
-\ExplSyntaxOn
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% External packages
@@ -78,12 +75,13 @@
 
 \RequirePackage{styles/util/keywords}
 \RequirePackage{styles/util/rolls}
-%\RequirePackage{styles/util/utility}
 
 \RequirePackage{styles/layout/box}
 \RequirePackage{styles/layout/sections}
-%\RequirePackage{styles/layout/table}
+\RequirePackage{styles/layout/table}
 \RequirePackage{styles/layout/toc}
+
+% TODO Create reusable formatting for common elements
 
 %\RequirePackage{styles/rules/ability}
 %\RequirePackage{styles/rules/creature}
@@ -92,6 +90,4 @@
 %\RequirePackage{styles/rules/perk}
 %\RequirePackage{styles/rules/spell}
 
-
-\ExplSyntaxOff
 

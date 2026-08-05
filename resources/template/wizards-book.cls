@@ -1,11 +1,9 @@
 
 \NeedsTeXFormat{LaTeX2e}
 
-\ProvidesExplClass
+\ProvidesClass
   {wizard-book}
-  {2026/08/04}
-  {0.1.0}
-  {WIZARDS Rulebook Document Class}
+  [2026/08/04 v0.1.0 WIZARDS Rulebook Document Class]
 
 % Pass all unknown options directly to the standard book class.
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
