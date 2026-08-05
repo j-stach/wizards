@@ -2,7 +2,7 @@
 \NeedsTeXFormat{LaTeX2e}
 
 \ProvidesExplPackage
-  {wizards-rolls}
+  {rolls}
   {2026/08/04}
   {0.1.0}
   {Dice and roll utilities for WIZARDS}
@@ -16,7 +16,8 @@
 \regex_const:Nn
   \c__wizards_valid_roll_regex
   {
-    \A\s*(\d+)(?:[dD](\d+)\s*(?:([+\-])\s*(\d+))?)?\s*\Z
+    \A\s*(\d+)[dD](\d+)\s*(?:([+\-])\s*(\d+))?\s*\Z
+    %\A\s*(\d+)(?:[dD](\d+)\s*(?:([+\-])\s*(\d+))?)?\s*\Z
   }
 
 \seq_new:N \l__wizards_roll_args_seq
@@ -43,7 +44,41 @@
       {#1}
       \l__wizards_roll_args_seq
     {
-        % Existing extraction/calculation code goes here
+        \tl_set:Nx
+          \l__wizards_roll_number_tl
+          { \seq_item:Nn \l__wizards_roll_args_seq {2} }
+
+        \tl_set:Nx
+          \l__wizards_roll_sides_tl
+          { \seq_item:Nn \l__wizards_roll_args_seq {3} }
+
+        \tl_set:Nx
+          \l__wizards_roll_mod_sign_tl
+          { \seq_item:Nn \l__wizards_roll_args_seq {4} }
+
+        \tl_set:Nx
+          \l__wizards_roll_mod_tl
+          { \seq_item:Nn \l__wizards_roll_args_seq {5} }
+
+
+        \tl_use:N
+          \l__wizards_roll_number_tl
+
+        d
+
+        \tl_use:N
+          \l__wizards_roll_sides_tl
+
+        \tl_if_empty:NF
+          \l__wizards_roll_mod_tl
+        {
+            \c_space_tl
+            \tl_use:N
+              \l__wizards_roll_mod_sign_tl
+            \c_space_tl
+            \tl_use:N
+              \l__wizards_roll_mod_tl
+        }
     }
     {
         \msg_error:nnn

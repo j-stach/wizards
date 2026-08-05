@@ -1,6 +1,6 @@
 
 \ProvidesExplPackage
-  {wizards-boxes}
+  {box}
   {2026/08/04}
   {0.1.0}
   {Box environments for the WIZARDS rulebook}
@@ -18,7 +18,7 @@
     wizards box/.style={
         enhanced,
         breakable,
-        frame hidden,
+        frame~hidden,
 
         colback = white,
         colframe = black,
@@ -31,15 +31,15 @@
         top    = 6pt,
         bottom = 6pt,
 
-        before skip = 12pt,
-        after skip  = 12pt,
+        before~skip = 12pt,
+        after~skip  = 12pt,
 
-        borderline west = {2pt}{0pt}{black},
+        borderline~west = {2pt}{0pt}{black},
 
         fonttitle = \WizardsBoxTitleFont,
         fontupper = \WizardsBoxBodyFont,
 
-        title filled = false,
+        title~filled = true, %false,
     },
 }
 
@@ -67,7 +67,7 @@
 {
     \begin{WizardsBox}
         [Example\IfValueT{#1}{: #1}]
-        [borderline west={2pt}{0pt}{wizard-blue}]
+        [borderline~west={2pt}{0pt}{wizards-secondary}]
 }
 {
     \end{WizardsBox}
@@ -77,7 +77,7 @@
 {
     \begin{WizardsBox}
         [Rule\IfValueT{#1}{: #1}]
-        [borderline west={2pt}{0pt}{wizard-red}]
+        [borderline~west={2pt}{0pt}{wizards-secondary}]
 }
 {
     \end{WizardsBox}
@@ -87,7 +87,7 @@
 {
     \begin{WizardsBox}
         [Lore\IfValueT{#1}{: #1}]
-        [borderline west={2pt}{0pt}{wizard-gold}]
+        [borderline~west={2pt}{0pt}{wizards-secondary}]
 }
 {
     \end{WizardsBox}
@@ -96,8 +96,8 @@
 \NewDocumentEnvironment{DesignerNote}{ O{} }
 {
     \begin{WizardsBox}
-        [Designer Note\IfValueT{#1}{: #1}]
-        [borderline west={2pt}{0pt}{gray}]
+        [Designer~Note\IfValueT{#1}{: #1}]
+        [borderline~west={2pt}{0pt}{wizards-secondary}]
 }
 {
     \end{WizardsBox}
@@ -106,8 +106,8 @@
 \NewDocumentEnvironment{OptionalRule}{ O{} }
 {
     \begin{WizardsBox}
-        [Optional Rule\IfValueT{#1}{: #1}]
-        [borderline west={2pt}{0pt}{wizard-green}]
+        [Optional~Rule\IfValueT{#1}{: #1}]
+        [borderline~west={2pt}{0pt}{wizards-secondary}]
 }
 {
     \end{WizardsBox}
@@ -117,32 +117,33 @@
 {
     \begin{WizardsBox}
         [Warning\IfValueT{#1}{: #1}]
-        [borderline west={2pt}{0pt}{red}]
+        [borderline~west={2pt}{0pt}{red}]
 }
 {
     \end{WizardsBox}
 }
 
-\NewDocumentEnvironment{Sidebar}{m}
-{
-    \begin{WizardsBox}
-    [
-        title=#1,
-
-        colback=wizards-sidebar,
-
-        borderline north={1pt}{0pt}{wizard-border},
-        borderline south={1pt}{0pt}{wizard-border},
-
-        left=6pt,
-        right=6pt,
-
-        fonttitle=\WizardsSidebarTitleFont,
-        fontupper=\WizardsSidebarBodyFont,
-    ]
-}
-{
-    \end{WizardsBox}
-}
+%TODO TBD: Sidebar if necessary
+%\NewDocumentEnvironment{Sidebar}{m}
+%{
+%    \begin{WizardsBox}
+%    [
+%        title=#1,
+%
+%        colback=wizards-sidebar,
+%
+%        borderline north={1pt}{0pt}{wizard-border},
+%        borderline south={1pt}{0pt}{wizard-border},
+%
+%        left=6pt,
+%        right=6pt,
+%
+%        fonttitle=\WizardsSidebarTitleFont,
+%        fontupper=\WizardsSidebarBodyFont,
+%    ]
+%}
+%{
+%    \end{WizardsBox}
+%}
 
 \ExplSyntaxOff
