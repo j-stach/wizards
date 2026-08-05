@@ -12,7 +12,7 @@
 \ProcessOptions\relax
 
 % Build on the standard LaTeX book class.
-\LoadClass{book}
+\LoadClass[twocolumn]{book}
 
 % Load the WIZARDS publishing framework.
 \RequirePackage{wizards-styles}
