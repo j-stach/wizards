@@ -1,0 +1,39 @@
+
+\ProvidesPackage{copyright}[2026/08/07 Copyright page generator]
+
+\RequirePackage{xcolor}
+
+\newcommand{\copyrightyear}[1]{\def\wcopyrightyear{#1}}
+\newcommand{\publisher}[1]{\def\wpublisher{#1}}
+\newcommand{\isbn}[1]{\def\wisbn{#1}}
+
+\newcommand{\makecopyright}{
+
+    \thispagestyle{empty}
+
+    \vspace*{\fill}
+
+    \begin{center}
+        \begin{minipage}{1.0\textwidth}
+            \centering
+            Copyright \textcopyright\ \wcopyrightyear
+
+            \vspace{1em}
+
+            \wpublisher
+
+            \vspace{1em}
+
+            ISBN \wisbn
+
+            \vspace{2em}
+
+            All rights reserved.
+        \end{minipage}
+    \end{center}
+
+    \vspace*{1em}
+
+    \clearpage
+}
+
