@@ -24,8 +24,8 @@ then [level-up](/rules/character/progression/level-up.md) the character that man
 |Lv. |Player|
 |----|------|
 |0 | New to TTRPG |
-|3 | Migrating from another TTRPG |
-|5+| Used WIZARDS in a previous campaign |
+|5 | Migrating from another TTRPG |
+|10+| Used WIZARDS in a previous campaign |
 
 ### Replacing a character:
 If a player needs to replace a character that was killed or otherwise removed from the campaign,

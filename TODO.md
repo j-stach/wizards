@@ -65,6 +65,9 @@ Cursed items:
 Adventuring items:
 - Lockpick set (roll outcome to replace key when using `Interact` with a lock)
 
+Strongholds:
+- Construction & reinforcement
+
 # TODO 
 
 - Use Bevy to create a dynamic digital player sheet and rulebook app
