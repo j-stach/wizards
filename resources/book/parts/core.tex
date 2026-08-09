@@ -2,39 +2,398 @@
 \part{Core Rules}
 
 \chapter{Rolling Dice}
-\section{Die Results}
+
+
+\section{Dice Rolls}
+Players resolve the effects of character actions by rolling dice.
+A \textit{Roll} is typically one die, but may involve multiple dice of the 
+same and/or different types in a \textit{Dice Pool}.
+
+
 \subsection{Natural Result}
+The \textit{Natural Result} of a die roll is the value shown by the die 
+after it settles.
+
+
 \subsection{Critical Roll}
+A \textit{Critical Roll} occurs when at least one die in a pool has a 
+Natural Result that is the highest possible value for that type of die 
+(e.g., a 6 on a \Roll{d6}, or a 12 on a \Roll{d12}).
+Abilities or effects that trigger on a Critical Roll trigger once 
+for each die in the pool that is a Critical Roll.
+
+
 \subsection{Modifiers}
-\section{Dice Pools}
+\textit{Modifiers} may be added to the Natural Result 
+to increase or decrease the final result of a roll.
+
+\begin{DesignerNote}
+  General modifiers (e.g., ``+1 to all rolls") are rare; 
+  most modifiers impose a restriction on the type of die, 
+  skill, or situation for the roll.
+  For example, ``+1 to Clash rolls with Bladed weapons" is a modifier 
+  that would only be applied when the character is rolling a \Roll{d6} 
+  to resolve an action that uses their equipped Bladed weapon.
+\end{DesignerNote}
+
+
 \section{Advantage}
+\textit{Advantage} is a mechanic that allows a player to build a dice pool 
+for a roll, even when that roll is already a dice pool.
+
+\vspace{0.4em}
+
+By default, a roll's Advantage is 0 (Neutral).
+
+\vspace{0.4em}
+
+An ability that \textit{gains} Advantage increments this value, 
+whereas one that \textit{loses} Advantage decrements it.
+There may be multiple overlapping effects that cause a roll 
+to gain or lose advantage;
+the roll's overall Advantage is the sum of these effects.
+
+\vspace{0.4em}
+
+When a roll's Advantage is \textbf{greater than 0}, 
+add that many dice of any type to the pool to be rolled,
+then remove that many of the same type after rolling.
+
+\begin{Example}
+  If a roll has +1 Advantage for a dice pool of \Roll{1d6}, 
+  instead the player rolls \Roll{2d6} and chooses one \Roll{d6}
+  to remove and one to keep as the Natural Result.
+
+  \vspace{0.4em}
+
+  If a roll has +1 Advantage for a dice pool of \Roll{1d8}+\Roll{2d4},
+  instead the player may roll \Roll{2d8}+\Roll{2d4} 
+  or \Roll{1d8}+\Roll{3d4}, 
+  then remove one \Roll{d8} or one \Roll{d4}, respectively.
+\end{Example}
+
+\vspace{0.4em}
+
+When a roll's Advantage is \textbf{less than 0}, 
+add that many more dice of the greatest type in the pool, 
+then remove that many of the same type,
+in the order of the highest Natural Result.
+
+\begin{Example}
+  If a roll has -1 Advantage for a dice pool of \Roll{1d6}, 
+  instead the player rolls \Roll{2d6},
+  then removes the \Roll{d6} with the highest value,
+  keeping the remaining \Roll{d6} as the Natural Result.
+
+  \vspace{0.4em}
+
+  If a roll has -1 Advantage for a dice pool of \Roll{1d8}+\Roll{2d4},
+  instead the player rolls \Roll{2d8}+\Roll{2d4} 
+  then removes the \Roll{d8} with the highest value,
+  keeping the remaining dice as the Natural Result.
+\end{Example}
+
+
 \section{Re-Rolling}
+A \textit{Re-roll} allows the player to redo an entire roll sequence 
+for all dice in that pool, including dice added by Advantage, 
+applying effects and modifiers as if it were the original roll.
+
+\vspace{0.4em}
+
+If a rule only grants a re-roll for a certain type of die, 
+re-roll only those dice as if they were their own pool,
+then add them back into the original pool.
+
+\vspace{0.4em}
+
+If an effect would trigger as a result of the original roll, it is negated, 
+and the triggering ability is evaluated for the new roll instead.
+
+\vspace{0.4em}
+
+Like Advantage, Re-roll can be stacked, 
+making it a powerful mechanic that should be granted sparingly.
+
+
 \section{Die Classes}
+In WIZARDS, each type of die has a designated role (pun intended).
+
+
 \subsection{Clash (d6)}
+The \textit{Clash Roll} is used when a character ability requires players to perform a contested roll.
+
+\vspace{0.4em}
+
+Every Clash follows a specific procedure:
+
+\begin{enumerate}
+  \item The player controlling the ability rolls \Roll{1d6} first. 
+  If they roll a 6, they automatically succeed, 
+  and the defender does not get a saving roll.
+  Otherwise, add the character's Clash modifiers to the roll.
+  \item Next, the player whose character is targeted by the ability 
+  rolls \Roll{d6}.
+  If they roll a 6, they automatically save, regardless of modifiers.
+  Otherwise, add the character's Clash Save modifiers to the roll.
+  \item If the attacker's roll is greater than the defender's roll, 
+  they succeed.
+  Otherwise, the defender saves their character. 
+  (Tie goes to the defender.)
+\end{enumerate}
+
+
 \subsection{Damage/Restoration (d4/d8/d12)}
-\subsection{Table/Outcome (d10/d100)}
+A \textit{Damage Roll} is always made by the player who controls 
+the source of the damage, and a \textit{Restoration Roll} 
+is always made by the player controlling the source of the restoration.
+
+\vspace{0.4em}
+
+Damage classes are standardized as \textit{Light} (\Roll{d4}), 
+\textit{Normal} (\Roll{d8}), and \textit{Heavy} (\Roll{d12}) damage.
+
+\vspace{0.4em}
+
+A damaging ability or effect will specify the damage class 
+and any type keywords associated with the damage,
+and may deal more than one type or class of damage.
+All damage die produced by a given effect are resolved simultaneously, 
+as a single roll. 
+
+\vspace{0.4em}
+
+However, some abilities may have more than one effect, 
+in which case damage is calculated separately.
+
+\begin{Example}
+  If a poisoned dagger produces Light (\Roll{d4}) damage from an attack, 
+  and further Light (\Roll{d4}) damage from poison, 
+  these are rolled separately, as the poison is its own effect.
+
+  \vspace{0.4em}
+
+  If an ogre's spiked club deals Heavy (\Roll{d12}) damage from the club, 
+  combined with multiple instances of Light (\Roll{d4}) 
+  damage from the spikes, these are resolved in the same roll as a pool.
+\end{Example}
+
+When dealing damage, identify the reservoir (e.g., Life or Mana) 
+that is targeted by the damaging ability, 
+then subtract the final result of the roll from that reservoir.
+Unless otherwise specified, 
+damage is assumed to target a character's Life reservoir.
+
+Follow the same procedure for restoration, 
+but instead add the final result of the roll to the target reservoir.
+
+
+\subsection{Outcome (d10/d100)}
+An \textit{Outcome Roll} may be used to choose from a table of 
+predetermined possibilities, 
+or to determine the duration of a persistent effect.
+
+\vspace{0.4em}
+
+Tables may be used to represent the result of an effect, 
+such as from a character ability or terrain hazard,
+or it may represent the outcome of a character action, 
+such as studying a particular artifact or environment.
+
+\vspace{0.4em}
+
+The \Roll{d10} is used for simple tables with limited outcomes, 
+whereas \Roll{d100} may be used for longer lists,
+distributions of outcome probability, 
+and other percentile calculations of outcome.
+
+\vspace{0.4em}
+
+If a table is \textit{Cumulative}, then the character receives the effects of all values less than their roll.
+The tables for cumulative rolls should be designated as such, 
+otherwise rolls are assumed to be singular and specific to the value rolled.
+
+
 \subsection{Story (d20)}
+A \textit{Story Roll} is functionally a petition for a Dicemaster 
+to allow their character to act outside of their explicit 
+skills and abilities, in service of the plot.
+
+\vspace{0.4em}
+
+When a player describes the character's intended actions and outcome,
+the DM considers the difficulty of the attempted action in the context of the situation,
+then considers the suitability of the character's action to success in the intended outcome.
+
+\vspace{0.4em}
+
+Based on these considerations, 
+the DM may arbitrarily assign a \textit{Threshold} 
+that the Story roll must meet.
+Thresholds may be disclosed at the DM's discretion, 
+and may cover any variety of outcomes along a spectrum of failure and success.
+
+\vspace{0.4em}
+
+The DM may also arbitrarily assign an Action cost to perform the Story action.
+
+\vspace{0.4em}
+
+If the terms are acceptable to the DM and to the player, 
+the player may roll a \Roll{d20} to determine the outcome 
+of the character's unique action.
+
+
 
 \chapter{Measurement}
+
 \section{Distance}
+Distance is measured in inches, with `1"` roughly corresponding to two paces.
+
 \section{Volume}
+[Volume](/rules/equipment/items/standard.md) is measured in the context of 
+inventory [storage](/rules/equipment/apparel/storage.md)
+and liquid [potions](/rules/equipment/items/potions.md).
+
 \section{Creature Size}
+A character's size is determined by their [race](/rules/world/race.md).
+
+Character sizes are approximate in a wide general range 
+and considered *Similarly-sized* when they are in the same overall class. 
+
+Character/creature size classes:
+|Size|Example|
+|----|-------------------|
+|Tiny| Bug, Rodent, Pixie |
+|Small| Cat, Dog, Gnome |
+|Normal| Dwarf, Human, Wolf |
+|Large| Horse, Ogre, Automobile, Elephant |
+|Enormous| Wyvern, House, Giant|
+|Colossal| Kraken, Dragon, Commercial Jet |
+|Titanic| Leviathan, Elder Dragon, Kaiju |
+
+
 \section{Weapon Size}
+[Weapon](/rules/equipment/items/weapons.md) size is determined by how many hands the weapon takes to wield.
+
+
 
 \chapter{Combat}
+*Combat* refers to an ordered, turn-based conflict; this is typically martial, 
+but may also be social--for example, haggling with a shopkeeper.
+
 \section{Teams}
+Allied characters (e.g., the players, or the NPCs) that are attacking or defending as a team
+take their turns simultaneously, freely ordering their actions.
+
 \section{Rounds \& Turns}
+Combat Rounds consist of **Teams** of Characters taking **Turns** to perform **Actions**.
 \subsection{Battle Joined}
+Teams take turns in the order they join the battle. 
+The aggressor joins the battle first, followed by the team defending against the attack.
+Other teams are given an option to join or flee after the defender has taken their turn.
 \subsection{Battle Rounds}
 \subsection{Turn Structure}
+When it becomes a character's team's turn to act, it is considered the "beginning" of their turn.
+If multiple effects would trigger at the beginning of a turn,
+the team whose turn it is resolves their triggered effects first, in any order they choose,
+followed by the remaining teams in turn order.
+
+Each round, when it is a character's turn, 
+they may make 3 [Actions](/rules/character/progression/abilities.md).
+
+At any point in a round, a character may use a *Reaction* [ability](/rules/character/progression/abilities.md)
+if the conditions for that ability are met, but they may only use one Reaction each round.
+
+Once a character uses an ability, it cannot be used again until the beginning of their next turn.
+
 \section{Actions \& Reactions}
+Common combat mechanics that will be used by most characters:
 \subsection{Movement}
+When a character uses the [core action](/rules/charcter/progression/abilities.md) **Move**, 
+they must designate a *Movement Path* that is up to the length of their movement distance.
+
+If the Path would intersect within base contact to a Hostile character, 
+that character may use their **Reflex** reaction to intercept.
+If the intercepting character deals Damage to the moving character, 
+the movement is halted in base contact,
+otherwise the movement continues.
+
+When the path of movement passes through or ends in hazardous terrain, 
+roll on the Table (d10) for the terrain effect.
+
+Characters can move vertically (climb) at half-speed, 
+but ending movement on a vertical surface will place the Character at the foot of the terrain.
 \subsection{Attack}
+[Weapons](/rules/equipment/items/weapons.md)
+and some [abilities](/rules/character/progression/abilities.md) 
+can **Attack** an enemy target as part of their effect.
+
+To make an Attack:
+1. Select an eligible target in range of the attack ability
+2. [Clash](/rules/core/dice.md) against the enemy's defenses
+3. If victorious in the clash, roll to deal [Damage](/rules/core/dice.md)
 \subsection{Grapple}
+Grapple is a primitive action that is available to all characters and creatures. 
+
+To Grapple, the aggressor character must be in base contact with the defending character.
+
+If the defending character is [Similar-size](/rules/core/measurement.md) or Smaller:
+1. The characters Clash (d6), with the aggressor adding their Strength modifier, 
+and the defender adding either their Agility or Strength modifier.
+2. If the aggressor wins:
+- Aggressor may equip the defender as an unwieldy 2-handed item
+- Aggressor's move distance becomes 1"
+
+If the defending character is Larger:
+1. The characters Clash (d6), 
+with the aggressor adding either their Agility or Strength modifier but losing Advantage, 
+and the defender adding either their Agility or Strength modifier.
+2. If the aggressor wins:
+- Aggressor may mount the defender as an unruly (uncontrollable) steed
+
+If a character wins a grapple while equipped or mounted by the defending character, 
+they become unequipped or unmounted by the defender.
 \subsection{Reflex}
+When a Hostile character ends a Move action in base contact, 
+the confronted character may use their Reaction to make a normal action 
+as though they had used the [core action](/rules/charcter/progression/abilities.md) **Prepare** for that ability.
+
 \section{Tactics}
+Battlefield positioning can have beneficial effects.
 \subsection{Formation}
+[Similarly-sized](/rules/core/measurement.md) Characters contiguously within 1" are considered to be in a *Group*.
+
+If all Characters in a Group would make identical projectile attack rolls 
+against another Group within common range, you may instead:
+1. Combine the attacks into a single Clash roll that is rolled as a `d6` pool
+2. Defending group rolls the same number of `d6`
+3. Pair the dice pools in descending order
+4. Resolve the corresponding pairs as normal Clash rolls, 
+with each side adding the lowest Clash modifier of all characters in the group
+5. Defender assigns unsaved attacks as they choose among the members of the group
+6. Attacker rolls Damage for each unsaved attack. 
+If a character is killed before all damage rolls for unsaved attacks have been resolved, 
+Defender reassigns the remaining unsaved attacks, and Attacker continues rolling Damage.
 \subsection{Flanking}
+When an attack deals damage to a target, all characters that are within range to attack the target,
+and can draw a straight line from their base, through the enemy model, 
+to the base of the ally that was source of the damage, 
+gain *Flanking* against the target until the start of their next turn.
+
+While a character is Flanking a target, 
+they gain Advantage on Clash rolls for attacks against that target.
 \subsection{High Ground}
+Two characters at different elevations of sheer (vertical) terrain are considered in base contact if:
+- the separation between bases is less than 1" *(tbd: based on size?)*
+- the characters' bases are in contact with the ledge and foot of the terrain
+
+If they are Hostile, the character in contact with the ledge gains the *High Ground*,
+while the character in contact with the foot gains the *Low Ground*.
+
+Attacks made with the *High Ground* against the target with the *Low Ground* gain Advantage on all rolls.
+Attacks made from the *Low Ground* against the target with the *High Ground* lose Advantage on all rolls.
 \subsection{Cover}
+Projectile attacks with partially-obscured Line-of-Sight grant *Cover* to the target during the attack.
+Attacks against enemies with Cover lose Advantage on Clash rolls.
 

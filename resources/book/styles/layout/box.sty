@@ -14,6 +14,8 @@
 %% Base box style
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% TODO Make title bar thinner
+
 \tcbset{
     wizards box/.style={
         enhanced,
@@ -100,7 +102,7 @@
 \NewDocumentEnvironment{DesignerNote}{ O{} }
 {
     \begin{WizardsBox}
-        [Designer~Note\IfValueT{#1}{: #1}]
+        [Designer's~Note\IfValueT{#1}{: #1}]
         [borderline~west={2pt}{0pt}{wizards-secondary}]
 }
 {
