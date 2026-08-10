@@ -2,16 +2,15 @@
 \chapter{Rolling Dice}
 
 
+
 \section{Dice Rolls}
 Players resolve the effects of character actions by rolling dice.
 A \textit{Roll} is typically one die, but may involve multiple dice of the 
 same and/or different types in a \textit{Dice Pool}.
 
-
 \subsection{Natural Result}
 The \textit{Natural Result} of a die roll is the value shown by the die 
 after it settles.
-
 
 \subsection{Critical Roll}
 A \textit{Critical Roll} occurs when at least one die in a pool has a 
@@ -20,10 +19,9 @@ Natural Result that is the highest possible value for that type of die
 Abilities or effects that trigger on a Critical Roll trigger once 
 for each die in the pool that is a Critical Roll.
 
-
-\subsection{Modifiers}
+\subsection{Modifiers \& Final Result}
 \textit{Modifiers} may be added to the Natural Result 
-to increase or decrease the final result of a roll.
+to increase or decrease the \textit{Final Result} of a roll.
 
 \begin{DesignerNote}
   General modifiers (e.g., ``+1 to all rolls") are rare; 
@@ -33,6 +31,7 @@ to increase or decrease the final result of a roll.
   that would only be applied when the character is rolling a \Roll{d6} 
   to resolve an action that uses their equipped Bladed weapon.
 \end{DesignerNote}
+
 
 
 \section{Advantage}
@@ -75,7 +74,7 @@ then remove that many of the same type after rolling.
 When a roll's Advantage is \textbf{less than 0}, 
 add that many more dice of the greatest type in the pool, 
 then remove that many of the same type,
-in the order of the highest Natural Result.
+in highest order.
 
 \begin{Example}
   If a roll has -1 Advantage for a dice pool of \Roll{1d6}, 
@@ -90,6 +89,7 @@ in the order of the highest Natural Result.
   then removes the \Roll{d8} with the highest value,
   keeping the remaining dice as the Natural Result.
 \end{Example}
+
 
 
 \section{Re-Rolling}
@@ -114,9 +114,16 @@ Like Advantage, Re-roll can be stacked,
 making it a powerful mechanic that should be granted sparingly.
 
 
+
 \section{Die Classes}
-In W.I.Z.A.R.D.S., each type of die serves a distinct role (pun intended).
-% Makes it easy to identify rolls and remember ability roll sequence
+In W.I.Z.A.R.D.S., each type of die has a distinct role (pun intended).
+
+\vspace{0.4em}
+
+This design choice serves a twofold simplicity:\\
+it is both easier for campaign module designers to balance game mechanics
+and easier for players to remember which dice are required for their abilities.
+
 
 \subsection{Clash (d6)}
 The \textit{Clash Roll} is used when a character ability requires players to perform a contested roll.
@@ -144,7 +151,7 @@ Every Clash follows a specific procedure:
 \subsection{Damage/Restoration (d4/d8/d12)}
 A \textit{Damage Roll} is always made by the player who controls 
 the source of the damage, and a \textit{Restoration Roll} 
-is always made by the player controlling the source of the restoration.
+is always made by the player who controls the source of the restoration.
 
 \vspace{0.4em}
 
@@ -171,7 +178,7 @@ in which case damage is calculated separately.
 
   \vspace{0.4em}
 
-  If an ogre's spiked club deals Heavy (\Roll{d12}) damage from the club, 
+  If a spiked club deals Heavy (\Roll{d12}) damage from the club, 
   combined with multiple instances of Light (\Roll{d4}) 
   damage from the spikes, these are resolved in the same roll as a pool.
 \end{Example}
@@ -181,6 +188,8 @@ that is targeted by the damaging ability,
 then subtract the final result of the roll from that reservoir.
 Unless otherwise specified, 
 damage is assumed to target a character's Life reservoir.
+
+\vspace{0.4em}
 
 Follow the same procedure for restoration, 
 but instead add the final result of the roll to the target reservoir.
