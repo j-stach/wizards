@@ -1,0 +1,243 @@
+
+\chapter{Rolling Dice}
+
+
+\section{Dice Rolls}
+Players resolve the effects of character actions by rolling dice.
+A \textit{Roll} is typically one die, but may involve multiple dice of the 
+same and/or different types in a \textit{Dice Pool}.
+
+
+\subsection{Natural Result}
+The \textit{Natural Result} of a die roll is the value shown by the die 
+after it settles.
+
+
+\subsection{Critical Roll}
+A \textit{Critical Roll} occurs when at least one die in a pool has a 
+Natural Result that is the highest possible value for that type of die 
+(e.g., a 6 on a \Roll{d6}, or a 12 on a \Roll{d12}).
+Abilities or effects that trigger on a Critical Roll trigger once 
+for each die in the pool that is a Critical Roll.
+
+
+\subsection{Modifiers}
+\textit{Modifiers} may be added to the Natural Result 
+to increase or decrease the final result of a roll.
+
+\begin{DesignerNote}
+  General modifiers (e.g., ``+1 to all rolls") are rare; 
+  most modifiers impose a restriction on the type of die, 
+  skill, or situation for the roll.
+  For example, ``+1 to Clash rolls with Bladed weapons" is a modifier 
+  that would only be applied when the character is rolling a \Roll{d6} 
+  to resolve an action that uses their equipped Bladed weapon.
+\end{DesignerNote}
+
+
+\section{Advantage}
+\textit{Advantage} is a mechanic that allows a player to build a dice pool 
+for a roll, even when that roll is already a dice pool.
+
+\vspace{0.4em}
+
+By default, a roll's Advantage is 0 (Neutral).
+
+\vspace{0.4em}
+
+An ability that \textit{gains} Advantage increments this value, 
+whereas one that \textit{loses} Advantage decrements it.
+There may be multiple overlapping effects that cause a roll 
+to gain or lose advantage;
+the roll's overall Advantage is the sum of these effects.
+
+\vspace{0.4em}
+
+When a roll's Advantage is \textbf{greater than 0}, 
+add that many dice of any type to the pool to be rolled,
+then remove that many of the same type after rolling.
+
+\begin{Example}
+  If a roll has +1 Advantage for a dice pool of \Roll{1d6}, 
+  instead the player rolls \Roll{2d6} and chooses one \Roll{d6}
+  to remove and one to keep as the Natural Result.
+
+  \vspace{0.4em}
+
+  If a roll has +1 Advantage for a dice pool of \Roll{1d8}+\Roll{2d4},
+  instead the player may roll \Roll{2d8}+\Roll{2d4} 
+  or \Roll{1d8}+\Roll{3d4}, 
+  then remove one \Roll{d8} or one \Roll{d4}, respectively.
+\end{Example}
+
+\vspace{0.4em}
+
+When a roll's Advantage is \textbf{less than 0}, 
+add that many more dice of the greatest type in the pool, 
+then remove that many of the same type,
+in the order of the highest Natural Result.
+
+\begin{Example}
+  If a roll has -1 Advantage for a dice pool of \Roll{1d6}, 
+  instead the player rolls \Roll{2d6},
+  then removes the \Roll{d6} with the highest value,
+  keeping the remaining \Roll{d6} as the Natural Result.
+
+  \vspace{0.4em}
+
+  If a roll has -1 Advantage for a dice pool of \Roll{1d8}+\Roll{2d4},
+  instead the player rolls \Roll{2d8}+\Roll{2d4} 
+  then removes the \Roll{d8} with the highest value,
+  keeping the remaining dice as the Natural Result.
+\end{Example}
+
+
+\section{Re-Rolling}
+A \textit{Re-roll} allows the player to redo an entire roll sequence 
+for all dice in that pool, including dice added by Advantage, 
+applying effects and modifiers as if it were the original roll.
+
+\vspace{0.4em}
+
+If a rule only grants a re-roll for a certain type of die, 
+re-roll only those dice as if they were their own pool,
+then add them back into the original pool.
+
+\vspace{0.4em}
+
+If an effect would trigger as a result of the original roll, it is negated, 
+and the triggering ability is evaluated for the new roll instead.
+
+\vspace{0.4em}
+
+Like Advantage, Re-roll can be stacked, 
+making it a powerful mechanic that should be granted sparingly.
+
+
+\section{Die Classes}
+In W.I.Z.A.R.D.S., each type of die serves a distinct role (pun intended).
+% Makes it easy to identify rolls and remember ability roll sequence
+
+\subsection{Clash (d6)}
+The \textit{Clash Roll} is used when a character ability requires players to perform a contested roll.
+
+\vspace{0.4em}
+
+Every Clash follows a specific procedure:
+
+\begin{enumerate}
+  \item The player controlling the ability rolls \Roll{1d6} first. 
+  If it is a Critical Roll, they automatically succeed, 
+  and the defender does not get a saving roll.
+  Otherwise, add the character's \textit{Clash} modifiers to the roll.
+  \item Next, the player whose character is targeted by the ability 
+  rolls \Roll{d6}.
+  If it is a Critical Roll, they automatically save, regardless of modifiers.
+  Otherwise, add the character's \textit{Clash Save} modifiers to the roll.
+  \item If the attacker's roll is greater than the defender's roll, 
+  they succeed.
+  Otherwise, the defender saves their character. 
+  (Tie goes to the defender.)
+\end{enumerate}
+
+
+\subsection{Damage/Restoration (d4/d8/d12)}
+A \textit{Damage Roll} is always made by the player who controls 
+the source of the damage, and a \textit{Restoration Roll} 
+is always made by the player controlling the source of the restoration.
+
+\vspace{0.4em}
+
+Damage classes are standardized as \textit{Light} (\Roll{d4}), 
+\textit{Normal} (\Roll{d8}), and \textit{Heavy} (\Roll{d12}) damage.
+
+\vspace{0.4em}
+
+A damaging ability or effect will specify the damage class 
+and any type keywords associated with the damage,
+and may deal more than one type or class of damage.
+All damage die produced by a given effect are resolved simultaneously, 
+as a single roll. 
+
+\vspace{0.4em}
+
+However, some abilities may have more than one effect, 
+in which case damage is calculated separately.
+
+\begin{Example}
+  If a poisoned dagger produces Light (\Roll{d4}) damage from an attack, 
+  and further Light (\Roll{d4}) damage from poison, 
+  these are rolled separately, as the poison is its own effect.
+
+  \vspace{0.4em}
+
+  If an ogre's spiked club deals Heavy (\Roll{d12}) damage from the club, 
+  combined with multiple instances of Light (\Roll{d4}) 
+  damage from the spikes, these are resolved in the same roll as a pool.
+\end{Example}
+
+When dealing damage, identify the reservoir (e.g., Life or Mana) 
+that is targeted by the damaging ability, 
+then subtract the final result of the roll from that reservoir.
+Unless otherwise specified, 
+damage is assumed to target a character's Life reservoir.
+
+Follow the same procedure for restoration, 
+but instead add the final result of the roll to the target reservoir.
+
+
+\subsection{Outcome (d10/d100)}
+An \textit{Outcome Roll} may be used to choose from a table of 
+predetermined possibilities, 
+or to determine the duration of a persistent effect.
+
+\vspace{0.4em}
+
+Tables may be used to represent the result of an effect, 
+such as from a character ability or terrain hazard,
+or it may represent the outcome of a character action, 
+such as studying a particular artifact or environment.
+
+\vspace{0.4em}
+
+The \Roll{d10} is used for simple tables with limited outcomes, 
+whereas \Roll{d100} may be used for longer lists,
+distributions of outcome probability, 
+and other percentile calculations of outcome.
+
+\vspace{0.4em}
+
+If a table is \textit{Cumulative}, then the character receives the effects of all values less than their roll.
+The tables for cumulative rolls should be designated as such, 
+otherwise rolls are assumed to be singular and specific to the value rolled.
+
+
+\subsection{Story (d20)}
+A \textit{Story Roll} is functionally a petition to a Game Master 
+to allow a player character to act outside of their explicit 
+skills and abilities, in service of the plot.
+
+\vspace{0.4em}
+
+When a player describes the character's intended actions and outcome,
+the GM considers the difficulty of the attempted action in the context of the situation,
+then considers the suitability of the character's action to success in the intended outcome.
+
+\vspace{0.4em}
+
+Based on these considerations, 
+the GM may arbitrarily assign a \textit{Threshold} 
+that the Story roll must meet.
+Thresholds may be disclosed at the GM's discretion, 
+and may cover any variety of outcomes along a spectrum of failure and success.
+
+\vspace{0.4em}
+
+The GM may also arbitrarily assign an Action cost (see Chapter 3: Combat)
+to perform the Story action.
+
+\vspace{0.4em}
+
+If the terms are acceptable to the GM and to the player, 
+the player may roll a \Roll{d20} to resolve the character's unique action.
+
