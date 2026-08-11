@@ -1,120 +1,261 @@
 
 \chapter{Combat}
-*Combat* refers to an ordered, turn-based conflict; this is typically martial, 
-but may also be social--for example, haggling with a shopkeeper.
+
+
+
+\textit{Combat} refers to an ordered, turn-based conflict. 
+This conflict is typically martial, 
+but may also be social (for example, negotiating with a guard, 
+or haggling with a shopkeeper).
+
+
 
 \section{Teams}
-Allied characters (e.g., the players, or the NPCs) that are attacking or defending as a team
-take their turns simultaneously, freely ordering their actions.
+ TODO % Hostile, Neutral, Allied
+
+ TODO
+
+ TODO
+
+ TODO
+
+ TODO
+
+ TODO
+
 
 \section{Rounds \& Turns}
-Combat Rounds consist of **Teams** of Characters taking **Turns** to perform **Actions**.
-\subsection{Battle Joined}
-Teams take turns in the order they join the battle. 
-The aggressor joins the battle first, followed by the team defending against the attack.
-Other teams are given an option to join or flee after the defender has taken their turn.
-\subsection{Battle Rounds}
+Combat \textit{Rounds} consist of teams taking \textit{Turns} 
+to perform \textit{Actions}.
+
+
+\subsection{Round Structure}
+Within a round, teams take turns in the order they join the battle. 
+The aggressor joins the battle first, 
+followed by the team defending against the attack.
+Other teams are given an option to join or flee after the defender 
+has taken their turn.
+
+\vspace{0.4em}
+
+Allied characters that are attacking or defending as a team
+take their turns simultaneously, freely ordering their actions.
+
+
 \subsection{Turn Structure}
-When it becomes a character's team's turn to act, it is considered the "beginning" of their turn.
+When it becomes a character's team's turn to act, 
+it is considered the ``beginning" of their turn.
+
+\vspace{0.4em}
+
 If multiple effects would trigger at the beginning of a turn,
-the team whose turn it is resolves their triggered effects first, in any order they choose,
-followed by the remaining teams in turn order.
+the team whose turn it is resolves their triggered effects first, 
+in any order they choose, followed by the remaining teams in turn order.
 
-Each round, when it is a character's turn, 
-they may make 3 [Actions](/rules/character/progression/abilities.md).
+\vspace{0.4em}
 
-At any point in a round, a character may use a *Reaction* [ability](/rules/character/progression/abilities.md)
-if the conditions for that ability are met, but they may only use one Reaction each round.
+Each round, when it is a character's turn, they may make 3 \textit{Actions}.
 
-Once a character uses an ability, it cannot be used again until the beginning of their next turn.
+\vspace{0.4em}
 
-\section{Actions \& Reactions}
-Common combat mechanics that will be used by most characters:
+At any point in a round, a character may use a \textit{Reaction} ability
+if the conditions for that ability are met, 
+but they may only use one Reaction each round.
+
+\vspace{0.4em}
+
+Once a character uses an ability as an action or reaction, 
+it cannot be used again until the beginning of their next turn.
+
+
+
+\section{Core Actions}
+
 \subsection{Movement}
-When a character uses the [core action](/rules/charcter/progression/abilities.md) **Move**, 
-they must designate a *Movement Path* that is up to the length of their movement distance.
+\textit{Move} is a primitive action that is available
+to all creatures and characters.
 
-If the Path would intersect within base contact to a Hostile character, 
-that character may use their **Reflex** reaction to intercept.
+\vspace{0.4em}
+
+When a character uses the Move action, 
+they must designate a \textit{Movement Path} that is up to the length 
+of their movement distance.
+
+\vspace{0.4em}
+
+If the path would intersect within base contact to a Hostile character, 
+that character may use their Reflex reaction (see below) to intercept.
 If the intercepting character deals Damage to the moving character, 
-the movement is halted in base contact,
-otherwise the movement continues.
+the movement must end within base contact.
+
+\vspace{0.4em}
 
 When the path of movement passes through or ends in hazardous terrain, 
-roll on the Table (d10) for the terrain effect.
+roll on the Table (\Roll{d10}) for the terrain effect.
+
+\vspace{0.4em}
 
 Characters can move vertically (climb) at half-speed, 
-but ending movement on a vertical surface will place the Character at the foot of the terrain.
+but ending movement on a vertical surface will return the Character 
+to the foot of the terrain.
+
+
 \subsection{Attack}
-[Weapons](/rules/equipment/items/weapons.md)
-and some [abilities](/rules/character/progression/abilities.md) 
-can **Attack** an enemy target as part of their effect.
-
+Weapons and some abilities can 
+\textit{Attack} an enemy target as part of their effect.
 To make an Attack:
-1. Select an eligible target in range of the attack ability
-2. [Clash](/rules/core/dice.md) against the enemy's defenses
-3. If victorious in the clash, roll to deal [Damage](/rules/core/dice.md)
+
+\begin{enumerate}
+  \item Select an eligible target in range of the attack ability.
+  \item Perform a Clash Roll against the target.
+  \item If victorious in the Clash, roll to deal Damage.
+\end{enumerate}
+
+
 \subsection{Grapple}
-Grapple is a primitive action that is available to all characters and creatures. 
+\textit{Grapple} is a primitive action that is available to all 
+characters and creatures. 
 
-To Grapple, the aggressor character must be in base contact with the defending character.
+\vspace{0.4em}
 
-If the defending character is [Similar-size](/rules/core/measurement.md) or Smaller:
-1. The characters Clash (d6), with the aggressor adding their Strength modifier, 
-and the defender adding either their Agility or Strength modifier.
-2. If the aggressor wins:
-- Aggressor may equip the defender as an unwieldy 2-handed item
-- Aggressor's move distance becomes 1"
+To Grapple, a character must be in base contact 
+with the defending character and have an open hand.
 
-If the defending character is Larger:
-1. The characters Clash (d6), 
-with the aggressor adding either their Agility or Strength modifier but losing Advantage, 
-and the defender adding either their Agility or Strength modifier.
-2. If the aggressor wins:
-- Aggressor may mount the defender as an unruly (uncontrollable) steed
+\vspace{0.4em}
 
-If a character wins a grapple while equipped or mounted by the defending character, 
-they become unequipped or unmounted by the defender.
+If the defending character is \textbf{Similar-size or Smaller}:
+\begin{enumerate}
+  \item The characters Clash, with the aggressor adding their 
+  Strength modifier, 
+  and the defender adding either their Agility or Strength modifier.
+  \item If the aggressor wins:
+    \begin{itemize}
+      \item Aggressor may equip the defender as an unwieldy 
+      (unusable) 2-handed item
+      \item If the characters are Similarly-sized, 
+      Aggressor's move distance becomes 1"
+    \end{itemize}
+\end{enumerate}
+
+If the defending character is \textbf{Larger}:
+\begin{enumerate}
+  \item The characters Clash, 
+  with the aggressor adding either their Agility or Strength modifier 
+  and losing Advantage, 
+  and the defender adding either their Agility or Strength modifier.
+  \item If the aggressor wins:
+    \begin{itemize}
+      \item Aggressor may mount the defender as an unruly 
+      (uncontrollable) steed.
+    \end{itemize}
+\end{enumerate}
+
+If a character wins a grapple while equipped or mounted by the 
+defending character, they become unequipped or unmounted by the defender.
+
+
 \subsection{Reflex}
-When a Hostile character ends a Move action in base contact, 
+When a Hostile character ends movement in base contact, 
 the confronted character may use their Reaction to make a normal action 
-as though they had used the [core action](/rules/charcter/progression/abilities.md) **Prepare** for that ability.
+as though they had used the core action Prepare for that ability.
+% TODO Link to core action page
 
-\section{Tactics}
-Battlefield positioning can have beneficial effects.
+
+
+\section{Tactics \& Positioning}
+
 \subsection{Formation}
-[Similarly-sized](/rules/core/measurement.md) Characters contiguously within 1" are considered to be in a *Group*.
+Similarly-sized characters on the same team and 
+contiguously within 1" are considered to be in a \textit{Group}.
 
-If all Characters in a Group would make identical projectile attack rolls 
-against another Group within common range, you may instead:
-1. Combine the attacks into a single Clash roll that is rolled as a `d6` pool
-2. Defending group rolls the same number of `d6`
-3. Pair the dice pools in descending order
-4. Resolve the corresponding pairs as normal Clash rolls, 
-with each side adding the lowest Clash modifier of all characters in the group
-5. Defender assigns unsaved attacks as they choose among the members of the group
-6. Attacker rolls Damage for each unsaved attack. 
-If a character is killed before all damage rolls for unsaved attacks have been resolved, 
-Defender reassigns the remaining unsaved attacks, and Attacker continues rolling Damage.
+\vspace{0.4em}
+
+If all characters in a group would make identical projectile attack rolls
+against another group within common range, 
+you may instead have them attack and defend together:
+\begin{enumerate}
+  \item Combine the attacks into a single Clash roll that is rolled as a 
+    \Roll{d6} pool.
+  \item Defending group rolls the same number of \Roll{d6}.
+  \item Pair the dice pools in descending order.
+  \item Resolve the corresponding pairs as normal Clash rolls, 
+    with each side adding the lowest Clash modifier of all characters 
+    in the group.
+  \item Defender assigns unsaved attacks as they choose 
+    among the members of the group.
+  \item Attacker rolls Damage for each unsaved attack. 
+    If a character is killed before all damage rolls for unsaved attacks 
+    have been resolved, Defender reassigns the remaining unsaved attacks, 
+    and Attacker continues rolling Damage.
+\end{enumerate}
+
+\begin{DesignerNote}
+TODO
+
+TODO
+
+TODO
+
+TODO
+\end{DesignerNote}
+
+
+
 \subsection{Flanking}
-When an attack deals damage to a target, all characters that are within range to attack the target,
+When an attack deals damage to a target, 
+all characters that are within range to attack the target,
 and can draw a straight line from their base, through the enemy model, 
 to the base of the ally that was source of the damage, 
-gain *Flanking* against the target until the start of their next turn.
+gain \textit{Flanking} against the target until the start of their next turn.
+
+\vspace{0.4em}
 
 While a character is Flanking a target, 
 they gain Advantage on Clash rolls for attacks against that target.
+
+
+
 \subsection{High Ground}
-Two characters at different elevations of sheer (vertical) terrain are considered in base contact if:
-- the separation between bases is less than 1" *(tbd: based on size?)*
-- the characters' bases are in contact with the ledge and foot of the terrain
+Two characters at different elevations of sheer (vertical) 
+terrain are considered in base contact if:
+\begin{itemize}
+  \item the characters' bases are in contact with the ledge and 
+    foot of the terrain.
+  \item the separation between bases is less than the width of the 
+    base of the character at the foot of the terrain.
+\end{itemize}
 
-If they are Hostile, the character in contact with the ledge gains the *High Ground*,
-while the character in contact with the foot gains the *Low Ground*.
+If the characters are Hostile, 
+the character in contact with the ledge gains the \textit{High Ground},
+while the character in contact with the foot gains the \textit{Low Ground}.
 
-Attacks made with the *High Ground* against the target with the *Low Ground* gain Advantage on all rolls.
-Attacks made from the *Low Ground* against the target with the *High Ground* lose Advantage on all rolls.
+\vspace{0.4em}
+
+Attacks made with the High Ground against the target 
+with the Low Ground gain Advantage on all rolls.
+
+\vspace{0.4em}
+
+Attacks made from the Low Ground against the target 
+with the High Ground lose Advantage on all rolls.
+
+
+
 \subsection{Cover}
-Projectile attacks with partially-obscured Line-of-Sight grant *Cover* to the target during the attack.
-Attacks against enemies with Cover lose Advantage on Clash rolls.
+Projectile attacks with partially-obscured Line-of-Sight grant \textit{Cover} 
+to the target for the duration of the attack.
+
+\vspace{0.4em}
+
+Attacks against enemies with cover lose Advantage on Clash Rolls.
+
+
+
+
+% TODO EFFECTS
+% \section{Effects}
+% \subsection{Activated Effects}
+% \subsection{Triggered Effects}
+% \subsection{Passive Effects}
+
 

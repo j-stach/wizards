@@ -1,19 +1,422 @@
 
 
-\chapter{Creating Your Character}
+\chapter{Building a Character}
+
+
 \section{1. Race/Species}
-\subsection{Racial Traits}
+A character's \textit{Race} is the species that serves as the 
+statistical foundation for that character.
+
+\vspace{0.4em}
+
+When you create your character, first choose a race.
+
+% TODO Custom Race/Species box
+\begin{Example}
+  \textbf{HUMAN (Default)}\\
+
+  % TODO Size: Normal, Move Distance: 3"
+
+  \textbf{Base Reservoirs:}
+  \vspace{-.4em}
+  \begin{Table}{l l}
+    Life & 20 \\
+    Mana & 10 \\
+  \end{Table}
+  \vspace{-.5em}
+
+  \textbf{Racial Traits:}
+  \begin{itemize}
+    \item +1 to any Attribute (chosen after rolling Attributes)
+    \item +1 to any Attribute (chosen after rolling Attributes)
+  \end{itemize}
+
+  \textbf{Racial Modifiers:}
+  \vspace{-.5em}
+  \begin{Table}{X c}
+    \TableHeader{Attribute} & \TableHeader{Modifier} \\
+    W, I, Z, A, R, D, S & +0
+  \end{Table}
+  \vspace{-.5em}
+\end{Example}
+
+
+\subsection{Racial Traits \& Modifiers}
+\textit{Racial Traits} are the perks and abilities available 
+to a character upon creation.
+
+\vspace{0.4em}
+
+\textit{Racial Modifiers} should be used as the default attribute modifiers 
+for the GM's characters of that race.
+
+\vspace{0.4em}
+
+When creating a player character, 
+add the Racial Modifiers to the W.I.Z.A.R.D.S. attributes as they are rolled.
+
+
 \subsection{Hybrid Races}
+At the GM's discretion, \textit{Hybrid} characters may be created 
+from a combination of two or more races.
+These races become the character's \textit{Ancestral Races}.
+
+\vspace{0.4em}
+
+To create a character with a hybrid race:
+\begin{itemize}
+  \item Use the average of the Ancestral Race's Life and Mana reservoirs, 
+    rounding down.
+  \item Use the average of the Ancestral Races' Attribute Modifiers, 
+    rounding down.
+  \item Use the Creature Size that is closest to Normal.
+  \item Start without access to racial traits.
+\end{itemize}
+
+Whenever a character with a hybrid race is able to level-up, 
+they may instead "unlock" a racial trait from one of their Ancestral Races.
+
+
+
 \section{2. W.I.Z.A.R.D.S. Attributes}
+Each character has a set of \textit{Attributes} to represent their overall capability,
+which can be remembered using the acronym W.I.Z.A.R.D.S.
+
+\begin{Table}{l X}
+  \TableHeader{Attribute} & \TableHeader{Traits Covered} \\
+  Wisdom       & Intuition, Insight, Depth of Knowledge \\
+  Intelligence & Complex Analysis, Abstract Reasoning \\
+  Zest         & Charisma, Flair, Force of Personality \\
+  Agility      & Mobility, Reactivity, Balance \\
+  Resilience   & Stamina, Endurance, Natural Immunity \\
+  Dexterity    & Precision, Fine Motor Control \\
+  Strength     & Sturdiness, Raw Muscular Force \\
+\end{Table}
+
+W.I.Z.A.R.D.S. Attributes are used to limit the action abilities, 
+passive perks, and equipment items available to the character,
+representing the character's practical capacity to use the ability or item.
+
+\vspace{0.4em}
+
+If a character's Attribute scores are lower than the values required by
+an ability, perk, or item, 
+none of the effects it grants may be activated or applied.
+
+\vspace{0.4em}
+
+When you create your character, roll \Roll{1d10} for each Attribute, 
+then add the character's Racial Modifiers to each of the results.
+These become your character's starting Attributes.
+
+\subsection{Value Range}
+Attribute values can range from \textbf{0 - 10} by default. 
+Modifiers to an attribute value (e.g., from perks or equipment)
+cannot increase it above the maximum or decrease it below the minimum 
+of this range.
+
+\subsection{Attribute Modifiers}
+Attributes also determine the default modifiers a character uses for 
+Story Rolls.
+
+%\vspace{0.4em}
+%
+%These may be referred to as \textit{W.I.Z.A.R.D.S. Modifiers}, 
+%or individually as the character's \textit{<Attribute> Modifier}
+%(e.g., ``Zest Modifier").
+
+\begin{Table}{c c}
+  \TableHeader{Value} & \TableHeader{Modifier} \\
+  0  & -5 \\
+  1  & -4 \\
+  2  & -3 \\
+  3  & -2 \\
+  4  & -1 \\
+  5  & +0 \\
+  6  & +1 \\
+  7  & +2 \\
+  8  & +3 \\
+  9  & +4 \\
+  10 & +5 \\
+\end{Table}
+
+
+
 \section{3. Reservoirs}
+Character \textit{Reservoirs} are resource pools that can be 
+reduced by damage, increased by restoration, 
+and expended as a cost to use abilities.
+
+
 \subsection{Life}
+\textit{Life} is a reservoir that represents a character's vitality 
+and their ability to remain active in the game.
+
+\vspace{0.4em}
+
+When a character's Life is reduced to \textbf{0}, 
+they perish and are removed from the game.
+
+\vspace{0.4em}
+
+A character's starting Life is equal to their racial Life 
+plus their \textbf{Resilience} and \textbf{Strength} modifiers. 
+
+
 \subsection{Mana}
+\textit{Mana} is a reservoir that represents a character's magical energy
+and their ability to cast spells.
+
+\vspace{0.4em}
+
+When a character's Mana is reduced to \textbf{0},
+they may no longer cast spells, even if the Mana Cost of a spell is 0.
+
+\vspace{0.4em}
+
+A character's starting Mana is equal to their racial Mana 
+plus their \textbf{Wisdom} and \textbf{Zest} modifiers.
+
+
 \section{4. Level-Up}
+A character may \textit{Level-Up} as it is created, 
+and again at the GM's discretion, 
+up to a maximum level of \textbf{100}.
+
+\vspace{0.4em}
+
+To level-up, a character may choose one:
+\begin{itemize}
+  \item Add a new passive perk. (See Chapter 5: Perks)
+  \item Add a new action ability. (See Chapter 6: Abilities)
+  \item Add a new basic spell. (See Chapter 7: Spells)
+  \item Add 1 to their maximum Life and Mana.
+  \item Add 1 to any Attribute.
+\end{itemize}
+
+\begin{DesignerNote}
+  The pace of gaining levels will be unique to each campaign, 
+  but should give players time to familiarize themselves with new abilities 
+  while also providing consistent advancement.
+
+  \vspace{0.4em}
+
+  A good approach might be to have characters level-up during ``downtime" 
+  between missions.
+\end{DesignerNote}
+
+
 \subsection{Starting Level}
-\subsection{Perks, Abilities, and Classes}
-\section{5. Equipment}
-\subsection{Armor/Apparel}
+When creating a character, determine the starting level for the campaign, 
+then level-up the character that many times.
+
+\begin{Table}{l X}
+  \TableHeader{Lv.} & \TableHeader{Player} \\
+    0   & New to TTRPG \\
+    5   & Migrating from another TTRPG \\
+    10+ & Previous experience with W.I.Z.A.R.D.S. \\
+\end{Table}
 
 
+%\subsection{Replacing a character}
+%If a player needs to replace a character that was killed or otherwise 
+%removed from the campaign,
+%they may instead start at the level of their previous character.
+
+%\begin{CruelMode}
+%  Ignore this sub-rule for a more ``hardcore" experience.
+%\end{CruelMode}
+
+
+%\subsection{Downtime Activities}
+%Some skills allow you to perform an activity if you level-up 
+%in a [town](/rules/world/towns.md) that contains a certain type of Amenity.
+%You may choose *one* of those activities to perform as a downtime activity.
+
+
+
+\section{5. Armor/Apparel}
+\textit{Armor} refers broadly to all apparel that can be worn by
+a character to provide them with protective benefits.
+
+\vspace{0.4em}
+
+Each piece of Armor has an \textit{Armor Type}:
+\begin{itemize}
+  \item Head 
+  \item Chest 
+  \item Hands 
+  \item Legs 
+  \item Feet
+\end{itemize}
+
+Each piece of Armor has an \textit{Armor Class}:
+\begin{itemize}
+  \item Unarmored 
+  \item Light 
+  \item Heavy
+\end{itemize}
+
+\vspace{0.4em}
+
+A character can have only one of each Armor Type equipped at a time.
+
+\vspace{0.4em}
+
+When you create your character, choose an Armor Class for each Armor Type.
+
+
+\subsection{Overall Armor Class}
+Your character's \textit{Overall Armor Class} is determined by the total set 
+of all armor you are wearing.
+
+\vspace{0.4em}
+
+If 3+ slots are equipped with the same Armor Class, 
+your Overall Armor Class becomes that Armor Class.
+Otherwise, your Overall Armor Class is Light Armor.
+
+\vspace{0.4em}
+
+A character's Overall Armor Class has consequences for their Clash Save
+and their Movement Distance:
+
+\begin{Table}{l c c}
+  \TableHeader{Class} & \TableHeader{Clash Save} & \TableHeader{Move Distance}\\
+  Unarmored & -1 & +1" \\
+  Light     & +0 & +0" \\
+  Heavy     & +1 & -1" \\
+\end{Table}
+
+
+\subsection{Attribute Penalty}
+Each piece of armor boosts or penalizes a character's Attributes 
+according to the Armor Type and Class:
+
+\begin{Table}{l c}
+  \TableHeader{Type} & \TableHeader{Attribute} \\
+  Head  & Wisdom, Intelligence, Zest \\
+  Chest & Strength \\
+  Hands & Dexterity \\
+  Legs  & Resilience \\
+  Feet  & Agility \\
+\end{Table}
+
+The boost/penalty is applied for each slot based on the Class of that armor:
+
+\begin{Table}{l c}
+  \TableHeader{Class} & \TableHeader{Boost/Penalty} \\
+  Unarmored & +1 \\
+  Light     & +0 \\
+  Heavy     & -1 \\
+\end{Table}
+
+Ensure the Armor that your character equips does not reduce their Attributes 
+below the requirements for the perks, abilities, and equipment
+you want them to use.
+
+
+
+\section{6. Inventory Storage}
+A character may start equipped with one type of storage.
+
+\vspace{0.4em}
+
+\textit{Storage} is any equipment that adds inventory space to a character.
+Like all wearable equipment, 
+storage can be equipped to or unequipped from the body with an Action, 
+provided the character has a free hand to which they then equip the storage.
+
+\vspace{0.4em}
+
+Each inventory item has a \textit{Storage Class}, 
+and each item of storage has a set of \textit{Storage Slots}.
+Items may be stored in an open Storage Slot of equal or lesser size 
+to their Storage Class.
+
+\vspace{0.4em}
+
+Storage may also have \textit{Attach Slots}.
+
+Attach Slots are used to add modular storage, 
+or to store items that are too bulky to qualify as `Large`,
+provided the item in question has the ``Attachable" property.
+
+\vspace{0.4em}
+
+All weapons are by default attachable, 
+to allow them to be sheathed when outside of combat.
+
+
+\begin{DesignerNote}
+  This system is intended to promote realism, prevent inventory bloat, 
+  and to encourage players to actually use all of their items 
+  instead of hoarding everything the come across.
+
+  \vspace{0.4em}
+
+  Forcing players to be thoughtful about their inventory helps them 
+  avoid the long lists of forgettable, 
+  unusable items that come from less-organized or 
+  less-strict inventory systems.
+\end{DesignerNote}
+
+
+\begin{Example}
+  \textbf{Backpack:}\\
+  -1 to \textbf{Agility} and \textbf{Resilience}
+  \vspace{-.5em}
+  \begin{Table}{l l}
+    \TableHeader{Slots} & \TableHeader{\#} \\
+    Large & 1 \\
+    Medium & 2 \\
+    Small & 5 \\
+    Attach & 4 \\
+  \end{Table}
+  \vspace{-.5em}
+\end{Example}
+
+\begin{Example}
+  \textbf{Belt:}
+  \vspace{-.5em}
+  \begin{Table}{l l}
+    \TableHeader{Slots} & \TableHeader{\#} \\
+    Small & 2 \\
+    Attach & 2 \\
+  \end{Table}
+  \vspace{-.5em}
+\end{Example}
+
+
+
+\section{7. Equipment}
+% TODO Elaborate/introduction
+
+\subsection{Weapons}
+Each character is created with both hands equipped.
+
+\vspace{0.4em}
+
+Choose a weapon:
+\begin{itemize}
+  \item Up to 2 One-Handed weapons
+  \item 1 Two-Handed weapon
+  \item 1 Mana Focus
+\end{itemize}
+
+
+\subsection{Items}
+If a character is equipped with storage, 
+they may fill all storage slots with standard items
+that are representative of their background.
+
+
+\subsection{Currency}
+At the GM's discretion, a character may start with currency 
+appropriate to the campaign economy and the character's background. 
+
+\vspace{0.4em}
+
+The character must have storage capacity for any currency they receive.
 
 
