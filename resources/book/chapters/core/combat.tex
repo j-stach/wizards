@@ -100,6 +100,43 @@ but ending movement on a vertical surface will return the Character
 to the foot of the terrain.
 
 
+\subsection{Equip/Unequip}
+If a character has enough free hands available, 
+they may equip to that hand an item that is within base contact 
+or in their inventory (see Chapter 4).
+
+\vspace{0.4em}
+
+If a character has an item equipped in their hand, 
+they may return it to an empty slot in their inventory
+or place it within base contact.
+
+% TODO TBD: Equip/unequip Armor as an action?
+% OR: Make this an ability?
+
+%\vspace{0.4em}
+%
+%If a character has a piece of Armor (see Chapter 4) equipped in their hand,
+%and the equivalent Armor Type that they currently have equipped on their body
+%is the Armor Class \textbf{Unarmored}, they may remove the Unarmored piece and 
+%equip the handheld piece of Armor to their body.
+%
+%\vspace{0.4em}
+%
+%If a character has a free hand available,
+%they may remove a piece of Armor they have equipped, equip it to that hand,
+%and replace the removed Armor with Unarmored piece of the same Armor Type.
+
+
+\subsection{Use Item}
+A character may use an ability of an equipped item, such as a weapon or potion.
+
+\vspace{0.4em}
+
+A character may trigger the ability or effect of an non-equippable object
+that is within base contact.
+
+
 \subsection{Attack}
 Weapons and some abilities can 
 \textit{Attack} an enemy target as part of their effect.
@@ -154,11 +191,16 @@ If a character wins a grapple while equipped or mounted by the
 defending character, they become unequipped or unmounted by the defender.
 
 
+\subsection{Prepare}
+Choose an action ability your character has not used this turn. 
+Until their next turn, if they do not use that ability as an action, 
+they may use that ability as a reaction instead.
+
+
 \subsection{Reflex}
-When a Hostile character ends movement in base contact, 
+When a Hostile character ends their movement in base contact, 
 the confronted character may use their Reaction to make a normal action 
-as though they had used the core action Prepare for that ability.
-% TODO Link to core action page
+as though they had used Prepare for that ability.
 
 
 
@@ -170,9 +212,15 @@ contiguously within 1" are considered to be in a \textit{Group}.
 
 \vspace{0.4em}
 
-If all characters in a group would make identical projectile attack rolls
+If all characters in a group would make identical attacks
 against another group within common range, 
-you may instead have them attack and defend together:
+you may instead have them attack and defend together.
+(Identical attacks use the same rolls and modifiers, 
+and trigger the same effects.)
+
+\newpage
+
+To attack as a group:
 \begin{enumerate}
   \item Combine the attacks into a single Clash roll that is rolled as a 
     \Roll{d6} pool.
@@ -188,16 +236,6 @@ you may instead have them attack and defend together:
     have been resolved, Defender reassigns the remaining unsaved attacks, 
     and Attacker continues rolling Damage.
 \end{enumerate}
-
-\begin{DesignerNote}
-TODO
-
-TODO
-
-TODO
-
-TODO
-\end{DesignerNote}
 
 
 

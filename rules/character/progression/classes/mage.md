@@ -12,12 +12,12 @@ The *Mage* uses spells and creativity to create a variety of threats.
 |TODO | | | |
 |TODO | | | |
 
-### TODO
+### Illusionist
 |Perk|WIZARDS|Prerequisites|Effect|
 |----|-------|-------------|------|
-|TODO | | | |
-|TODO | | | |
-|TODO | | | |
+|Illusionist| |N/A| |
+|TODO |N/A|Illusioinist| |
+|TODO |N/A|Illusioinist| |
 
 
 ## Abilities
@@ -29,10 +29,10 @@ The *Mage* uses spells and creativity to create a variety of threats.
 |TODO | | | | |
 |TODO | | | | |
 
-### TODO
+### Illusionist
 |Name|WIZARDS|Prerequisites|Range|Effect|
 |----|-------|-------------|-----|------|
-|TODO | | | | |
-|TODO | | | | |
-|TODO | | | | |
+|TODO | |Illusionist| | |
+|TODO | |Illusionist| | |
+|TODO | |Illusionist| | |
 

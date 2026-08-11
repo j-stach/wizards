@@ -32,7 +32,7 @@ The *Warrior* relies on weapon mastery and combat awareness to excel in close-qu
 ### Duelist
 |Name|WIZARDS|Prerequisites|Range|Effect|
 |----|-------|-------------|-----|------|
-|TODO |i7|Duelist| | |
+|Parry|i7|Duelist|Self|(Reaction.) When you are targeted by a non-projectile attack, and are equipped with a weapon with a default range of `Base`, as a reaction you may add to your Clash Save all modifiers that you would apply to attacks with that weapon|
 |TODO |z7|Duelist| | |
 |TODO |z7|Duelist| | |
 
