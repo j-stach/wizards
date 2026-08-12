@@ -77,7 +77,10 @@
     \WizardsSectionFont
   }
   {
-    \thecontentslabel :\enspace
+    %\thecontentslabel 
+    %:
+    \enspace
+    \enspace
   }
   {}
   {
@@ -89,6 +92,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \AddToHook{cmd/appendix/after}{%
-  \renewcommand{\tocchapapp}{\appendixname}%
+  %\renewcommand{\tocchapapp}{\appendixname}%
+  \addtocontents{toc}{\protect\renewcommand{\protect\tocchapapp}{}}
+  %\appendixname}}
 }
 

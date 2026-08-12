@@ -10,7 +10,9 @@
 % https://selfpublishing.com/isbn-number-self-published-book/
 \isbn{Test ISBN}
 
+\makeglossary
 \makeindex
+
 
 \begin{document}
 
@@ -32,37 +34,44 @@
 \part{Characters}
 \input{chapters/characters/creation}
 \input{chapters/characters/perks}
-\input{chapters/characters/abilities}
-\input{chapters/characters/spells}
-\input{chapters/characters/classes}
 \input{chapters/characters/skills}
-% Chapter 10: Religion
-
-% TODO TBD:
-% Character:
-% - Creation
-% - Perks, Abilities, and Classes (Rules only, move tables to appendix)
-% - Skills
-% - Religion
-
-% TODO: TBD Keep rules only, move tables to appendix
-\part{Equipment}
-\input{chapters/equipment/apparel}
-\input{chapters/equipment/items}
+\input{chapters/characters/equipment}
+\input{chapters/characters/religion}
 
 \part{Worldbuilding}
 \input{chapters/campaigns/regions}
 \input{chapters/campaigns/adventures}
-%\input{chapters/campaigns/worldbuilding}
+\input{chapters/campaigns/creation_guide}
+% (e.g., adapting a module from D&D)
+% (designing custom abilities, classes, items, etc.)
 
 
-% TODO Migration guide (e.g., adapting a module from D&D)
+\appendix
+\part*{Appendix}
+
+\chapter{Perks}
+\chapter{Abilities}
+\chapter{Character Classes}
+\chapter{Spells}
+\chapter{Weapons}
+\chapter{Items}
+\chapter{Potions}
+
+% TODO
+% Races
+
 
 \backmatter
-%\appendix
-\printindex % TODO Add Index to ToC
 
-%TODO Glossary
+\part*{Reference}
+
+% TODO Get this working
+\addcontentsline{toc}{chapter}{Glossary}
+\input{chapters/glossary}
+\printglossary
+
+\addcontentsline{toc}{chapter}{Index}
+\printindex 
 
 \end{document}
 

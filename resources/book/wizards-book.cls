@@ -19,3 +19,7 @@
 % Load the WIZARDS publishing framework.
 \RequirePackage{wizards-styles}
 
+% Resources
+\RequirePackage{imakeidx}
+\usepackage[toc]{glossaries}
+
