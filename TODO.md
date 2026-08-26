@@ -68,6 +68,9 @@ Adventuring items:
 Strongholds:
 - Construction & reinforcement
 
+Pursuit:
+- "The Trail Grows Cold" on every fail, granting disadvantage on future checks as you must backtrack
+
 # TODO 
 
 - Use Bevy to create a dynamic digital player sheet and rulebook app
