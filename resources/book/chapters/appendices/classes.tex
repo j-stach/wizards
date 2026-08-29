@@ -1,24 +1,179 @@
 
+\onecolumn
 \chapter{Character Classes}
 
 \section{Warrior}
-\subsection{Perks}
-\subsection{Abilities}
+The \textit{Warrior} relies on weapon mastery and combat awareness to excel in close-quarters.
+
+\subsection{Brawler}
+
+\begin{Table}{l c c X}
+  \TableHeader{Perk} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Effect} \\
+  Brawler & s7 & N/A & Gain advantage on Clash rolls for Grapple actions you make or defend against if you have not yet moved this turn \\
+  Smasher & N/A & Brawler, Improvised Weapons & Improvised Weapons also count as Hammers, and Hammers also count as Improvised Weapons \\
+  Follow Through & N/A & Brawler, Flourish & Whenever you roll a Critical Clash Roll against a target in base contact, you may make a free attack with the same weapon against another target in base contact \\
+\end{Table}
+
+\begin{Table}{l c c c X}
+  \TableHeader{Ability} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Range} & \TableHeader{Effect} \\
+  Shield Break & d5 & Brawler & Self & The next attack you make this turn ignores the benefit of the target's Raise Shield ability. \\
+  Shield Bash & r5 & Brawler & Self & Make an attack with an equipped shield. It deals Normal (\Roll{1d8}) damage. \\
+  Charge & r5 & Brawler & Self & Until the end of the turn, if your movement brings you into base contact with one or more characters, you may make a free attack against one of those characters. \\
+\end{Table}
+
+\subsection{Duelist}
+
+\begin{Table}{l c c X}
+  \TableHeader{Perk} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Effect} \\
+  Duelist & a7 & N/A & If you have not yet moved this turn, you may make a second attack with a weapon that you have already made an attack with this turn. \\
+  Battle Focus & N/A & Duelist, Focus & You may re-roll the Clash for the first attack you make each turn. \\
+  Show-Off & N/A & Duelist, Flex & You gain advantage on all rolls that are re-rolls. \\
+\end{Table}
+
+\begin{Table}{l c c c X}
+  \TableHeader{Ability} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Range} & \TableHeader{Effect} \\
+  Parry & i7 & Duelist & Self & \textbf{Reaction:} When you are targeted by a non-projectile attack, and are equipped with a weapon with a default range of Base, as a reaction you may add to your Clash Save all modifiers that you would apply to Clash rolls for attacks with that weapon \\
+  Counterattack & d7 & Duelist & Base & \textbf{Reaction:} When you are dealt damage by an attack with a range of Base, you may use your reaction to immediately make a weapon attack against the character that dealt the damage. \\
+  Weapon Swap & d7 & Duelist & Self & Unequip a weapon into storage and equip a different weapon. \\
+\end{Table}
+
 
 \section{Rogue}
-\subsection{Perks}
-\subsection{Abilities}
+The \textit{Rogue} uses finesse and stealth to exploit weaknesses in combat.
+
+\subsection{Thief}
+
+\begin{Table}{l c c X}
+  \TableHeader{Perk} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Effect} \\
+  Thief & d7 & N/A & You may re-roll all rolls when using the Equip and Interact actions \\
+  Trickster & N/A & Thief, Distract & When you use Distract against a target within base contact, you also gain Flanking against that target \\
+  Shadow & N/A & Thief, Conceal & When you gain Flanking on a target within base contact, you may use Conceal as a free action. Whenever you succeed on a Conceal action, you also gain Cover against all characters until the start of your next turn. \\
+\end{Table}
+
+\begin{Table}{l c c c X}
+  \TableHeader{Ability} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Range} & \TableHeader{Effect} \\
+\end{Table}
+%TODO
+
+\subsection{Assassin}
+
+\begin{Table}{l c c X}
+  \TableHeader{Perk} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Effect} \\
+  Assassin & i7 & N/A & Your attacks gain +1 to all rolls for which you also have advantage \\
+  Serpent & N/A & Assassin, Weave & When you pass through an enemy base while using Weave, gain advantage on all rolls for the next attack you make against that enemy this turn \\
+  Scorpion & N/A & Assassin, Intercept & Whenever you successfully Intercept a projectile, you may immediately make a free attack action using that projectile, and this attack gains advantage on Clash rolls \\
+\end{Table}
+
+\begin{Table}{l c c c X}
+  \TableHeader{Ability} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Range} & \TableHeader{Effect} \\
+\end{Table}
+%TODO
+
 
 \section{Ranger}
-\subsection{Perks}
-\subsection{Abilities}
+The \textit{Ranger} uses projectile attacks and mobility to fight at a distance.
+
+\subsection{Sharpshooter}
+
+\begin{Table}{l c c X}
+  \TableHeader{Perk} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Effect} \\
+  Sharpshooter & d7 & N/A & Gain advantage on Clash rolls for projectile attacks if you have not yet moved this turn \\
+  Sniper & N/A & Sharpshooter, Analyze & When you make your first projectile Attack action in a turn, if you used Analyze this turn, gain a re-roll for all rolls made as part of that attack \\
+  Full Send & N/A & Sharpshooter, Leverage & Projectile attacks that are affected by Leverage are not affected by ``Half-range" restrictions and may be used at the full weapon range \\
+\end{Table}
+
+\begin{Table}{l c c c X}
+  \TableHeader{Ability} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Range} & \TableHeader{Effect} \\
+  Disraming Shot & w7 & Sharpshooter & Half & Make a projectile Attack against a target in Half-range (rounded down). If you win the Clash, choose an item the target has equipped in one or both hands. The target unequips that item and drops it. \\
+  Precision Shot & i7 & Sharpshooter & Half & Make a projectile Attack against a target in Half-range (rounded down), and choose an Armor Slot. This attack loses advantage on all rolls. When you Clash, the target's Clash Save modifier from armor is determined using the Armor Class of the selected Armor Slot, instead of the Overall Armor Class. If you roll a Critical Roll for the Clash, then in addition to rolling damage, the attack gains an additional effect depending on the Armor Slot being targeted: \textbf{Helm} doubles the result of the damage roll; \textbf{Chest} reduces maximum Actions-per-turn by -1 (to a minimum of 1) for \Roll{1d10} turns; \textbf{Hands} makes the target lose Advantage on Clash rolls for \Roll{1d10} turns; \textbf{Legs} reduces maximum movement by -1" (to a minimum of 1") for \Roll{1d10} turns; \textbf{Feet} knocks the target prone, and they cannot move during their next turn. \\
+  Indirect Shot  & i7 & Sharpshooter & Half & Make a projectile Attack against a target in Half-range (rounded down). If there is no clear line of sight to the target, the attack can still be made, but you lose advantage on all rolls made as part of that attack. \\
+\end{Table}
+
+
+\subsection{Strider}
+
+\begin{Table}{l c c X}
+  \TableHeader{Perk} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Effect} \\
+  Strider & a7 & N/A & Gain +1" to Move distance if you have not made an attack yet this turn \\
+  Parkour & N/A & Strider, Leap & When you make your first Move action in a turn, you may use Leap as a free action and apply it to that Move \\
+  Kite & N/A & Strider, Disengage & When you use your Reflex reaction to Move, you may use Disengage as a free action and apply it to that Move \\
+\end{Table}
+
+\begin{Table}{l c c c X}
+  \TableHeader{Ability} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Range} & \TableHeader{Effect} \\
+  
+  % TODO Abilities for Strider
+\end{Table}
+
+
 
 \section{Mage}
-\subsection{Perks}
-\subsection{Abilities}
+The \textit{Mage} uses spells and creativity to create a variety of threats.
+
+\subsection{Caster}
+
+\begin{Table}{l c c X}
+  \TableHeader{Perk} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Effect} \\
+\end{Table}
+%TODO
+
+\begin{Table}{l c c c X}
+  \TableHeader{Ability} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Range} & \TableHeader{Effect} \\
+\end{Table}
+%TODO
+
+\subsection{Conjurer}
+
+\begin{Table}{l c c X}
+  \TableHeader{Perk} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Effect} \\
+\end{Table}
+%TODO
+
+\begin{Table}{l c c c X}
+  \TableHeader{Ability} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Range} & \TableHeader{Effect} \\
+\end{Table}
+%TODO
+
+
 
 \section{Cleric}
-\subsection{Perks}
-\subsection{Abilities}
+The \textit{Cleric} relies on their patron's blessings to support allies and hinder enemies.
+
+\subsection{Healer}
+
+\begin{Table}{l c c X}
+  \TableHeader{Perk} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Effect} \\
+  Healer & w7 & N/A & Gain advantage on all rolls for abilities that restore or gain Health and Mana \\
+  Restorer & N/A & Healer, Restoration & Gain +1 to all rolls for abilities that restore or gain Health or Mana \\
+  Remote Restore & N/A & Healer, Intervene & Gain +1" to the range for abilities that restore or gain Health and Mana \\
+\end{Table}
 
 
+\begin{Table}{l c c c X}
+  \TableHeader{Ability} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Range} & \TableHeader{Effect} \\
+  Healing Echo & d7 & Healer & Self & The next time you use an ability that restores or gains Health or Mana this round, you may repeat the ability for a different target, using the same results from all rolls from the previous use. (You must pay all costs associated with the ability.) \\
+  Healing Boost & s7 & Healer & Self & \textbf{Reaction:} When you use an ability that restores or gains Health or Mana, you may use your reaction to double the amount restored \\
+  Full Restore & s7 & Healer & Self & The next time you use an ability that restores or gains Health or Mana this round, you may choose to instead restore or gain both Health and Mana \\
+\end{Table}
+
+
+
+\subsection{Blesser}
+
+\begin{Table}{l c c X}
+  \TableHeader{Perk} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Effect} \\
+  Blesser & z7 & N/A & Abilities with a range of Self may be used as if they had a range of Base \\
+  Supporter & N/A & Blesser, Caution & Allies within 1" gain +2 to all \Roll{d10} rolls \\
+  Free Charity & N/A & Blesser, Conserve & Spells that target allies cost `1` less Mana to use (to a minimum of 1 Mana) \\
+\end{Table}
+
+
+\begin{Table}{l c c c X}
+  \TableHeader{Ability} & \TableHeader{WIZARDS} & \TableHeader{Prerequisites} & \TableHeader{Range} & \TableHeader{Effect} \\
+  Synchronize & i7 & Blesser & Base & Target within base contact becomes affected by all temporary effects from abilities currently affecting you, until the end of their turn \\
+  Preserve & r7 & Blesser & Self & \textbf{Reaction:} If an effect would cause a condition, you may use your reaction to roll a \Roll{d10}: On a 10+, that condition is negated. \\
+  Shared Prayer & r7 & Blesser & Self & The next ability you use with the range of Base instead targets all characters within Base \\
+\end{Table}
+
+
+\twocolumn
