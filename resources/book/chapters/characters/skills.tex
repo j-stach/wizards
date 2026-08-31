@@ -3,134 +3,160 @@
 \chapter{Skills}
 
 \section{Studying}
-Studying lore allows players to safely gain knowledge about the world.
+\textit{Studying Lore} allows players to safely gain knowledge about the world.
+If a character can study lore, 
+they may choose one of the following effects whenever they level-up in a town with a Library.
 
-If a character can [study lore](/rules/character/progression/perks.md), 
-they may choose one of the effects below whenever they [level-up](/rules/character/progression/level-up.md) 
-in a [town](/rules/world/towns.md) with a *Library*.
-
-|Name|Effect|
-|----|------|
-|Reflection|Roll for **Narrative** and add your Intelligence modifier. The DM tells the player about any environmental *clues* you missed since the last time you leveled-up.|
-|Preparation|Gain advantage on all **Narrative** rolls for Wisdom \& Intelligence until the next time you level-up.|
-|Exploration|Roll on the Library's "hidden lore" discovery table (d10/d100), if it has one.|
-|Edification|Choose a topic and roll for **Narrative**, adding your Intelligence modifier. The DM tells the player information about the chosen topic.|
-
+\begin{Table}{l X}
+  \TableHeader{Name} & \TableHeader{Effect} \\
+  Reflection & Roll \Roll{1d20} and add your Intelligence modifier. The DM tells the player about any clues you missed since the last time you leveled-up. \\
+  Preparation & Gain advantage on all Story (\Roll{d20}) rolls for Wisdom \& Intelligence until the next time you level-up. \\
+  %Exploration & Roll on the Library's ``hidden lore" discovery table, if it has one. \\
+  Edification & Choose a topic and roll \Roll{1d20}, adding your Intelligence modifier. The DM tells the player information about the chosen topic. \\
+\end{Table}
 
 
 \section{Writing}
 Players can create notes at any time for their own rememberance, 
 but these are not in-game items that can be passed on to new characters.
 
+\vspace{0.4em}
+
 Writing exists for the easy transferral of information between characters,
-and mostly consists of collecting useful knowledge into one place,
-but also can record unique character experiences and [crafted spells](/rules/character/progression/skills/spellcrafting.md).
+and mostly consists of collecting useful knowledge into an in-game item,
+but also can record unique encounters, spells, potions, etc.
 
-When a player [levels-up](/rules/character/progression/level-up.md) 
-in a [town](/rules/world/towns.md) with a *Library*, they may choose 1:
-- if the player can [inscribe](/rules/character/progression/perks.md), they may create 2 folios or 1 scrolls, or
-- if the player can [map](/rules/character/progression/perks.md), they may create 1 map.
+\vspace{0.4em}
 
-\subsection{Tomes \& Scrolls}
-*Tomes* are comprised of a variable number of *folios* (pages) that can contain information.
-Tomes begin with a number of blank folios, which may be inscribed.
-The [storage class](/rules/equipment/apparel/storage.md) of a tome depends on the maximum number of 
-folios it is able to contain.
-
-|No. Folios|Storage Class|
-|--------|-------------|
-|Up to 10|Medium|
-|Greater than 10|Large|
-
-*Scrolls* are created as independent items that are treated as if they were a tome of 2 folios.
-
-|Information Type|No. Folios|Description|
-|----------------|--------|-----------|
-|Spell|1|Teach the procedure for casting a [spell](/rules/magic/spells.md)|
-|Fact|1|Record an important plot point or fact of lore, and all essential context to understand that fact|
-|Illustration|1/2|Visually depict a character, item, flora or fauna in a portrait or diagram (1 folio) or a landscape from a vantage point you have visited (2 folios)| 
+When a player levels-up in a town with a Library, they may choose 1:
+\begin{itemize}
+  \item if the player can \textit{Inscribe}, they may create 2 folios
+  \item if the player can \textit{Map}, they may create 1 map.
+\end{itemize}
 
 
-\subsection{Maps}
-*Maps* are used to record the geographic layout of a location or region, 
-and may contain all spatial facts a player would require to physically navigate the depicted region, 
-including the placement of sublocations, environmental hazards, and other points of interest.
+\subsection{Tomes} %\& Scrolls}
+\textit{Tomes} are comprised of a variable number of \textit{Folios} (pages) that can contain information.
+Tomes are created with a number of blank folios, which may be inscribed, 
+and may have folios added to them, up to the maximum number of folios.
 
-Maps are treated as if they were 2 folios, 
-and may be incorporated into a tome or created independently as a scroll.
+% \textit{Scrolls} are created as independent items that are treated as if they were a Tome of 2 Folios.
+
+\vspace{0.4em}
+
+The Storage Class of a Tome depends on the maximum number of folios it is able to contain.
+
+\begin{Table}{c c}
+  \TableHeader{\# Folios} & \TableHeader{Storage Class} \\
+  < 10 & Small \\
+  10--20 & Medium \\
+  > 10 & Large \\
+\end{Table}
+
+The number of Folios required to record information depends on the type of information:
+\begin{Table}{l c X}
+  \TableHeader{Type} & \TableHeader{\# Folios} & \TableHeader{Storage Class} \\
+  Spell & 2 & Teach the procedure for casting a spell \\
+  Potion & 1 & Teach the ingredients \& procedure for crafting a potion \\
+  Fact & 1 & Record an important plot point or fact of lore, and all essential context to understand that fact \\
+  Portrait & 1 & Visually depict a character, item, flora or fauna in a portrait or diagram \\
+  Landscape & 1 & Visually depict a landscape from a vantage point you have visited \\
+  Map & 2 & Record the geographic layout of a location or region, including all spatial facts a player would require to physically navigate the depicted region, such as sublocations, environmental hazards, etc. \\
+\end{Table}
 
 
 
 \section{Crafting}
-Crafting skill allows characters to *create* or *improve* [weapons](/rules/equipment/items/weapons.md) 
-and [armor](/rules/equipment/apparel/armor.md).
+\textit{Crafting} allows characters to create or improve weapons and armor.
+
+\vspace{0.4em}
 
 If a character can craft weapons and armor, 
-they may craft or improve *one* weapon or armor piece whenever they 
-[level-up](/rules/character/progression/level-up.md) in a [town](/rules/world/towns.md) with a *Workshop*.
+they may craft or improve one weapon or armor piece whenever they level-up in a town with a Workshop.
 
 \subsection{Crafting Cost}
-When you create or improve a weapon, you must expend a number of metal ingots:
-|Hands|Ingots|
-|-------|--------|
-| 1 | 1 |
-|1/2| 2 |
-| 2 | 3 |
+When you create or improve a weapon, you must expend a number of metal ingots based on the size:
+\begin{Table}{c c}
+  \TableHeader{\# Hands} & \TableHeader{\# Ingots} \\
+  1 & 1 \\
+  1/2 & 2 \\
+  2 & 3 \\
+\end{Table}
 
-When you create or improve armor, you must expend a number of metal ingots and/or textiles:
-|Armor Class|Ingots|Textiles|
-|-----------|--------|-------|
-|Unarmored| 0 | 2 |
-|Light| 1 | 1 |
-|Heavy| 2 | 0 |
+When you create or improve armor, 
+you must expend a number of metal ingots and/or textiles based on the Armor Class:
+\begin{Table}{l c c}
+  \TableHeader{Armor Class} & \TableHeader{\# Ingots} & \TableHeader{\# Textiles} \\
+  Unarmored & 0 & 2 \\
+  Light & 1 & 1 \\
+  Heavy & 2 & 0 \\
+\end{Table}
 
 
 \subsection{Improvement}
 Improvements are effects that are added to weapons or armor through crafting 
-or [enchantment](TODO.md), and are often campaign-specific.
+or enchantment, and are often campaign-specific.
 
-Standard weapons and armor may have up to `2` improvements.
+\vspace{0.4em}
+
+Standard weapons and armor may have up to \textbf{2} improvements.
 Each item of equipment can only have one improvement with a given name.
 
-These improvements can be added to a weapon in any campaign.
+\vspace{0.4em}
 
-|Name|Effect|
-|----|------|
-|Intricate|Add `+2` to the maximum number of improvements for this weapon|
-|Lightweight|All WIZARDS requirements for this weapon can be satisfied with Dexterity|
-|Honed|Add `+1` to all **Damage** rolls for attacks using this weapon|
+These improvements can be added to a weapon (other than a Mana Focus) in any campaign:
+\begin{Table}{l X}
+  \TableHeader{Improvement} & \TableHeader{Effect} \\
+  Intricate & Add +2 to the maximum number of improvements for this weapon \\
+  Lightweight & All W.I.Z.A.R.D.S. requirements for this weapon can be satisfied with Dexterity \\
+  Honed & Add +1 to all Damage rolls for attacks using this weapon \\
+\end{Table}
 
-These improvements can be added to armor in any campaign.
+These improvements can be added to armor in any campaign:
 
-|Name|Effect|
-|----|------|
-|Intricate|Add `+2` to the maximum number of improvements for this weapon|
-|Fitted|Reduce the WIZARDS attribute penalty by `1`, if possible (e.g. `-2` -> `-1`, `-1` -> `0`)|
-|Lightweight|Decrease the armor class of this armor by one, if possible (Heavy -> Light, Light -> Unarmored)|
-|Reinforced|Increase the armor class of this armor by one, if possible (Unarmored -> Light, Light -> Heavy)|
+\begin{Table}{l X}
+  \TableHeader{Improvement} & \TableHeader{Effect} \\
+  Intricate & Add +2 to the maximum number of improvements for this armor \\
+  Fitted & Reduce the W.I.Z.A.R.D.S. attribute penalty by 1 (to a minimum of 0) \\
+  Lightweight & Decrease the Armor Class of this armor by one, if possible \\
+  Reinforced & Increase the Armor Class of this armor by one, if possible \\
+\end{Table}
 
 
 
-\section{Arcana} % Spellcrafting
-Spellcrafting allows characters to create new spells by synthesizing two spells into a single effect.
+\section{Arcana} 
+Arcana allows characters to create new spells by synthesizing two spells into a single effect.
 
-If a character can [spellcraft](/rules/character/progression/perks.md), 
-they may craft one spell whenever they 
-[level-up](/rules/character/progression/level-up.md) in a [town](/rules/world/towns.md) with an *Arcaneum*.
+\vspace{0.4em}
 
-Choose two [spells](/rules/magic/spells.md) that you already know and wish to combine. 
-Roll a `d10` to determine the outcome:
+If a character can use arcana, they may craft one spell whenever they 
+level-up in a town with an Arcaneum.
 
-|Roll|Outcome|
-|----|-------|
-|1-2|You immediately suffer the effects of both spells as if you were the target of those spells.|
-|3-4|Nothing happens.|
-|5-8|Gain advantage the next time you craft the same two spells.|
-|9-10|Combine the effects and costs of the spells into a new spell, and give it a name. Its range becomes the lesser range of the two spells. You learn that spell.|
+\vspace{0.4em}
+
+To craft a new spell, choose two spells that you already know and wish to combine. 
+Roll a \Roll{d10} to determine the outcome:
+
+\begin{Table}{c X}
+  \TableHeader{Roll} & \TableHeader{Outcome} \\
+  1--2 & You immediately suffer the effects of both spells as if you were the target of those spells. \\
+  3--4 & Nothing happens. \\
+  5--8 & Gain advantage the next time you craft the same two spells. \\
+  9--10 & Combine the effects and costs of the spells into a new spell, and give it a name. Its range becomes the lesser range of the two spells. You learn that spell. \\
+\end{Table}
 
 
 \section{Enchanting}
+% TODO 
+% Use improvement slot to add one of the following effects:
+% Requires gem to enchant -- accessories/jewelry may be enchanted according to the gem type
+% Add perk to item
+% Reservoir
+% Enchantment from list 
 
 \section{Alchemy}
+% TODO
+% ingredients, flask, recipes
+% potion & poison
 
 

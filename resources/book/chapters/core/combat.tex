@@ -5,23 +5,21 @@
 
 \textit{Combat} refers to an ordered, turn-based conflict. 
 This conflict is typically martial, 
-but may also be social (for example, negotiating with a guard, 
+but may also be social (e.g., negotiating with a guard, 
 or haggling with a shopkeeper).
 
 
 
 \section{Teams}
- TODO % Hostile, Neutral, Allied
+ Relationships between characters may be described as \textbf{Hostile}, 
+ \textbf{Neutral}, or \textbf{Allied}.
 
- TODO
+\vspace{0.4em}
 
- TODO
+ Allied characters may join a battle as a \textit{Team}.
+ When a team attacks another group of characters that are Allied with one another, 
+ then the defending characters become a team, and the teams become Hostile to one another.
 
- TODO
-
- TODO
-
- TODO
 
 
 \section{Rounds \& Turns}
@@ -38,8 +36,7 @@ has taken their turn.
 
 \vspace{0.4em}
 
-Allied characters that are attacking or defending as a team
-take their turns simultaneously, freely ordering their actions.
+Teams take their turns simultaneously, freely ordering their actions.
 
 
 \subsection{Turn Structure}
@@ -138,8 +135,7 @@ that is within base contact.
 
 
 \subsection{Attack}
-Weapons and some abilities can 
-\textit{Attack} an enemy target as part of their effect.
+Weapons and some abilities can \textit{Attack} an enemy target as part of their effect.
 To make an Attack:
 
 \begin{enumerate}
@@ -150,7 +146,7 @@ To make an Attack:
 
 \subsection{Grapple}
 \textit{Grapple} is a primitive action that is available to all 
-characters and creatures. 
+creatures and characters. 
 
 \vspace{0.4em}
 
@@ -290,14 +286,63 @@ Attacks against enemies with cover lose Advantage on Clash Rolls.
 
 
 
-% TODO EFFECTS
-% \section{Effects}
-% Conditions, triggers
-% \subsection{Activated Effects}
-% \subsection{Triggered Effects}
-% \subsection{Passive Effects}
+\section{Effects}
+\textit{Effects} are rules that apply a change to the game state, or occasionally, to the rules themselves.
+
+\vspace{0.4em}
+
+When an effect would contradict the core rules, the rule introduced by the effect takes precedence.
+When an effect would contradict another effect, the effect that was activated most recently takes precedence.
+
+\subsection{Activated Effects}
+\textit{Activated} effects are effects that may be applied by the character at their discretion,
+within the limitations described by the effect.
+
+\vspace{0.4em}
+
+These effects are generally applied once using an \textit{Action}, and after the effect duration expires
+(which may be instantaneous or may span a number of actions or turns),
+may be reapplied or renewed by reactivating the effect with another action.
+
+\vspace{0.4em}
+
+Activated effects that are available for use by characters are generally referred to as ``Abilities''.
+
+\subsection{Passive Effects}
+\textit{Passive} effects are effects that apply continuously to or from the source of the effect,
+depending on the specific rule, and are only removed when negated, 
+or when the source of the effect is itself destroyed or otherwise removed.
+
+\vspace{0.4em}
+
+Passive effects that apply to characters are generally referred to as ``Perks''.
+
+\subsection{Triggered Effects}
+\textit{Triggered} effects may be active or passive, 
+and are only evaluated when some condition is met by the game state.
+
+An activated effect with a trigger gives the character the option to use the ability 
+when the condition is met, whereas a passive effect with a trigger is automatically applied
+when the condition is met.
+
+
 
 % TODO Status/Conditions
+% Ignited - damage per turn, stop drop & roll
+% Crippled - depends on limb/armor type
+% Unconscious/paralyzed - cannot take turns?
+% Restrained - cannot use actions requiring hands or equip, ads penalty
+% Dazed/Confused - wiz penalty
+% Stunned
+% Awestruck
+% Blind - cannot use projectile/range attacks, base melee with disadvantage
+% Deafened
+% Prone - Cover, max move 1"
+% Exhaustion - mana penalty
+% Starving/Dehydrated - life penalty
+
+
+
 
 % TODO Damage Types
 % Slashing, piercing, chopping, bludgeoning
