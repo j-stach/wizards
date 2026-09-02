@@ -2,18 +2,11 @@
 \onecolumn
 \chapter{Weapons}
 
-\section{Shield}
-\begin{Table}{l c c X}
-  \TableHeader{Shield} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Raise Shield} \\
-  Buckler & a5/d5 & Large & \textbf{Reaction:} Gain +1 on your next Clash Save \\
-  Round Shield & a5, r5 & Attach & Gain +1 on Clash Saves until your next turn \\
-  Tower Shield & r5, s5 & N/A & Gain Cover from the front until your next turn \\
-\end{Table}
-
-
-\section{Melee}
+\section{Melee Weapons}
 
 \subsection{Blades}
+Attacks with Blades may deal \textit{Slashing}, \textit{Piercing}, or \textit{Chopping} damage types.
+
 \begin{Table}{l c c c c c}
   \TableHeader{Weapon} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Hands} & \TableHeader{Range} & \TableHeader{Damage} \\
   Dagger & a5/d5 & Small & 1 & Base & 1d4 \\
@@ -22,7 +15,10 @@
   Great Sword & d5, s5 & N/A & 2 & 1" & 1d12 \\
 \end{Table}
 
+
 \subsection{Axes}
+Attacks with Axes may deal \textit{Chopping} or \textit{Bludgeoning} damage types.
+
 \begin{Table}{l c c c c c}
   \TableHeader{Weapon} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Hands} & \TableHeader{Range} & \TableHeader{Damage} \\
   Hatchet & r5/d5 & Small & 1 & Base & 1d4 \\
@@ -31,7 +27,10 @@
   Great Axe & r5, s5 & N/A & 2 & 1" & 1d12 \\
 \end{Table}
 
+
 \subsection{Hammers}
+Attacks with Hammers may deal \textit{Bludgeoning} damage.
+
 \begin{Table}{l c c c c c}
   \TableHeader{Weapon} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Hands} & \TableHeader{Range} & \TableHeader{Damage} \\
   Crafting Hammer & r5/s5 & Small & 1 & Base & 1d4 \\
@@ -39,14 +38,20 @@
   Great Hammer & r5, s5 & Attach & 1" & 1d12 \\
 \end{Table}
 
+
 \subsection{Polearms}
+Attacks with Polearms may deal \textit{Piercing} damage.
+
 \begin{Table}{l c c c c c}
   \TableHeader{Weapon} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Hands} & \TableHeader{Range} & \TableHeader{Damage} \\
   Spear & r5, d5 & Attach & 1/2 & Base/1" & 1d4/1d8 \\
   Pike & d5, s5 & N/A & 2 & 1" & 1d12 \\
 \end{Table}
 
+
 \subsection{Sticks}
+Attacks with Sticks may deal \textit{Bludgeoning} damage.
+
 \begin{Table}{l c c c c c}
   \TableHeader{Weapon} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Hands} & \TableHeader{Range} & \TableHeader{Damage} \\
   Shelleighlagh & a5/s5 & Attach & 1/2 & Base & 1d4/1d8 \\
@@ -56,25 +61,53 @@
 
 
 
-\section{Projectile}
+\section{Shields}
+Carrying a Shield in one hand grants the corresponding \textit{Raise Shield} ability.
+
+\begin{Table}{l c c X}
+  \TableHeader{Shield} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Raise Shield} \\
+  Buckler & a5/d5 & Large & \textbf{Reaction:} Gain +1 on your next Clash Save \\
+  Round Shield & a5, r5 & Attach & Gain +1 on Clash Saves until your next turn \\
+  Tower Shield & r5, s5 & N/A & Gain Cover from the front until your next turn \\
+\end{Table}
+
+
+
+\section{Projectile Weapons}
 
 \subsection{Archery}
+Attacks with Arrows deal \textit{Piercing} damage.
+The base arrow deals \Roll{1d8} damage.
+
 \begin{Table}{l c c c c}
   \TableHeader{Weapon} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Hands} & \TableHeader{Range} \\
   Shortbow & a5/d5 & Attach & 1(hold)/2(use) & 12" \\
   Longbow & d5, s5 & N/A (Wearable) & 1(hold)/2(use) & 24" \\
 \end{Table}
 
-\subsection{Firearm}
-\begin{Table}{l c c c c c}
-  \TableHeader{Weapon} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Hands} & \TableHeader{Range} & \TableHeader{Damage} \\
-  Pistol & a5/d5 & Medium & 1 & 6" & 1d8 \\
-  Shotgun & d5, s5 & Large & 2 & 12" & 3d4 \\
-  Rifle & d5, r5 & N/A (Wearable) & 2 & 24" & 1d12 \\
-\end{Table}
+
+%\subsection{Firearm}
+%Attacks with Firearm Rounds deal \textit{Piercing} damage.
+%
+%\begin{Table}{l c c c c c}
+%  \TableHeader{Weapon} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Hands} & \TableHeader{Range} & \TableHeader{Damage} \\
+%  Pistol & a5/d5 & Medium & 1 & 6" & 1d8 \\
+%  Shotgun & d5, s5 & Large & 2 & 12" & 3d4 \\
+%  Rifle & d5, r5 & N/A (Wearable) & 2 & 24" & 1d12 \\
+%\end{Table}
 
 
-\section{Mana Focus}
+\section{Mana Focuses}
+The \textit{Range} value limits the \textbf{maximum} range for spells cast using the focus.
+
+If the range is ``N/A", the spell is only limited by its own range.
+
+\vspace{0.4em}
+
+The \textit{Damage} value is the default damage die used for spells cast using the focus.
+
+If a spell does not specify the die type used for the spell damage (i.e., 1dD),
+then the spell uses this die type.
 
 \begin{Table}{l c c c c c}
   \TableHeader{Weapon} & \TableHeader{WIZARDS} & \TableHeader{Size} & \TableHeader{Hands} & \TableHeader{Range} & \TableHeader{Damage} \\

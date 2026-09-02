@@ -66,15 +66,55 @@ it cannot be used again until the beginning of their next turn.
 
 
 
-\section{Core Actions}
 
-\subsection{Movement}
-\textit{Move} is a primitive action that is available
-to all creatures and characters.
+\section{Effects}
+\textit{Effects} are rules that apply a change to the game state, or occasionally, to the rules themselves.
 
 \vspace{0.4em}
 
-When a character uses the Move action, 
+When an effect would contradict the core rules, the rule introduced by the effect takes precedence.
+When an effect would contradict another effect, the effect that was activated most recently takes precedence.
+
+\subsection{Activated Effects}
+\textit{Activated} effects are effects that may be applied by the character at their discretion,
+within the limitations described by the effect.
+
+\vspace{0.4em}
+
+These effects are generally applied once using an \textit{Action}, and after the effect duration expires
+(which may be instantaneous or may span a number of actions or turns),
+may be reapplied or renewed by reactivating the effect with another action.
+
+\vspace{0.4em}
+
+Activated effects that are available for use by characters are generally referred to as ``Abilities''.
+
+\subsection{Passive Effects}
+\textit{Passive} effects are effects that apply continuously to or from the source of the effect,
+depending on the specific rule, and are only removed while negated, 
+or when the source of the effect is itself destroyed or otherwise removed.
+
+\vspace{0.4em}
+
+Passive effects that apply to characters are generally referred to as ``Perks''.
+
+\subsection{Triggered Effects}
+\textit{Triggered} effects may be active or passive, 
+and are only evaluated when some condition is met by the game state.
+
+An activated effect with a trigger gives the character the option to use the ability 
+when the condition is met, whereas a passive effect with a trigger is automatically applied
+when the condition is met.
+
+
+\newpage
+
+\section{Core Abilities}
+These abilities are available to all characters and most creatures, with a few exceptions.
+
+
+\subsection{Movement}
+When a character uses the \textit{Move} action, 
 they must designate a \textit{Movement Path} that is up to the length 
 of their movement distance.
 
@@ -99,40 +139,39 @@ to the foot of the terrain.
 
 \subsection{Equip/Unequip}
 If a character has enough free hands available, 
-they may equip to that hand an item that is within base contact 
-or in their inventory (see Chapter 4).
+they may \textit{Equip} into their hand(s) an item that is within base contact 
+or in their inventory.
 
 \vspace{0.4em}
 
 If a character has an item equipped in their hand, 
-they may return it to an empty slot in their inventory
+they may \textit{Unequip} that item and return it to an empty slot in their inventory
 or place it within base contact.
-
-% TODO TBD: Equip/unequip Armor as an action?
-% OR: Make this an ability?
-
-%\vspace{0.4em}
-%
-%If a character has a piece of Armor (see Chapter 4) equipped in their hand,
-%and the equivalent Armor Type that they currently have equipped on their body
-%is the Armor Class \textbf{Unarmored}, they may remove the Unarmored piece and 
-%equip the handheld piece of Armor to their body.
-%
-%\vspace{0.4em}
-%
-%If a character has a free hand available,
-%they may remove a piece of Armor they have equipped, equip it to that hand,
-%and replace the removed Armor with Unarmored piece of the same Armor Type.
 
 
 \subsection{Use Item}
 A character may use an ability of an equipped item, such as a weapon or potion.
 
-\vspace{0.4em}
 
+\subsection{Interact}
 A character may trigger the ability or effect of an non-equippable object
 that is within base contact.
 
+
+\subsection{Prepare}
+Choose an action ability your character has not used this turn. 
+Until their next turn, if they do not use that ability as an action, 
+they may use that ability as a reaction instead.
+
+
+\subsection{Reflex}
+When a Hostile character ends their movement in base contact, 
+or leaves base contact by moving away,
+your character may use their Reaction to make a normal action 
+as though they had used Prepare for that ability.
+
+
+\newpage
 
 \subsection{Attack}
 Weapons and some abilities can \textit{Attack} an enemy target as part of their effect.
@@ -144,13 +183,9 @@ To make an Attack:
   \item If victorious in the Clash, roll to deal Damage.
 \end{enumerate}
 
+
 \subsection{Grapple}
-\textit{Grapple} is a primitive action that is available to all 
-creatures and characters. 
-
-\vspace{0.4em}
-
-To Grapple, a character must be in base contact 
+To \textit{Grapple}, a character must be in base contact 
 with the defending character and have an open hand.
 
 \vspace{0.4em}
@@ -186,19 +221,9 @@ If a character wins a grapple while equipped or mounted by the
 defending character, they become unequipped or unmounted by the defender.
 
 
-\subsection{Prepare}
-Choose an action ability your character has not used this turn. 
-Until their next turn, if they do not use that ability as an action, 
-they may use that ability as a reaction instead.
 
 
-\subsection{Reflex}
-When a Hostile character ends their movement in base contact, 
-or leaves base contact by moving away,
-your character may use their Reaction to make a normal action 
-as though they had used Prepare for that ability.
-
-
+\newpage
 
 \section{Tactics \& Positioning}
 
@@ -213,8 +238,6 @@ against another group within common range,
 you may instead have them attack and defend together.
 (Identical attacks use the same rolls and modifiers, 
 and trigger the same effects.)
-
-\newpage
 
 To attack as a group:
 \begin{enumerate}
@@ -232,20 +255,6 @@ To attack as a group:
     have been resolved, Defender reassigns the remaining unsaved attacks, 
     and Attacker continues rolling Damage.
 \end{enumerate}
-
-
-
-\subsection{Flanking}
-When an attack deals damage to a target, 
-all characters that are within range to attack the target,
-and can draw a straight line from their base, through the enemy model, 
-to the base of the ally that was source of the damage, 
-gain \textit{Flanking} against the target until the start of their next turn.
-
-\vspace{0.4em}
-
-While a character is Flanking a target, 
-they gain Advantage on Clash rolls for attacks against that target.
 
 
 
@@ -275,6 +284,20 @@ with the High Ground lose Advantage on all rolls.
 
 
 
+\subsection{Flanking}
+When an attack deals damage to a target, 
+all characters that are within range to attack the target,
+and can draw a straight line from their base, through the enemy model, 
+to the base of the ally that was source of the damage, 
+gain \textit{Flanking} against the target until the start of their next turn.
+
+\vspace{0.4em}
+
+While a character is Flanking a target, 
+they gain Advantage on Clash rolls for attacks against that target.
+
+
+
 \subsection{Cover}
 Projectile attacks with partially-obscured Line-of-Sight grant \textit{Cover} 
 to the target for the duration of the attack.
@@ -285,68 +308,142 @@ Attacks against enemies with cover lose Advantage on Clash Rolls.
 
 
 
+\section{Damage Types \& Resistances}
+Some sources of damage can support a \textit{Damage Type} that adds additional effects
+beyond the amount of damage is dealt.
 
-\section{Effects}
-\textit{Effects} are rules that apply a change to the game state, or occasionally, to the rules themselves.
+\subsection{Physical Damage}
+If a melee or projectile weapon could deal more than one type of \textit{Physical} damage,
+choose a damage type to use when making the attack:
 
-\vspace{0.4em}
+\begin{itemize}
+  \item Slashing
+  \item Piercing
+  \item Chopping
+  \item Bludgeoning
+\end{itemize}
 
-When an effect would contradict the core rules, the rule introduced by the effect takes precedence.
-When an effect would contradict another effect, the effect that was activated most recently takes precedence.
-
-\subsection{Activated Effects}
-\textit{Activated} effects are effects that may be applied by the character at their discretion,
-within the limitations described by the effect.
-
-\vspace{0.4em}
-
-These effects are generally applied once using an \textit{Action}, and after the effect duration expires
-(which may be instantaneous or may span a number of actions or turns),
-may be reapplied or renewed by reactivating the effect with another action.
-
-\vspace{0.4em}
-
-Activated effects that are available for use by characters are generally referred to as ``Abilities''.
-
-\subsection{Passive Effects}
-\textit{Passive} effects are effects that apply continuously to or from the source of the effect,
-depending on the specific rule, and are only removed when negated, 
-or when the source of the effect is itself destroyed or otherwise removed.
+\subsection{Elemental Damage}
+If a weapon attack could deal \textit{Elemental} damage,
+that effect occurs as a separate roll after any effect triggered by the physical damage type.
 
 \vspace{0.4em}
 
-Passive effects that apply to characters are generally referred to as ``Perks''.
+Elemental effects of all types that are applied to an attack occur, 
+and trigger in the order chosen by the source of the damaging attack.
 
-\subsection{Triggered Effects}
-\textit{Triggered} effects may be active or passive, 
-and are only evaluated when some condition is met by the game state.
-
-An activated effect with a trigger gives the character the option to use the ability 
-when the condition is met, whereas a passive effect with a trigger is automatically applied
-when the condition is met.
-
+\begin{Table}{c X}
+  \TableHeader{Type} & \TableHeader{Effect} \\
+  Fire & Deal \Roll{1d4} additional damage. On a Critical Damage roll for this element, the target is inflicted with the Ignite condition for \Roll{1d10} turns. \\
+  Spark & Deal \Roll{1d4} damage to the target's Mana. On a Critical Damage roll for this element, the target is inflicted with the Electrocuted condition for \Roll{1d10} turns. \\
+  Frost & Roll \Roll{1d10} for a cumulative effect: On a 1--5, there is no additional effect; on a 6+, the target's maximum movement is reduced by 1" for \Roll{1d10} turns (to a minimum of 1"); on a 9+, the target's maximum actions-per-turn is reduced by 1 for the duration of the effect (to a minimum of 1); on a 10+, the target is afflicted with the Frozen condition for the duration of the effect. \\
+\end{Table}
 
 
-% TODO Status/Conditions
-% Ignited - damage per turn, stop drop & roll
-% Crippled - depends on limb/armor type
-% Unconscious/paralyzed - cannot take turns?
-% Restrained - cannot use actions requiring hands or equip, ads penalty
-% Dazed/Confused - wiz penalty
-% Stunned
-% Awestruck
-% Blind - cannot use projectile/range attacks, base melee with disadvantage
-% Deafened
-% Prone - Cover, max move 1"
-% Exhaustion - mana penalty
-% Starving/Dehydrated - life penalty
+\subsection{Damage Resistances}
+Characters with resistance to a damage type cannot be affected by any additional effects 
+inherent to that damage type,
+and cannot be affected by any effects that are triggered by that damage type.
+
+\vspace{0.4em}
+
+Damage rolls against the resistant character that use that type of damage lose Advantage.
 
 
 
+\section{Conditions}
+\textit{Conditions} are passive effects that are applied to a character by another effect,
+and may impact the character's abilities or effectiveness in the game.
 
-% TODO Damage Types
-% Slashing, piercing, chopping, bludgeoning
-% Elemental damage goes on top, if applicable
+\subsection{Prone}
+If a character's movement distance is greater than 1", 
+they may choose to become Prone as part of a Move action.
+
+\vspace{0.4em}
+
+If a character is Prone, their maximum movement distance becomes 1",
+and they may use a Move action to remove the Prone condition.
+
+\vspace{0.4em}
+
+A character that is Prone receives Cover against projectiles,
+and Hostile characters in Base contact with the character gain High Ground against them,
+while the Prone character gains the Low Ground against the Hostile characters.
+
+\subsection{Unconscious}
+The character cannot take turns, benefit from passive effects, or travel.
+
+\subsection{Paralyzed}
+The character cannot use abilities, and cannot travel.
+
+\subsection{Dazed}
+The character's \textbf{Wisdom}, \textbf{Intelligence}, and \textbf{Zest} are reduced by 5,
+to a minimum of 0.
+
+\subsection{Restrained}
+The character cannot use abilities requiring free hands or items equipped in the hands.
+The character's \textbf{Agility}, \textbf{Dexterity}, and \textbf{Strength} are reduced by 5,
+to a minimum of 0.
+
+\subsection{Blinded}
+The character cannot make Story rolls requiring sight.
+The character cannot use abilities that target characters beyond the range of Base.
+Abilities with a range of Base lose Advantage twice.
+
+\subsection{Deafened}
+The character cannot make Story rolls requiring hearing.
+The character loses Advantage on all rolls against all characters that are Flanking them.
+
+\subsection{Bleeding}
+The character takes \Roll{1d4} damage for every action they make.
+
+\vspace{0.4em}
+
+This condition is removed when the character's Life is restored by any amount greater than 1.
+
+\subsection{Crippled}
+The character receives a passive effect depending on the body part that is Crippled:
+
+\begin{Table}{c X}
+  \TableHeader{Body Part} & \TableHeader{Effect} \\
+  Right/Left Leg & The character's maximum movement distance is reduced to 1", and they may not use more than one action per turn to perform movement. The character's \textbf{Agility} is reduced to 0. \\
+  Right/Left Arm & The corresponding hand becomes unequipped, and they cannot use abilities requiring the use of that free hand. The character's \textbf{Dexterity} is reduced to 0.  \\
+  Torso & The character's maximum Life is reduced to 10, and their \textbf{Strength} and \textbf{Resilience} are reduced to 0. \\
+  Head & The character is Unconscious for the duration of this effect, and their \textbf{Wisdom}, \textbf{Intelligence}, and \textbf{Zest} are reduced to 0. \\
+\end{Table}
+
+If a body part that is Crippled becomes inflicted with Crippled again, 
+this effect becomes permanent and can only be removed when they level-up in a Town with a Hospital.
+Otherwise, this effect is removed when the character is restored to their maximum Life.
+
+\subsection{Exhausted}
+A character may be inflicted with Exhaustion any number of times.
+The character's maximum actions-per-turn is reduced by 1, to a minimum of 0. 
+When a character is inflicted with Exhaustion, 
+if it would reduce their maximum actions-per-turn below 0, instead they become Unconscious.
+
+\subsection{Ignited}
+The character takes \Roll{1d4} damage at the start of their turn.
+
+\vspace{0.4em}
+
+This condition is removed when the character takes Frost damage.
+
+\vspace{0.4em}
+
+If the character's maximum movement distance is greater than 1" and they are Prone, 
+they may take a Move action to remove this condition.
+
+\subsection{Frozen}
+The character is Paralyzed for the duration of this effect.
+
+\vspace{0.4em}
+
+This condition is removed when the character takes Fire damage.
+
+\subsection{Electrocuted}
+All of the character's abilities gain an additional Mana cost of 1.
 
 
-% TODO Resistances
+
+
